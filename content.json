@@ -1,0 +1,1718 @@
+{
+  "newsItems": [
+    {
+      "titel": {
+        "nl": "Deviskan",
+        "en": "Deviskan",
+        "fr": "Deviskan"
+      },
+      "datum": "6.01.2026",
+      "tekst": {
+        "nl": "Sinds kort is de DEVISCAN beschikbaar op onze dienst. Dit toestel laat toe huidletsels snel en niet-invasief te analyseren en vormt een waardevolle aanvulling op onze bestaande diagnostische mogelijkheden. Met de komst van de DEVISCAN versterken we zowel de klinische evaluatie als het onderzoek naar huidafwijkingen. Het toestel zal worden ingezet in zorg, opleiding en wetenschappelijke projecten. Hiermee zetten we opnieuw een stap richting meer innovatieve en patiëntgerichte dermatologische zorg.",
+        "en": "The DEVISCAN has recently become available at our department. This device allows for quick and non-invasive analysis of skin lesions and is a valuable addition to our existing diagnostic capabilities. With the arrival of the DEVISCAN, we are strengthening both clinical evaluation and research into skin abnormalities. The device will be used in healthcare, training, and scientific projects. This is another step towards more innovative and patient-centered dermatological care.",
+        "fr": "Depuis peu, le DEVISCAN est disponible dans notre service. Cet appareil permet d'analyser rapidement et de manière non invasive les lésions cutanées et constitue un complément précieux à nos possibilités diagnostiques existantes. Avec l'arrivée du DEVISCAN, nous renforçons à la fois l'évaluation clinique et la recherche sur les anomalies cutanées. L'appareil sera utilisé dans les soins, la formation et les projets scientifiques. Nous franchissons ainsi une nouvelle étape vers des soins dermatologiques plus innovants et centrés sur le patient."
+      },
+      "figuur": "News/Deviscan.jpg"
+    },
+    {
+      "titel": {
+        "nl": "Dermagnostix",
+        "en": "Dermagnostix",
+        "fr": "Dermagnostix"
+      },
+      "datum": "5.02.2026",
+      "tekst": {
+        "nl": "Moeilijke casus om het onderscheid te maken tussen psoriasis en eczeem over verdacht voor mycosis fungoides? PsorX en LymphX van Dermagnostix zijn beschikbaar. Deze innovatieve testen ondersteunen ons bij het snel en nauwkeurig onderscheiden van verschillende inflammatoire huidaandoeningen op biopsiemateriaal.",
+        "en": "Difficult case to distinguish between psoriasis and eczema or suspected mycosis fungoides? PsorX and LymphX from Dermagnostix are available. These innovative tests help us to quickly and accurately distinguish between different inflammatory skin conditions on biopsy material.",
+        "fr": "Difficile de faire la distinction entre psoriasis et eczéma ou suspicion de mycosis fongoïde ? PsorX et LymphX de Dermagnostix sont disponibles. Ces tests innovants nous aident à distinguer rapidement et précisément différentes affections cutanées inflammatoires à partir de matériel biopsié."
+      },
+      "figuur": "News/Dermagnostix.jpg"
+    },
+    {
+      "titel": {
+        "nl": "Immunomonitoring",
+        "en": "Immune monitoring",
+        "fr": "Immunomonitoring"
+      },
+      "datum": "5.02.2026",
+      "tekst": {
+        "nl": "Met een eenvoudige bloedtest kunnen we het immuunsysteem onderzoeken voor een betere diagnose, keuze van behandeling en dosering. Deze test is momenteel in studieverband, maar kan al directe implicaties hebben voor de zorg.",
+        "en": "A simple blood test allows us to examine the immune system for a better diagnosis, choice of treatment, and dosage. This test is currently being studied, but it may already have direct implications for healthcare.",
+        "fr": "Un simple test sanguin permet d'examiner le système immunitaire afin d'améliorer le diagnostic, le choix du traitement et le dosage. Ce test fait actuellement l'objet d'une étude, mais peut déjà avoir des implications directes pour les soins de santé."
+      },
+      "figuur": "News/Immunomonitoring.jpg"
+    }
+  ],
+  "teamMembers": [
+    {
+      "naam": "Prof Dr Jo Lambert",
+      "functie": {
+        "nl": "Hoofdonderzoeker",
+        "en": "Principal Investigator",
+        "fr": "Investigateur principal"
+      },
+      "uitleg": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "foto": "Team/Jo.jpg",
+      "categories": [
+        "Alle",
+        "Psoriasis"
+      ]
+    },
+    {
+      "naam": "Prof Dr Reinhart Speeckaert",
+      "functie": {
+        "nl": "Hoofdonderzoeker",
+        "en": "Principal Investigator",
+        "fr": "Investigateur principal"
+      },
+      "uitleg": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "foto": "Team/Reinhart.jpg",
+      "categories": [
+        "Alle",
+        "Vitiligo",
+        "Alopecia_areata"
+      ]
+    },
+    {
+      "naam": "Prof Dr Nanja van Geel",
+      "functie": {
+        "nl": "Hoofdonderzoeker",
+        "en": "Principal Investigator",
+        "fr": "Investigateur principal"
+      },
+      "uitleg": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "foto": "Team/Nanja.jpg",
+      "categories": [
+        "Alle",
+        "Vitiligo"
+      ]
+    },
+    {
+      "naam": "Prof Dr Isabelle Hoorens",
+      "functie": {
+        "nl": "Hoofdonderzoeker",
+        "en": "Principal Investigator",
+        "fr": "Investigateur principal"
+      },
+      "uitleg": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "foto": "Team/IH.jpg",
+      "categories": [
+        "Alle",
+        "Huidkanker"
+      ]
+    },
+    {
+      "naam": "Prof Dr Lieve Brochez",
+      "functie": {
+        "nl": "Hoofdonderzoeker",
+        "en": "Principal Investigator",
+        "fr": "Investigateur principal"
+      },
+      "uitleg": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "foto": "Team/Lieve.jpg",
+      "categories": [
+        "Alle",
+        "Huidkanker"
+      ]
+    },
+    {
+      "naam": "Prof Dr Evelien Verhaeghe",
+      "functie": {
+        "nl": "Hoofdonderzoeker",
+        "en": "Principal Investigator",
+        "fr": "Investigateur principal"
+      },
+      "uitleg": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "foto": "Team/Evelien.jpg",
+      "categories": [
+        "Alle",
+        "Huidkanker"
+      ]
+    },
+    {
+      "naam": "Dr Anke Eylenbosch",
+      "functie": {
+        "nl": "PhD onderzoeker",
+        "en": "PhD researcher",
+        "fr": "PhD investigateur"
+      },
+      "uitleg": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "foto": "Team/Anke.jpg",
+      "categories": [
+        "Alle",
+        "Psoriasis"
+      ]
+    },
+    {
+      "naam": "Dr Elise Van Caelenberg",
+      "functie": {
+        "nl": "PhD onderzoeker",
+        "en": "PhD researcher",
+        "fr": "PhD investigateur"
+      },
+      "uitleg": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "foto": "Team/Elise.jpg",
+      "categories": [
+        "Alle",
+        "Vitiligo",
+        "Alopecia_areata"
+      ]
+    },
+    {
+      "naam": "Dr Leen Vermoesen",
+      "functie": {
+        "nl": "PhD onderzoeker",
+        "en": "PhD researcher",
+        "fr": "PhD investigateur"
+      },
+      "uitleg": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "foto": "Team/LeenV.jpg",
+      "categories": [
+        "Alle",
+        "Psoriasis"
+      ]
+    },
+    {
+      "naam": "Dr Lise Vanden Broucke",
+      "functie": {
+        "nl": "PhD onderzoeker",
+        "en": "PhD researcher",
+        "fr": "PhD investigateur"
+      },
+      "uitleg": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "foto": "Team/LiseV.jpg",
+      "categories": [
+        "Alle",
+        "Vitiligo"
+      ]
+    },
+    {
+      "naam": "Amber Shen",
+      "functie": {
+        "nl": "PhD onderzoeker",
+        "en": "PhD researcher",
+        "fr": "PhD investigateur"
+      },
+      "uitleg": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "foto": "Team/Amber.jpg",
+      "categories": [
+        "Alle",
+        "Huidkanker"
+      ]
+    },
+    {
+      "naam": "Dr Rani Soenen",
+      "functie": {
+        "nl": "Postdoc/Onderzoekscoördinator",
+        "en": "Postdoc/Research coordinator",
+        "fr": "Post-doctorant/Coordonnateur de recherche"
+      },
+      "uitleg": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "foto": "Team/Rani.jpg",
+      "categories": [
+        "Alle",
+        "Psoriasis"
+      ]
+    },
+    {
+      "naam": "Dr Annelies Demeyer",
+      "functie": {
+        "nl": "Postdoctoraal onderzoeker",
+        "en": "Postdoctoral researcher",
+        "fr": "Post-doctorant"
+      },
+      "uitleg": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "foto": "",
+      "categories": [
+        "Alle",
+        "Huidkanker"
+      ]
+    },
+    {
+      "naam": "Dr Floor Verstraete",
+      "functie": {
+        "nl": "PhD onderzoeker",
+        "en": "PhD researcher",
+        "fr": "PhD investigateur"
+      },
+      "uitleg": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "foto": "Team/FloorV.jpg",
+      "categories": [
+        "Alle",
+        "Huidkanker"
+      ]
+    },
+    {
+      "naam": "Emma Vyvey",
+      "functie": {
+        "nl": "PhD onderzoeker",
+        "en": "PhD researcher",
+        "fr": "PhD investigateur"
+      },
+      "uitleg": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "foto": "Team/EmmaV.jpg",
+      "categories": [
+        "Alle",
+        "Psoriasis"
+      ]
+    },
+    {
+      "naam": "Dr Sofie Monsieurs",
+      "functie": {
+        "nl": "PhD onderzoeker",
+        "en": "PhD researcher",
+        "fr": "PhD investigateur"
+      },
+      "uitleg": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "foto": "",
+      "categories": [
+        "Alle",
+        "Vitiligo"
+      ]
+    },
+    {
+      "naam": "Annick Meertens",
+      "functie": {
+        "nl": "PhD onderzoeker",
+        "en": "PhD researcher",
+        "fr": "PhD investigateur"
+      },
+      "uitleg": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "foto": "Team/Annick.jpg",
+      "categories": [
+        "Alle",
+        "Huidkanker"
+      ]
+    },
+    {
+      "naam": "Els Van Maelsaeke",
+      "functie": {
+        "nl": "Laborante",
+        "en": "Laboratory technician",
+        "fr": "Laborante"
+      },
+      "uitleg": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "foto": "",
+      "categories": [
+        "Alle",
+        "Psoriasis",
+        "Vitiligo",
+        "Huidkanker",
+        "Alopecia_areata"
+      ]
+    },
+    {
+      "naam": "Larysa Neudakh",
+      "functie": {
+        "nl": "Laborante",
+        "en": "Laboratory technician",
+        "fr": "Laborante"
+      },
+      "uitleg": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "foto": "Team/Larysa.jpg",
+      "categories": [
+        "Alle",
+        "Psoriasis",
+        "Vitiligo",
+        "Huidkanker",
+        "Alopecia_areata"
+      ]
+    },
+    {
+      "naam": "Dr Julie Kips",
+      "functie": {
+        "nl": "PhD onderzoeker",
+        "en": "PhD researcher",
+        "fr": "PhD investigateur"
+      },
+      "uitleg": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "foto": "Team/Julie.jpg",
+      "categories": [
+        "Alle",
+        "Huidkanker"
+      ]
+    },
+    {
+      "naam": "Dr Arno Belpaire",
+      "functie": {
+        "nl": "PhD onderzoeker",
+        "en": "PhD researcher",
+        "fr": "PhD investigateur"
+      },
+      "uitleg": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "foto": "Team/Arno.jpg",
+      "categories": [
+        "Alle",
+        "Vitiligo",
+        "Alopecia_areata"
+      ]
+    }
+  ],
+  "researchItems": [
+    {
+      "titel": {
+        "nl": "BENEBIO",
+        "en": "BENEBIO",
+        "fr": "BENEBIO"
+      },
+      "tekst": {
+        "nl": "Biologicals zijn effectieve middelen voor de behandeling van psoriasis. De nieuwste biologics zijn de zogenaamde interleukine (IL) 17 en 23-remmers. Deze middelen schrijft de arts altijd in een vaste dosis voor, maar waarschijnlijk heeft niet iedere patiënt die vaste dosis nodig. Daarom willen we bij patiënten bij wie de psoriasis rustig is tijdens behandeling met de normale dosis, onderzoeken of hun normale dosis kan worden verlaagd, zonder dat de psoriasis erger wordt. Een lagere dosis heeft namelijk voordelen: het kan leiden tot minder bijwerkingen en minder zorgkosten. We zullen onderzoeken hoe en bij wie we het beste kunnen afbouwen. In 17 Belgische en Nederlandse ziekenhuizen zullen we door loting patiënten verdelen in 2 groepen: een groep die langzaam de medicatie afbouwt, en een groep die de normale dosis blijft gebruiken. We zullen nagaan of de verlaagde dosis even effectief is en of de kwaliteit van leven goed blijft. Ook kijken we naar bijwerkingen, kosten en naar de bloedspiegels van de medicijnen. Met dit onderzoek hopen we te bereiken dat een aantal mensen met minder medicatie kan worden behandeld, terwijl het effect op de huid goed blijft.<br><br>\n\nLink naar KCE website: https://kce.fgov.be/nl/kce-trials/gefinancierde-klinische-studies/benebio-dosis-reductie-van-de-nieuwste-generatie-biologics-interleukine-17-en-23-remmers-voorBeNeBio: Dosis reductie van de nieuwste generatie biologics\nLink naar BeNeBio website: Home - BeNeBio\n\n\nClinicaltrial.gov:  NCT04340076<br><br>\n\nStatus: gesloten<br><br>\n\nResultaten: te verwachten in voorjaar 2026<br>\n\nLink naar KCE website: https://kce.fgov.be/nl/kce-trials/gefinancierde-klinische-studies/benebio-dosis-reductie-van-de-nieuwste-generatie-biologics-interleukine-17-en-23-remmers-voorBeNeBio: Dosis reductie van de nieuwste generatie biologics</a>\n",
+        "en": "Biologicals are effective treatments for psoriasis. The latest biologicals are the so-called interleukin (IL) 17 and 23 inhibitors. Doctors always prescribe these drugs in a fixed dose, but it is likely that not every patient needs that fixed dose. That is why we want to investigate whether patients whose psoriasis is stable during treatment with the normal dose can have their normal dose reduced without their psoriasis worsening. A lower dose has advantages: it can lead to fewer side effects and lower healthcare costs. We will investigate how and in whom we can best reduce the dose. In 17 Belgian and Dutch hospitals, we will randomly divide patients into two groups: one group that slowly reduces the medication and one group that continues to use the normal dose. We will investigate whether the reduced dose is equally effective and whether the quality of life remains good. We will also look at side effects, costs, and blood levels of the drugs. With this study, we hope to achieve a situation where a number of people can be treated with less medication, while the effect on the skin remains good.<br><br>\n\nClinicaltrial.gov:  NCT04340076<br><br>\n\nStatus: closed<br><br>\n\nResults: expected in spring 2026",
+        "fr": "Les produits biologiques sont des moyens efficaces pour traiter le psoriasis. Les derniers produits biologiques sont les inhibiteurs de l'interleukine (IL) 17 et 23. Le médecin prescrit toujours ces médicaments à une dose fixe, mais tous les patients n'ont probablement pas besoin de cette dose fixe. C'est pourquoi nous voulons examiner, chez les patients dont le psoriasis est stable pendant le traitement à la dose normale, si leur dose normale peut être réduite sans aggraver le psoriasis. Une dose plus faible présente en effet des avantages : elle peut entraîner moins d'effets secondaires et réduire les coûts des soins. Nous allons examiner comment et chez qui il est préférable de réduire la dose. Dans 17 hôpitaux belges et néerlandais, nous répartirons les patients par tirage au sort en deux groupes : un groupe qui réduira progressivement le médicament et un groupe qui continuera à utiliser la dose normale. Nous vérifierons si la dose réduite est tout aussi efficace et si la qualité de vie reste bonne. Nous examinerons également les effets secondaires, les coûts et les taux sanguins des médicaments. Grâce à cette étude, nous espérons permettre à un certain nombre de personnes d'être traitées avec moins de médicaments, tout en conservant un effet positif sur la peau.<br><br>\n\nClinicaltrial.gov :  NCT04340076<br><br>\n\nStatut : clôturé<br><br>\n\nRésultats : attendus au printemps 2026"
+      },
+      "figuur": "assets/benebio.jpg",
+      "category": "psoriasis"
+    },
+    {
+      "titel": {
+        "nl": "Vitiligo International Task force for an Agreed List of core data (VITAL)",
+        "en": "Vitiligo International Task force for an Agreed List of core data (VITAL)",
+        "fr": "Vitiligo International Task force for an Agreed List of core data (VITAL)"
+      },
+      "tekst": {
+        "nl": "Er is wereldwijd nog geen duidelijke afspraak over welke gegevens bij mensen met vitiligo moeten worden verzameld in onderzoek en in de zorg, waardoor resultaten moeilijk met elkaar te vergelijken zijn. In 2015 werd al een eerste lijst gemaakt van belangrijke uitkomsten voor wetenschappelijk onderzoek, maar die is niet voldoende voor alle situaties. Dit project wil daarom duidelijke en gezamenlijke afspraken maken voor onderzoek, patiëntregistraties en de dagelijkse medische praktijk. Er wordt bepaald welke resultaten altijd gemeten moeten worden en welke achtergrondgegevens daarbij belangrijk zijn, zoals kenmerken van de patiënt en de behandeling. Eerst wordt in overleg met experts en patiënten vastgesteld wat gemeten moet worden en daarna hoe dit het beste kan worden gemeten. Zo kan informatie beter worden vergeleken en kan het inzicht in vitiligo verder verbeteren.",
+        "en": "There is still no clear agreement worldwide on what data should be collected from people with vitiligo in research and healthcare, making it difficult to compare results. An initial list of important outcomes for scientific research was drawn up in 2015, but it is not sufficient for all situations. This project therefore aims to establish clear and joint agreements for research, patient registrations, and daily medical practice. It will determine which results should always be measured and which background data are important, such as patient characteristics and treatment. First, in consultation with experts and patients, it will be determined what needs to be measured and then how this can best be measured. This will allow for better comparison of information and further improve our understanding of vitiligo.",
+        "fr": "Il n'existe pas encore d'accord clair au niveau mondial sur les données à collecter chez les personnes atteintes de vitiligo dans le cadre de la recherche et des soins, ce qui rend difficile la comparaison des résultats. En 2015, une première liste des résultats importants pour la recherche scientifique a été établie, mais elle n'est pas suffisante pour toutes les situations. Ce projet vise donc à établir des accords clairs et communs pour la recherche, l'enregistrement des patients et la pratique médicale quotidienne. Il s'agit de déterminer les résultats qui doivent toujours être mesurés et les données de base importantes à cet égard, telles que les caractéristiques du patient et le traitement. Dans un premier temps, les experts et les patients déterminent ensemble ce qui doit être mesuré, puis la meilleure façon de le mesurer. Cela permet de mieux comparer les informations et d'améliorer encore la compréhension du vitiligo."
+      },
+      "figuur": "assets/onderzoekslijn2.jpg",
+      "category": "vitiligo"
+    },
+    {
+      "titel": {
+        "nl": "Betrouwbaarheid van huidkanker Apps en AI diagnose",
+        "en": "Reliability of skin cancer Apps and AI diagnosis",
+        "fr": "Fiabilité des applications sur le cancer de la peau et IA diagnostic"
+      },
+      "tekst": {
+        "nl": "Er komen steeds meer apps en systemen op basis van artificiële intelligentie die huidkanker proberen te herkennen, maar het is vaak onduidelijk hoe betrouwbaar deze hulpmiddelen zijn. Gebruikers en zorgverleners weten daardoor niet goed in welke mate ze op de resultaten kunnen vertrouwen. Dit project wil de betrouwbaarheid en nauwkeurigheid van huidkanker apps en AI diagnose systematisch onderzoeken en vergelijken. Daarbij wordt gekeken naar hoe goed deze toepassingen verdachte huidletsels herkennen en hoe consistent hun resultaten zijn. In een eerste fase worden bestaande apps en AI systemen geëvalueerd aan de hand van duidelijke en transparante beoordelingscriteria. Zo wil het project bijdragen aan veilig gebruik van digitale hulpmiddelen en betere ondersteuning van patiënten en zorgverleners.",
+        "en": "There are an increasing number of apps and systems based on artificial intelligence that attempt to detect skin cancer, but it is often unclear how reliable these tools are. As a result, users and healthcare providers are unsure to what extent they can trust the results. This project aims to systematically investigate and compare the reliability and accuracy of skin cancer apps and AI diagnosis. It will examine how well these applications recognize suspicious skin lesions and how consistent their results are. In the first phase, existing apps and AI systems will be evaluated using clear and transparent assessment criteria. In this way, the project aims to contribute to the safe use of digital tools and better support for patients and healthcare providers.",
+        "fr": "Il existe de plus en plus d'applications et de systèmes basés sur l'intelligence artificielle qui tentent de détecter le cancer de la peau, mais la fiabilité de ces outils est souvent incertaine. Les utilisateurs et les professionnels de santé ne savent donc pas vraiment dans quelle mesure ils peuvent se fier aux résultats. Ce projet vise à étudier et à comparer de manière systématique la fiabilité et la précision des applications de dépistage du cancer de la peau et des diagnostics basés sur l'IA. Il examine la capacité de ces applications à détecter les lésions cutanées suspectes et la cohérence de leurs résultats. Dans un premier temps, les applications et les systèmes d'IA existants seront évalués à l'aide de critères d'évaluation clairs et transparents. Le projet vise ainsi à contribuer à une utilisation sûre des outils numériques et à un meilleur soutien des patients et des professionnels de santé."
+      },
+      "figuur": "assets/Apps.jpg",
+      "category": "skin_cancer"
+    },
+    {
+      "titel": {
+        "nl": "Immunologisch onderzoek naar alopecia areata",
+        "en": "Immunological research in alopecia areata",
+        "fr": "Recherche immunologique sur la pélade"
+      },
+      "tekst": {
+        "nl": "Het onderzoek van het afweersysteem bij alopecia areata richt zich specifiek op de rol van de aryl hydrocarbon receptor AhR en de Th1 gemedieerde immuunrespons. Er wordt onderzocht hoe activatie van AhR immuunreacties in de haarfollikel kan beïnvloeden en mogelijk bijdraagt aan verlies of behoud van immuuntolerantie. Daarnaast wordt de Th1 pathway systematisch gemonitord aan de hand van cytokinen en immuunmarkers die betrokken zijn bij haarfollikelontsteking. Dit laat toe om ziekteactiviteit en immunologische veranderingen nauwkeurig in kaart te brengen. Het uiteindelijke doel is om beter te voorspellen welke behandeling (en welke dosering) voor iemand het beste zal werken en om nieuwe behandelingsopties te ontdekken.",
+        "en": "Research into the immune system in alopecia areata focuses specifically on the role of the aryl hydrocarbon receptor AhR and the Th1-mediated immune response. Research is being conducted into how activation of AhR can influence immune responses in the hair follicle and possibly contribute to the loss or preservation of immune tolerance. In addition, the Th1 pathway is being systematically monitored using cytokines and immune markers involved in hair follicle inflammation. This allows disease activity and immunological changes to be accurately mapped. The ultimate goal is to better predict which treatment (and which dosage) will work best for an individual and to discover new treatment options.",
+        "fr": "La recherche sur le système immunitaire dans l'alopécie areata se concentre spécifiquement sur le rôle du récepteur des hydrocarbures aromatiques AhR et de la réponse immunitaire médiée par Th1. Les chercheurs étudient comment l'activation de l'AhR peut influencer les réactions immunitaires dans le follicule pileux et contribuer éventuellement à la perte ou au maintien de la tolérance immunitaire. En outre, la voie Th1 est systématiquement surveillée à l'aide de cytokines et de marqueurs immunitaires impliqués dans l'inflammation du follicule pileux. Cela permet de cartographier avec précision l'activité de la maladie et les changements immunologiques. L'objectif final est de mieux prédire quel traitement (et quel dosage) fonctionnera le mieux pour une personne et de découvrir de nouvelles options thérapeutiques."
+      },
+      "figuur": "assets/AAimmun.jpg",
+      "category": "alopecia_areata"
+    }
+  ],
+  "trialItems": [
+    {
+      "titel": {
+        "nl": "Tralokinumab in combinatie met lokale corticosteroïden voor kinderen en zuigelingen met matige tot ernstige atopisch eczeem",
+        "en": "Tralokinumab in combination with topical corticosteroids for children and infants with moderate-to-severe atopic dermatitis",
+        "fr": "Tralokinumab en association avec des corticostéroïdes topiques chez les enfants et les nourrissons atteints de dermatite atopique modérée à sévère"
+      },
+      "meta": {
+        "nl": "Rekruterend",
+        "en": "Recruiting ",
+        "fr": "Recrutement en cours "
+      },
+      "tekst": {
+        "nl": "Inclusie:<br>\n- Leeftijd 6 maanden tot <12 jaar.<br>\n- Lichaamsgewicht ≥9 kg.<br>\n- Onvoldoende respons op TCS van gemiddelde sterkte binnen 6 maanden voorafgaand aan het screeningbezoek.\n- AD ≥10% van het lichaamsoppervlak bij screening en baseline volgens component A van SCORAD.<br>\n- EASI-score van ≥16<br>\n- IGA-score van ≥3<br>\n- Een gemiddelde score van ≥4 op de Child Worst Itch NRS of een gemiddelde score van ≥4 op de Scratch ObsRO ",
+        "en": "Inclusion:<br>\n- Age 6 months to <12 years at screening.<br>\n- Body weight ≥9 kg at screening.<br>\n- Inadequate response to mid-strength TCS within 6 months before the screening visit.<br>\n- AD involvement of ≥10% body surface area at screening and baseline according to component A of SCORAD. <br>\n- EASI score of ≥16<br>\n- IGA score of ≥3<br>\n- A Child Worst Itch NRS average score of ≥4 or a Scratch ObsRO average score of ≥4 ",
+        "fr": "Inclusion:<br>\n- Âge compris entre 6 mois et <12 ans.<br>\n- Poids corporel ≥9 kg.<br>\n- Réponse insuffisante à un TCS de puissance moyenne dans les 6 mois <br>.\n- Atteinte de la dermatite atopique sur ≥ 10 % de la surface corporelle lors de la sélection et au départ, selon le composant A du SCORAD. <br>\n- Score EASI ≥ 16<br>\n- Score IGA ≥ 3<br>\n- Score moyen NRS « Child Worst Itch » (démangeaison la plus intense chez l'enfant) ≥ 4 ou score moyen ObsRO « Scratch » (grattage) ≥ 4 "
+      },
+      "category": "eczema"
+    },
+    {
+      "titel": {
+        "nl": "Hidradenitis suppurativa: Lutikizumab bij volwassenen en adolescenten met matige tot ernstige hidradenitis suppurativa",
+        "en": "Hidradenitis Suppurativa: Lutikizumab in Adult and Adolescent Subjects with Moderate to Severe Hidradenitis Suppurativa",
+        "fr": "Hidradénite suppurée : Lutikizumab chez les adultes et les adolescents atteints d'hidradénite suppurée modérée à sévère"
+      },
+      "meta": {
+        "nl": "Rekruterend",
+        "en": "Recruiting ",
+        "fr": "Recrutement en cours "
+      },
+      "tekst": {
+        "nl": "Inclusie: <br>\n≥ 16 jaar<br>\nLichaamsgewicht moet ≥ 50 kg zijn<br>\nHS gedurende ten minste 6 maanden<br>\nTotaal aantal AN ≥ 5 bij aanvang<br>\nHS-laesies aanwezig in ten minste twee verschillende anatomische gebieden bij aanvang<br>\nTen minste 1 anatomisch gebied met HS-betrokkenheid gekarakteriseerd als Hurley-stadium II of hoger bij aanvang.",
+        "en": "Inclusion: <br>\n≥ 16 years<br>\nBody weight must be ≥ 50 kg<br>\nHS for at least 6 months<br>\nTotal AN count of ≥ 5 at Baseline<br>\nHS lesions present in at least two distinct anatomic areas at Baseline<br>\nAt least 1 anatomic area of HS involvement characterized as Hurley Stage II or higher at Baseline.\n",
+        "fr": "Inclusion : <br>\n≥ 16 ans<br>\nPoids corporel ≥ 50 kg<br>\nHS depuis au moins 6 mois<br>\nNombre total d'AN ≥ 5 au départ<br>\nLésions HS présentes dans au moins deux zones anatomiques distinctes au départ<br>\nAu moins une zone anatomique touchée par la HS caractérisée comme étant au stade II de Hurley ou supérieur au départ."
+      },
+      "category": "hidradenitis_suppurativa"
+    },
+    {
+      "titel": {
+        "nl": "Hidradenitis suppurativa: evaluatie van upadacitinib bij volwassenen en adolescenten",
+        "en": "Hidradenitis Suppurativa: Evaluation of Upadacitinib in Adult and Adolescent",
+        "fr": "Hidradénite suppurée : évaluation de l'upadacitinib chez les adultes et les adolescents"
+      },
+      "meta": {
+        "nl": "Rekruterend",
+        "en": "Recruiting ",
+        "fr": "Recrutement en cours "
+      },
+      "tekst": {
+        "nl": "Inclusie: <br>\n- ≥ 12 jaar<br>\n- ≥ 30 kg<br>\n- HS gedurende ten minste 6 maanden<br>\n- Eerder gebruik van ≥ 1 TNF-remmer voor HS gedurende ten minste 12 weken en/of 1 goedgekeurde niet-anti-TNF voor HS gedurende ten minste 16 weken<br>\n- Totaal aantal AN van ≥ 5<br>\n- Ten minste 2 verschillende anatomische gebieden<br>\n- Aantal drainerende fistels van ≤ 20<br>",
+        "en": "Inclusion: <br>\n- ≥ 12 years<br>\n- ≥ 30 kg<br>\n- HS for at least 6 months<br>\n- Previous use of ≥ 1 TNF inhibitor for HS for at least 12 weeks and/or\n1 approved non-anti-TNF biologic therapy for HS for at least 16 weeks characterized by\ninadequate response<br>\n- Total AN count of ≥ 5<br>\n- At least 2 distinct anatomic areas<br>\n- Draining fistula count of ≤ 20<br>\n",
+        "fr": "Inclusion : <br>\n- ≥ 12 ans<br>\n- ≥ 30 kg<br>\n- HS depuis au moins 6 mois<br>\n- Utilisation préalable d'au moins un inhibiteur du TNF pour traiter l'HS pendant au moins 12 semaines et/ou\n1 traitement biologique non anti-TNF approuvé pour le traitement de l'HS pendant au moins 16 semaines, caractérisé par\nune réponse insuffisante<br>\n- Nombre total d'AN ≥ 5<br>\n- Au moins 2 zones anatomiques distinctes<br>\n- Nombre de fistules drainantes ≤ 20<br>\nInclusion : <br>\n≥ 16 ans<br>\nPoids corporel ≥ 50 kg<br>\nHS depuis au moins 6 mois<br>\nNombre total d'AN ≥ 5 au départ<br>\nLésions HS présentes dans au moins deux zones anatomiques distinctes au départ<br>\nAu moins 1 zone anatomique touchée par le HS caractérisée comme étant au stade II de Hurley ou supérieur au départ."
+      },
+      "category": "hidradenitis_suppurativa"
+    }
+  ],
+  "pubItems": [
+    {
+      "category": "psoriasis",
+      "titel": {
+        "nl": "Borzée J, Cardoen B, Roodhooft F, Vyvey E, Lambert J.",
+        "en": "Borzée J, Cardoen B, Roodhooft F, Vyvey E, Lambert J.",
+        "fr": "Borzée J, Cardoen B, Roodhooft F, Vyvey E, Lambert J."
+      },
+      "meta": {
+        "nl": "BMJ Open. 2026 Jan 9;16(1):e102879. ",
+        "en": "BMJ Open. 2026 Jan 9;16(1):e102879. ",
+        "fr": "BMJ Open. 2026 Jan 9;16(1):e102879. "
+      },
+      "tekst": {
+        "nl": "UNDERSTANDING PSORIASIS CARE COSTS AND THE IMPACT OF COMORBIDITIES: A TIME-DRIVEN ACTIVITY-BASED COSTING ANALYSIS IN AN INTEGRATED PRACTICE UNIT",
+        "en": "UNDERSTANDING PSORIASIS CARE COSTS AND THE IMPACT OF COMORBIDITIES: A TIME-DRIVEN ACTIVITY-BASED COSTING ANALYSIS IN AN INTEGRATED PRACTICE UNIT",
+        "fr": "UNDERSTANDING PSORIASIS CARE COSTS AND THE IMPACT OF COMORBIDITIES: A TIME-DRIVEN ACTIVITY-BASED COSTING ANALYSIS IN AN INTEGRATED PRACTICE UNIT"
+      },
+      "bevindingen": {
+        "nl": "De kosten van zorg voor psoriasis over zes maanden sterk variëren tussen patiënten en vooral worden bepaald door ziekte-ernst, mentale gezondheid en comorbiditeiten. Deze patiëntspecifieke kostenvariatie wordt onvoldoende weerspiegeld in het huidige fee-for-service vergoedingssysteem.",
+        "en": "Six month care costs for psoriasis vary widely between patients and are mainly driven by disease severity, mental health status, and comorbidities. This patient-level cost variability is not adequately captured by the current fee-for-service reimbursement system.",
+        "fr": "les coûts de prise en charge du psoriasis sur six mois varient fortement entre les patients et sont principalement déterminés par la sévérité de la maladie, la santé mentale et les comorbidités. Cette variabilité des coûts spécifiques aux patients n’est pas suffisamment prise en compte par le système actuel de remboursement à l’acte."
+      }
+    },
+    {
+      "category": "psoriasis",
+      "titel": {
+        "nl": "Speeckaert R, Nikkels AF, Lambert J, Benhadou F, Reynaert V, Ghislain PD, Hillary T, Lambert JLW. ",
+        "en": "Speeckaert R, Nikkels AF, Lambert J, Benhadou F, Reynaert V, Ghislain PD, Hillary T, Lambert JLW. ",
+        "fr": "Speeckaert R, Nikkels AF, Lambert J, Benhadou F, Reynaert V, Ghislain PD, Hillary T, Lambert JLW. "
+      },
+      "meta": {
+        "nl": "J Eur Acad Dermatol Venereol. 2025 Mar;39(3):465-475. ",
+        "en": "J Eur Acad Dermatol Venereol. 2025 Mar;39(3):465-475. ",
+        "fr": "J Eur Acad Dermatol Venereol. 2025 Mar;39(3):465-475. "
+      },
+      "tekst": {
+        "nl": "BELGIAN RECOMMENDATIONS FOR MANAGING PSORIASIS IN A CHANGING TREATMENT LANDSCAPE",
+        "en": "BELGIAN RECOMMENDATIONS FOR MANAGING PSORIASIS IN A CHANGING TREATMENT LANDSCAPE",
+        "fr": "BELGIAN RECOMMENDATIONS FOR MANAGING PSORIASIS IN A CHANGING TREATMENT LANDSCAPE"
+      },
+      "bevindingen": {
+        "nl": "Een rationeler en duurzamer gebruik van innovatieve psoriasisbehandelingen mogelijk is door duidelijke definities van ziekte-ernst, treat-to-target strategieën, het inzetten van oudere biologica, biosimilars, gepersonaliseerde dosering en teledermatologie. De geactualiseerde Belgische BETA-PSO-aanbevelingen bieden hiervoor praktisch onderbouwde richtlijnen.",
+        "en": "More rational and sustainable use of innovative psoriasis therapies can be achieved through clear severity definitions, treat-to-target approaches, use of older biologic classes, biosimilars, personalized dosing, and teledermatology. The updated Belgian BETA-PSO recommendations translate these principles into evidence-based clinical guidance.",
+        "fr": "Une utilisation plus rationnelle et durable des traitements innovants du psoriasis est possible grâce à une définition claire de la sévérité, des stratégies treat-to-target, l’utilisation d’anciens biologiques, de biosimilaires, un dosage personnalisé et la télédermatologie. Les recommandations belges BETA-PSO mises à jour traduisent ces principes en conseils cliniques fondés sur les preuves."
+      }
+    },
+    {
+      "category": "alopecia_areata",
+      "titel": {
+        "nl": "Belpaire A, Demeyer A, Van Caelenberg E, van Geel N, Speeckaert R.",
+        "en": "Belpaire A, Demeyer A, Van Caelenberg E, van Geel N, Speeckaert R.",
+        "fr": "Belpaire A, Demeyer A, Van Caelenberg E, van Geel N, Speeckaert R."
+      },
+      "meta": {
+        "nl": "J Transl Autoimmun. 2025 Mar 7;10:100282. ",
+        "en": "J Transl Autoimmun. 2025 Mar 7;10:100282. ",
+        "fr": "J Transl Autoimmun. 2025 Mar 7;10:100282. "
+      },
+      "tekst": {
+        "nl": "THE AHR PATHWAY IS DYSREGULATED IN ALOPECIA AREATA",
+        "en": "THE AHR PATHWAY IS DYSREGULATED IN ALOPECIA AREATA",
+        "fr": "THE AHR PATHWAY IS DYSREGULATED IN ALOPECIA AREATA"
+      },
+      "bevindingen": {
+        "nl": "De kernbevinding is dat het AhR-signaalpad significant is neerwaarts gereguleerd in alopecia areata en dat lagere AhR-expressie samenhangt met hogere ziekteactiviteit en verhoogde IFN-γ-gedreven immuniteit. Dit wijst erop dat het AhR-pad een relevante negatieve feedbackrol speelt en een potentieel therapeutisch doelwit vormt.",
+        "en": "The central finding is that the AhR pathway is significantly downregulated in alopecia areata and that lower AhR expression is associated with higher disease activity and increased IFN-γ–driven immune responses. These results indicate a disrupted negative feedback mechanism and identify the AhR pathway as a potential therapeutic target.",
+        "fr": "La principale conclusion est que la voie de signalisation AhR est significativement sous-exprimée dans l’alopécie areata et que de faibles niveaux d’AhR sont associés à une activité accrue de la maladie et à une réponse immunitaire dominée par l’IFN-γ. Cela suggère une altération d’un mécanisme de rétrocontrôle immunitaire et identifie la voie AhR comme une cible thérapeutique potentielle."
+      }
+    },
+    {
+      "category": "Psoriasis",
+      "titel": {
+        "nl": "Eylenbosch A, Wei R, Soenen R, Smith C, Standing JF, Mahil S, Lambert J",
+        "en": "Eylenbosch A, Wei R, Soenen R, Smith C, Standing JF, Mahil S, Lambert J",
+        "fr": "Eylenbosch A, Wei R, Soenen R, Smith C, Standing JF, Mahil S, Lambert J"
+      },
+      "meta": {
+        "nl": ".J Eur Acad Dermatol Venereol. 2025 Nov 14. ",
+        "en": ".J Eur Acad Dermatol Venereol. 2025 Nov 14. ",
+        "fr": ".J Eur Acad Dermatol Venereol. 2025 Nov 14. "
+      },
+      "tekst": {
+        "nl": "FROM REACTIVE TO PREDICTIVE: ADVANCING BIOLOGIC DOSING IN DERMATOLOGY",
+        "en": "FROM REACTIVE TO PREDICTIVE: ADVANCING BIOLOGIC DOSING IN DERMATOLOGY",
+        "fr": "FROM REACTIVE TO PREDICTIVE: ADVANCING BIOLOGIC DOSING IN DERMATOLOGY"
+      },
+      "bevindingen": {
+        "nl": "Voorspellende dosering van biologische therapieën in de dermatologie biedt een alternatief voor de huidige reactieve aanpak door gebruik te maken van farmacokinetiek biomarkers en patiëntkenmerken. Dit maakt een meer gerichte en consistente behandeling mogelijk met minder risico op onder- of overdosering.",
+        "en": "Predictive dosing of biologic therapies in dermatology is presented as a logical evolution beyond the current reactive approach by incorporating pharmacokinetics biomarkers and patient characteristics. This enables more consistent and individualized treatment with improved therapeutic efficiency.",
+        "fr": "Le dosage prédictif des traitements biologiques en dermatologie est avancé comme une évolution nécessaire par rapport à l’approche réactive actuelle en intégrant la pharmacocinétique des biomarqueurs et les caractéristiques des patients. Cette stratégie permet une prise en charge plus cohérente et personnalisée avec un usage plus rationnel des traitements."
+      }
+    },
+    {
+      "category": "Psoriasis",
+      "titel": {
+        "nl": "Papeleu J, De Schepper S, Lambert J. ",
+        "en": "Papeleu J, De Schepper S, Lambert J. ",
+        "fr": "Papeleu J, De Schepper S, Lambert J. "
+      },
+      "meta": {
+        "nl": "J Eur Acad Dermatol Venereol. 2025 Oct 16. ",
+        "en": "J Eur Acad Dermatol Venereol. 2025 Oct 16. ",
+        "fr": "J Eur Acad Dermatol Venereol. 2025 Oct 16. "
+      },
+      "tekst": {
+        "nl": "FROM TISSUE TO TARGET: MOLECULAR DIAGNOSTICS IN DIFFICULT-TO-DIAGNOSE PSORIASIS AND ECZEMA",
+        "en": "FROM TISSUE TO TARGET: MOLECULAR DIAGNOSTICS IN DIFFICULT-TO-DIAGNOSE PSORIASIS AND ECZEMA",
+        "fr": "FROM TISSUE TO TARGET: MOLECULAR DIAGNOSTICS IN DIFFICULT-TO-DIAGNOSE PSORIASIS AND ECZEMA"
+      },
+      "bevindingen": {
+        "nl": "Moleculaire diagnostiek wordt gepositioneerd als brug tussen weefselanalyse en doelgerichte behandeling bij psoriasis en eczeem die klinisch moeilijk te onderscheiden zijn. Door gebruik te maken van genexpressieprofielen kan de diagnostische nauwkeurigheid verbeteren en kan therapiekeuze beter worden afgestemd op het onderliggende ziekteproces.",
+        "en": "Molecular diagnostics are presented as a way to link tissue level information to targeted treatment in psoriasis and eczema that are difficult to diagnose clinically. Gene expression based tools can increase diagnostic accuracy and support more appropriate and effective treatment decisions.",
+        "fr": "Le diagnostic moléculaire est mis en avant pour relier l’analyse tissulaire à une prise en charge ciblée des formes de psoriasis et d’eczéma difficiles à diagnostiquer cliniquement. L’utilisation de profils d’expression génique permet d’améliorer la précision diagnostique et d’orienter plus finement le choix thérapeutique."
+      }
+    },
+    {
+      "category": "Psoriasis",
+      "titel": {
+        "nl": "Roman E, Roodhooft F, Lambert J, Deprez E, Cardoen B. ",
+        "en": "Roman E, Roodhooft F, Lambert J, Deprez E, Cardoen B. ",
+        "fr": "Roman E, Roodhooft F, Lambert J, Deprez E, Cardoen B. "
+      },
+      "meta": {
+        "nl": "BMC Health Serv Res. 2025 Oct 9;25(1):1343.",
+        "en": "BMC Health Serv Res. 2025 Oct 9;25(1):1343.",
+        "fr": "BMC Health Serv Res. 2025 Oct 9;25(1):1343."
+      },
+      "tekst": {
+        "nl": "WHAT DRIVES PATIENT COST VARIABILITY IN PSORIASIS CARE: A SINGLE CENTRE STUDY",
+        "en": "WHAT DRIVES PATIENT COST VARIABILITY IN PSORIASIS CARE: A SINGLE CENTRE STUDY",
+        "fr": "WHAT DRIVES PATIENT COST VARIABILITY IN PSORIASIS CARE: A SINGLE CENTRE STUDY"
+      },
+      "bevindingen": {
+        "nl": "Variatie in zorgkosten bij psoriasis blijkt grotendeels samen te hangen met behandelkeuzes, ziekte-ernst en zorggebruik binnen één centrum. Inzicht in deze drijfveren maakt gerichtere kostenbeheersing mogelijk zonder in te boeten aan kwaliteit van zorg.",
+        "en": "Patient cost variability in psoriasis care is shown to be mainly driven by treatment strategies, disease severity, and patterns of healthcare utilization within a single centre. Understanding these factors can support more efficient resource allocation while maintaining quality of care.",
+        "fr": "La variabilité des coûts des soins chez les patients atteints de psoriasis est principalement liée aux choix thérapeutiques, à la sévérité de la maladie et à l’utilisation des soins dans un centre unique. L’identification de ces déterminants ouvre la voie à une gestion plus efficiente des ressources sans compromettre la qualité des soins."
+      }
+    },
+    {
+      "category": "Psoriasis",
+      "titel": {
+        "nl": "Eylenbosch A, Lambert JLW. ",
+        "en": "Eylenbosch A, Lambert JLW. ",
+        "fr": "Eylenbosch A, Lambert JLW. "
+      },
+      "meta": {
+        "nl": "J Invest Dermatol. 2025 Sep;145(9):2120-2122.",
+        "en": "J Invest Dermatol. 2025 Sep;145(9):2120-2122.",
+        "fr": "J Invest Dermatol. 2025 Sep;145(9):2120-2122."
+      },
+      "tekst": {
+        "nl": "ONE STEP CLOSER TO PERSONALIZED DOSING OF BIOLOGICS IN PSORIASIS",
+        "en": "ONE STEP CLOSER TO PERSONALIZED DOSING OF BIOLOGICS IN PSORIASIS",
+        "fr": "ONE STEP CLOSER TO PERSONALIZED DOSING OF BIOLOGICS IN PSORIASIS"
+      },
+      "bevindingen": {
+        "nl": "Gepersonaliseerde dosering van biologische therapieën bij psoriasis komt dichterbij door betere integratie van farmacokinetische inzichten en patiëntspecifieke variabelen. Dit biedt perspectief op stabielere ziektecontrole en rationeler gebruik van biologics.",
+        "en": "Personalized dosing of biologic therapies in psoriasis is becoming more achievable through improved integration of pharmacokinetic insights and patient specific factors. This development supports more stable disease control and more rational use of biologics.",
+        "fr": "La personnalisation du dosage des traitements biologiques dans le psoriasis devient plus concrète grâce à une meilleure prise en compte de la pharmacocinétique et des facteurs propres aux patients. Cette évolution ouvre la voie à un contrôle plus stable de la maladie et à un usage plus raisonné des biologiques."
+      }
+    },
+    {
+      "category": "Psoriasis",
+      "titel": {
+        "nl": "Speeckaert R, Nikkels AF, Lambert J, Benhadou F, Reynaert V, Ghislain PD, Hillary T, Lambert JLW. ",
+        "en": "Speeckaert R, Nikkels AF, Lambert J, Benhadou F, Reynaert V, Ghislain PD, Hillary T, Lambert JLW. ",
+        "fr": "Speeckaert R, Nikkels AF, Lambert J, Benhadou F, Reynaert V, Ghislain PD, Hillary T, Lambert JLW. "
+      },
+      "meta": {
+        "nl": "J Eur Acad Dermatol Venereol. 2025 Mar;39(3):465-475.",
+        "en": "J Eur Acad Dermatol Venereol. 2025 Mar;39(3):465-475.",
+        "fr": "J Eur Acad Dermatol Venereol. 2025 Mar;39(3):465-475."
+      },
+      "tekst": {
+        "nl": "BELGIAN RECOMMENDATIONS FOR MANAGING PSORIASIS IN A CHANGING TREATMENT LANDSCAPE",
+        "en": "BELGIAN RECOMMENDATIONS FOR MANAGING PSORIASIS IN A CHANGING TREATMENT LANDSCAPE",
+        "fr": "BELGIAN RECOMMENDATIONS FOR MANAGING PSORIASIS IN A CHANGING TREATMENT LANDSCAPE"
+      },
+      "bevindingen": {
+        "nl": "Belgische aanbevelingen voor de behandeling van psoriasis worden aangepast aan een snel veranderend therapeutisch landschap met meer doelgerichte en systemische opties. De nadruk ligt op een gestructureerde behandelstrategie die patiëntkenmerken, veiligheid en langetermijnopvolging combineert.",
+        "en": "Belgian recommendations for psoriasis management are updated to reflect a rapidly evolving treatment landscape with expanding targeted and systemic options. The guidance emphasizes structured decision making that integrates patient characteristics, safety considerations, and long term follow up.",
+        "fr": "Les recommandations belges pour la prise en charge du psoriasis tiennent compte d’un paysage thérapeutique en rapide évolution avec un nombre croissant d’options ciblées et systémiques. Elles mettent l’accent sur une stratégie structurée intégrant les caractéristiques des patients, la sécurité et le suivi à long terme."
+      }
+    },
+    {
+      "category": "Huidkanker",
+      "titel": {
+        "nl": "Brochez L, Garbe C, Amaral T, Arenberger P, Astratinei V, Autier P, Berwick M, Bylaite M, Boonen B, Del Marmol V, Dreno B, Fargnoli MC, Green AC, Greinert R, Hauschild A, Harwood CA, Hoorens I, Kandolf L, Kaufmann R, Kelleners-Smeets N, Lallas A, Lebbé C, Leiter U, Lim HW, Longo C, Malvehy J, Moreno D, Östman F, Pellacani G, Peris K, Robert C, Ryll B, Saiag P, Schadendorf D, Soyer P, Spurrier-Bernard G, Stockfleth E, Stratigos A, Uhara H, Vieira R, Weinstock MA, Whitaker D, Whiteman DC, Zalaudek I, Forsea AM; EADO Task Force for Prevention and Early Detection of Skin Cancer. ",
+        "en": "Brochez L, Garbe C, Amaral T, Arenberger P, Astratinei V, Autier P, Berwick M, Bylaite M, Boonen B, Del Marmol V, Dreno B, Fargnoli MC, Green AC, Greinert R, Hauschild A, Harwood CA, Hoorens I, Kandolf L, Kaufmann R, Kelleners-Smeets N, Lallas A, Lebbé C, Leiter U, Lim HW, Longo C, Malvehy J, Moreno D, Östman F, Pellacani G, Peris K, Robert C, Ryll B, Saiag P, Schadendorf D, Soyer P, Spurrier-Bernard G, Stockfleth E, Stratigos A, Uhara H, Vieira R, Weinstock MA, Whitaker D, Whiteman DC, Zalaudek I, Forsea AM; EADO Task Force for Prevention and Early Detection of Skin Cancer. ",
+        "fr": "Brochez L, Garbe C, Amaral T, Arenberger P, Astratinei V, Autier P, Berwick M, Bylaite M, Boonen B, Del Marmol V, Dreno B, Fargnoli MC, Green AC, Greinert R, Hauschild A, Harwood CA, Hoorens I, Kandolf L, Kaufmann R, Kelleners-Smeets N, Lallas A, Lebbé C, Leiter U, Lim HW, Longo C, Malvehy J, Moreno D, Östman F, Pellacani G, Peris K, Robert C, Ryll B, Saiag P, Schadendorf D, Soyer P, Spurrier-Bernard G, Stockfleth E, Stratigos A, Uhara H, Vieira R, Weinstock MA, Whitaker D, Whiteman DC, Zalaudek I, Forsea AM; EADO Task Force for Prevention and Early Detection of Skin Cancer. "
+      },
+      "meta": {
+        "nl": "J Eur Acad Dermatol Venereol. 2025 ",
+        "en": "J Eur Acad Dermatol Venereol. 2025 ",
+        "fr": "J Eur Acad Dermatol Venereol. 2025 "
+      },
+      "tekst": {
+        "nl": "MESSAGES FOR ULTRAVIOLET-RADIATION PROTECTION TO FAIR-SKINNED POPULATIONS",
+        "en": "MESSAGES FOR ULTRAVIOLET-RADIATION PROTECTION TO FAIR-SKINNED POPULATIONS",
+        "fr": "MESSAGES FOR ULTRAVIOLET-RADIATION PROTECTION TO FAIR-SKINNED POPULATIONS"
+      },
+      "bevindingen": {
+        "nl": "Bescherming tegen ultraviolette straling bij lichtgetinte populaties vereist heldere en consistente kernboodschappen die het dagelijkse gedrag sturen. De nadruk ligt op vermijden van overmatige blootstelling, correct gebruik van zonnebescherming en vroege detectie om huidkanker te voorkomen.",
+        "en": "Effective ultraviolet radiation protection for fair skinned populations depends on clear and consistent public health messages that guide everyday behaviour. Emphasis is placed on limiting excessive exposure, appropriate use of sun protection, and early detection to reduce skin cancer risk.",
+        "fr": "La protection contre les rayonnements ultraviolets chez les populations à peau claire repose sur des messages clairs et cohérents orientant les comportements quotidiens. L’accent est mis sur la limitation de l’exposition excessive, l’utilisation adéquate de la photoprotection et le dépistage précoce des cancers cutanés."
+      }
+    },
+    {
+      "category": "Huidkanker",
+      "titel": {
+        "nl": "Meertens A, Van Coile L, Shen A, Vossaert K, Waalboer-Spuij R, Van Wilder L, Collins L, Brochez L, Verhaeghe N, Hoorens I. ",
+        "en": "Meertens A, Van Coile L, Shen A, Vossaert K, Waalboer-Spuij R, Van Wilder L, Collins L, Brochez L, Verhaeghe N, Hoorens I. ",
+        "fr": "Meertens A, Van Coile L, Shen A, Vossaert K, Waalboer-Spuij R, Van Wilder L, Collins L, Brochez L, Verhaeghe N, Hoorens I. "
+      },
+      "meta": {
+        "nl": "ASSESSING HEALTH-RELATED QUALITY OF LIFE IN PATIENTS WITH KERATINOCYTE CARCINOMA: INSIGHTS FROM A MULTICENTER CROSS-SECTIONAL STUDY",
+        "en": "ASSESSING HEALTH-RELATED QUALITY OF LIFE IN PATIENTS WITH KERATINOCYTE CARCINOMA: INSIGHTS FROM A MULTICENTER CROSS-SECTIONAL STUDY",
+        "fr": "ASSESSING HEALTH-RELATED QUALITY OF LIFE IN PATIENTS WITH KERATINOCYTE CARCINOMA: INSIGHTS FROM A MULTICENTER CROSS-SECTIONAL STUDY"
+      },
+      "tekst": {
+        "nl": "Acta Clin Belg. 2025 Jun;80(3):44-53. ",
+        "en": "Acta Clin Belg. 2025 Jun;80(3):44-53. ",
+        "fr": "Acta Clin Belg. 2025 Jun;80(3):44-53. "
+      },
+      "bevindingen": {
+        "nl": "Gezondheidsgerelateerde kwaliteit van leven bij patiënten met keratinocytair carcinoom blijkt substantieel beïnvloed, ook bij tumoren met een doorgaans gunstige prognose. De multicentrische analyse onderstreept dat psychosociale impact en functionele klachten systematisch moeten worden meegenomen in de zorg.",
+        "en": "Health related quality of life in patients with keratinocyte carcinoma is shown to be meaningfully affected, even in cases with a generally favourable prognosis. The multicentre findings highlight the need to routinely consider psychosocial and functional outcomes in clinical care.",
+        "fr": "La qualité de vie liée à la santé chez les patients atteints de carcinome kératinocytaire est significativement altérée, y compris lorsque le pronostic est globalement favorable. Les résultats multicentriques soulignent l’importance d’intégrer de manière systématique les dimensions psychosociales et fonctionnelles dans la prise en charge."
+      }
+    },
+    {
+      "category": "Huidkanker",
+      "titel": {
+        "nl": "Brochez L, Volkmer B, Hoorens I, Garbe C, Röcken M, Schüz J, Whiteman DC, Autier P, Greinert R, Boonen B. ",
+        "en": "Brochez L, Volkmer B, Hoorens I, Garbe C, Röcken M, Schüz J, Whiteman DC, Autier P, Greinert R, Boonen B. ",
+        "fr": "Brochez L, Volkmer B, Hoorens I, Garbe C, Röcken M, Schüz J, Whiteman DC, Autier P, Greinert R, Boonen B. "
+      },
+      "meta": {
+        "nl": "J Eur Acad Dermatol Venereol. 2025 Feb;39(2):272-277. ",
+        "en": "J Eur Acad Dermatol Venereol. 2025 Feb;39(2):272-277. ",
+        "fr": "J Eur Acad Dermatol Venereol. 2025 Feb;39(2):272-277. "
+      },
+      "tekst": {
+        "nl": "SKIN CANCER IN EUROPE TODAY AND CHALLENGES FOR TOMORROW",
+        "en": "SKIN CANCER IN EUROPE TODAY AND CHALLENGES FOR TOMORROW",
+        "fr": "SKIN CANCER IN EUROPE TODAY AND CHALLENGES FOR TOMORROW"
+      },
+      "bevindingen": {
+        "nl": "Huidkanker in Europa vormt een groeiend volksgezondheidsprobleem door toenemende incidentie en ongelijkheid in preventie en zorg. Toekomstige uitdagingen liggen in versterkte preventiestrategieën, vroege detectie en aanpassing van zorgsystemen aan deze stijgende last.",
+        "en": "Skin cancer in Europe represents a growing public health burden driven by rising incidence and persistent gaps in prevention and care. Future challenges include strengthening prevention efforts, improving early detection, and adapting healthcare systems to this increasing demand.",
+        "fr": "Le cancer de la peau en Europe constitue un problème de santé publique croissant en raison de l’augmentation de l’incidence et des inégalités en matière de prévention et de soins. Les défis à venir concernent le renforcement de la prévention, l’amélioration du dépistage précoce et l’adaptation des systèmes de soins."
+      }
+    },
+    {
+      "category": "Huidkanker",
+      "titel": {
+        "nl": "Van Coile L, Meertens A, Shen A, Waalboer-Spuij R, Vossaert K, Verhaeghe E, Brochez L, Hoorens I. ",
+        "en": "Van Coile L, Meertens A, Shen A, Waalboer-Spuij R, Vossaert K, Verhaeghe E, Brochez L, Hoorens I. ",
+        "fr": "Van Coile L, Meertens A, Shen A, Waalboer-Spuij R, Vossaert K, Verhaeghe E, Brochez L, Hoorens I. "
+      },
+      "meta": {
+        "nl": "Sci Rep. 2024 Sep 18;14(1):21739. ",
+        "en": "Sci Rep. 2024 Sep 18;14(1):21739. ",
+        "fr": "Sci Rep. 2024 Sep 18;14(1):21739. "
+      },
+      "tekst": {
+        "nl": "THE IMPACT OF BASAL CELL CARCINOMA ON THE QUALITY-OF-LIFE IN OLDER PATIENTS",
+        "en": "THE IMPACT OF BASAL CELL CARCINOMA ON THE QUALITY-OF-LIFE IN OLDER PATIENTS",
+        "fr": "THE IMPACT OF BASAL CELL CARCINOMA ON THE QUALITY-OF-LIFE IN OLDER PATIENTS"
+      },
+      "bevindingen": {
+        "nl": "Basaalcelcarcinoom heeft ook bij oudere patiënten een duidelijke impact op de kwaliteit van leven, ondanks het vaak indolente klinische verloop. Functionele beperkingen, zorgen over recidief en psychosociale belasting spelen hierbij een belangrijke rol.",
+        "en": "Basal cell carcinoma has a measurable impact on quality of life in older patients despite its typically indolent clinical course. Functional limitations, fear of recurrence, and psychosocial burden contribute substantially.",
+        "fr": "Le carcinome basocellulaire a un impact notable sur la qualité de vie des patients âgés, malgré une évolution clinique généralement indolente. Les limitations fonctionnelles, la crainte de récidive et la charge psychosociale y contribuent de manière significative."
+      }
+    },
+    {
+      "category": "Huidkanker",
+      "titel": {
+        "nl": "Clauwaert V, Verhaeghe E, De Schepper S, Haspeslagh M, Brochez L. ",
+        "en": "Clauwaert V, Verhaeghe E, De Schepper S, Haspeslagh M, Brochez L. ",
+        "fr": "Clauwaert V, Verhaeghe E, De Schepper S, Haspeslagh M, Brochez L. "
+      },
+      "meta": {
+        "nl": "J Invest Dermatol. 2025 Feb;145(2):383-392.e3",
+        "en": "J Invest Dermatol. 2025 Feb;145(2):383-392.e3",
+        "fr": "J Invest Dermatol. 2025 Feb;145(2):383-392.e3"
+      },
+      "tekst": {
+        "nl": "CLINICOPATHOLOGICALLY DEFINED NEVUS SUBTYPES AND MELANOMA RISK",
+        "en": "CLINICOPATHOLOGICALLY DEFINED NEVUS SUBTYPES AND MELANOMA RISK",
+        "fr": "CLINICOPATHOLOGICALLY DEFINED NEVUS SUBTYPES AND MELANOMA RISK"
+      },
+      "bevindingen": {
+        "nl": "Klinisch en histopathologisch gedefinieerde naevussubtypes verschillen duidelijk in hun geassocieerde melanoomrisico. Deze stratificatie verfijnt risicobeoordeling en ondersteunt een meer gerichte follow up van patiënten.",
+        "en": "Clinically and histopathologically defined nevus subtypes show meaningful differences in their associated melanoma risk. This stratification refines risk assessment and supports more tailored patient surveillance.",
+        "fr": "Les sous types de nævus définis sur des bases cliniques et histopathologiques présentent des niveaux de risque de mélanome distincts. Cette différenciation améliore l’évaluation du risque et permet un suivi plus ciblé des patients."
+      }
+    },
+    {
+      "category": "Huidkanker",
+      "titel": {
+        "nl": "Meertens A, Van Coile L, Van Iseghem T, Brochez L, Verhaeghe N, Hoorens I. ",
+        "en": "Meertens A, Van Coile L, Van Iseghem T, Brochez L, Verhaeghe N, Hoorens I. ",
+        "fr": "Meertens A, Van Coile L, Van Iseghem T, Brochez L, Verhaeghe N, Hoorens I. "
+      },
+      "meta": {
+        "nl": "Pharmacoeconomics. 2024 Jul;42(7):751-765. ",
+        "en": "Pharmacoeconomics. 2024 Jul;42(7):751-765. ",
+        "fr": "Pharmacoeconomics. 2024 Jul;42(7):751-765. "
+      },
+      "tekst": {
+        "nl": "COST-OF-ILLNESS OF SKIN CANCER: A SYSTEMATIC REVIEW",
+        "en": "COST-OF-ILLNESS OF SKIN CANCER: A SYSTEMATIC REVIEW",
+        "fr": "COST-OF-ILLNESS OF SKIN CANCER: A SYSTEMATIC REVIEW"
+      },
+      "bevindingen": {
+        "nl": "De economische last van huidkanker is aanzienlijk en omvat directe medische kosten, opvolging en indirecte kosten zoals productiviteitsverlies. Deze systematische review toont grote variatie tussen landen en benadrukt het belang van preventie en vroege detectie vanuit gezondheidseconomisch perspectief.",
+        "en": "The cost of illness associated with skin cancer is substantial and includes direct medical costs, follow up care, and indirect costs such as productivity loss. This systematic review reveals considerable variation across countries and highlights prevention and early detection as key economic priorities.",
+        "fr": "Le coût de la maladie lié aux cancers cutanés est élevé et comprend les coûts médicaux directs, le suivi et les coûts indirects tels que la perte de productivité. Cette revue systématique met en évidence une forte variabilité entre pays et souligne l’intérêt économique de la prévention et du dépistage précoce."
+      }
+    },
+    {
+      "category": "alopecia_areata",
+      "titel": {
+        "nl": "van Caelenberg E, Belpaire A, Dewaele D, Vanden Broucke L, Hoorens I, Neudakh L, Van Maelsaeke E, Boone B, Speeckaert M, van Geel N, Speeckaert R. ",
+        "en": "van Caelenberg E, Belpaire A, Dewaele D, Vanden Broucke L, Hoorens I, Neudakh L, Van Maelsaeke E, Boone B, Speeckaert M, van Geel N, Speeckaert R. ",
+        "fr": "van Caelenberg E, Belpaire A, Dewaele D, Vanden Broucke L, Hoorens I, Neudakh L, Van Maelsaeke E, Boone B, Speeckaert M, van Geel N, Speeckaert R. "
+      },
+      "meta": {
+        "nl": "Clin Exp Dermatol. 2026 Jan 28:llag043. ",
+        "en": "Clin Exp Dermatol. 2026 Jan 28:llag043. ",
+        "fr": "Clin Exp Dermatol. 2026 Jan 28:llag043. "
+      },
+      "tekst": {
+        "nl": "THE RELIABILITY AND SMALLEST DETECTABLE DIFFERENCE OF THE SALT SCORE IN ALOPECIA AREATA",
+        "en": "THE RELIABILITY AND SMALLEST DETECTABLE DIFFERENCE OF THE SALT SCORE IN ALOPECIA AREATA",
+        "fr": "THE RELIABILITY AND SMALLEST DETECTABLE DIFFERENCE OF THE SALT SCORE IN ALOPECIA AREATA"
+      },
+      "bevindingen": {
+        "nl": "De SALT score bij alopecia areata blijkt een betrouwbare meetmethode met een goed gedefinieerde kleinste detecteerbare verandering. Dit ondersteunt het gebruik van de SALT score voor het opvolgen van ziekteactiviteit en behandelrespons in zowel klinische praktijk als onderzoek.",
+        "en": "The SALT score in alopecia areata demonstrates good reliability and a clearly defined smallest detectable difference. This supports its use for monitoring disease activity and treatment response in both clinical practice and research.",
+        "fr": "Le score SALT dans l’alopécie areata montre une bonne fiabilité ainsi qu’une plus petite différence détectable bien définie. Ces résultats soutiennent son utilisation pour le suivi de l’activité de la maladie et de la réponse au traitement en pratique clinique et en recherche."
+      }
+    },
+    {
+      "category": "Vitiligo",
+      "titel": {
+        "nl": "Delbaere L, Vanden Broucke L, Wolkerstorfer A, Prinsen CAC, Passeron T, Ezzedine K, Seneschal J, Speeckaert R, van Geel N. ",
+        "en": "Delbaere L, Vanden Broucke L, Wolkerstorfer A, Prinsen CAC, Passeron T, Ezzedine K, Seneschal J, Speeckaert R, van Geel N. ",
+        "fr": "Delbaere L, Vanden Broucke L, Wolkerstorfer A, Prinsen CAC, Passeron T, Ezzedine K, Seneschal J, Speeckaert R, van Geel N. "
+      },
+      "meta": {
+        "nl": "J Dermatolog Treat. 2025 Dec;36(1):2572655. ",
+        "en": "J Dermatolog Treat. 2025 Dec;36(1):2572655. ",
+        "fr": "J Dermatolog Treat. 2025 Dec;36(1):2572655. "
+      },
+      "tekst": {
+        "nl": "A COLLABORATIVE INITIATIVE OF WORLDWIDE VITILIGO EXPERTS AND PATIENTS TO DEFINE VITILIGO ACTIVITY (ACTIVE): STUDY PROTOCOL",
+        "en": "A COLLABORATIVE INITIATIVE OF WORLDWIDE VITILIGO EXPERTS AND PATIENTS TO DEFINE VITILIGO ACTIVITY (ACTIVE): STUDY PROTOCOL",
+        "fr": "A COLLABORATIVE INITIATIVE OF WORLDWIDE VITILIGO EXPERTS AND PATIENTS TO DEFINE VITILIGO ACTIVITY (ACTIVE): STUDY PROTOCOL"
+      },
+      "bevindingen": {
+        "nl": "Een internationale samenwerking tussen vitiligo experts en patiënten beschrijft een protocol om ziekteactiviteit bij vitiligo eenduidig te definiëren. Dit moet leiden tot beter vergelijkbare uitkomstmaten voor klinische studies en tot meer consistente besluitvorming in de praktijk.",
+        "en": "A global collaboration between vitiligo experts and patients presents a study protocol to define disease activity in vitiligo in a standardized way. This aims to improve comparability of clinical trial outcomes and support more consistent clinical decision making.",
+        "fr": "Une collaboration internationale entre experts et patients atteints de vitiligo propose un protocole visant à définir de manière standardisée l’activité de la maladie. L’objectif est d’améliorer la comparabilité des critères d’évaluation et d’harmoniser la prise de décision clinique."
+      }
+    },
+    {
+      "category": "Vitiligo",
+      "titel": {
+        "nl": "Speeckaert R, Seneschal J, Wolkerstorfer A, van Geel N. ",
+        "en": "Speeckaert R, Seneschal J, Wolkerstorfer A, van Geel N. ",
+        "fr": "Speeckaert R, Seneschal J, Wolkerstorfer A, van Geel N. "
+      },
+      "meta": {
+        "nl": "J Eur Acad Dermatol Venereol. 2025 Oct 28. doi: 10.1111/jdv.70133. ",
+        "en": "J Eur Acad Dermatol Venereol. 2025 Oct 28. doi: 10.1111/jdv.70133. ",
+        "fr": "J Eur Acad Dermatol Venereol. 2025 Oct 28. doi: 10.1111/jdv.70133. "
+      },
+      "tekst": {
+        "nl": "PERSONALIZED MEDICINE IN VITILIGO: A GUIDE FOR DAILY PRACTICE",
+        "en": "PERSONALIZED MEDICINE IN VITILIGO: A GUIDE FOR DAILY PRACTICE",
+        "fr": "PERSONALIZED MEDICINE IN VITILIGO: A GUIDE FOR DAILY PRACTICE"
+      },
+      "bevindingen": {
+        "nl": "Gepersonaliseerde zorg bij vitiligo vraagt een praktische vertaling van ziekteactiviteit, uitgebreidheid en patiëntverwachtingen naar dagelijkse behandelkeuzes. Het artikel biedt een klinisch hanteerbaar kader om therapieën beter af te stemmen op het individuele ziekteverloop.",
+        "en": "Personalized medicine in vitiligo requires translating disease activity, extent, and patient priorities into everyday treatment decisions. This guide provides a practical clinical framework to better align therapy with individual disease course.",
+        "fr": "La médecine personnalisée dans le vitiligo repose sur l’intégration de l’activité de la maladie, de son étendue et des attentes des patients dans les décisions thérapeutiques quotidiennes. Ce guide propose un cadre pratique pour adapter plus finement les traitements au profil individuel de la maladie."
+      }
+    },
+    {
+      "category": "alopecia_areata",
+      "titel": {
+        "nl": "Van Caelenberg E, Belpaire A, van Geel N, Speeckaert R. ",
+        "en": "Van Caelenberg E, Belpaire A, van Geel N, Speeckaert R. ",
+        "fr": "Van Caelenberg E, Belpaire A, van Geel N, Speeckaert R. "
+      },
+      "meta": {
+        "nl": "A META-ANALYSIS OF CHEMOKINES IN ALOPECIA AREATA: RECRUITING IMMUNE CELLS TOWARD THE HAIR FOLLICLE",
+        "en": "A META-ANALYSIS OF CHEMOKINES IN ALOPECIA AREATA: RECRUITING IMMUNE CELLS TOWARD THE HAIR FOLLICLE",
+        "fr": "A META-ANALYSIS OF CHEMOKINES IN ALOPECIA AREATA: RECRUITING IMMUNE CELLS TOWARD THE HAIR FOLLICLE"
+      },
+      "tekst": {
+        "nl": "A META-ANALYSIS OF CHEMOKINES IN ALOPECIA AREATA: RECRUITING IMMUNE CELLS TOWARD THE HAIR FOLLICLE",
+        "en": "A META-ANALYSIS OF CHEMOKINES IN ALOPECIA AREATA: RECRUITING IMMUNE CELLS TOWARD THE HAIR FOLLICLE",
+        "fr": "A META-ANALYSIS OF CHEMOKINES IN ALOPECIA AREATA: RECRUITING IMMUNE CELLS TOWARD THE HAIR FOLLICLE"
+      },
+      "bevindingen": {
+        "nl": "Chemokines spelen een centrale rol in alopecia areata door gerichte recrutering van immuuncellen naar de haarfollikel. Deze meta analyse verduidelijkt welke chemokines consistent betrokken zijn en onderstreept hun potentieel als therapeutisch doelwit.",
+        "en": "Chemokines play a key role in alopecia areata by directing immune cell recruitment toward the hair follicle. This meta analysis identifies consistently implicated chemokines and highlights their potential as therapeutic targets.",
+        "fr": "Les chimiokines occupent une place centrale dans l’alopécie areata en favorisant le recrutement des cellules immunitaires vers le follicule pileux. Cette méta analyse identifie les chimiokines impliquées de manière récurrente et souligne leur potentiel en tant que cibles thérapeutiques."
+      }
+    },
+    {
+      "category": "Vitiligo",
+      "titel": {
+        "nl": "Belpaire A, Demeyer A, Berrevoet D, Van Nieuwerburgh F, Van Caelenberg E, Papageorgiou T, van Geel N, Speeckaert R. ",
+        "en": "Belpaire A, Demeyer A, Berrevoet D, Van Nieuwerburgh F, Van Caelenberg E, Papageorgiou T, van Geel N, Speeckaert R. ",
+        "fr": "Belpaire A, Demeyer A, Berrevoet D, Van Nieuwerburgh F, Van Caelenberg E, Papageorgiou T, van Geel N, Speeckaert R. "
+      },
+      "meta": {
+        "nl": "J Invest Dermatol. 2026 Feb;146(2):393-404.e1. ",
+        "en": "J Invest Dermatol. 2026 Feb;146(2):393-404.e1. ",
+        "fr": "J Invest Dermatol. 2026 Feb;146(2):393-404.e1. "
+      },
+      "tekst": {
+        "nl": "DOWNREGULATED ARYL HYDROCARBON RECEPTOR EXPRESSION IS LINKED WITH INCREASED IFN-GAMMA PRODUCTION AND IMPAIRED IMMUNE CHECKPOINT UPREGULATION IN VITILIGO",
+        "en": "DOWNREGULATED ARYL HYDROCARBON RECEPTOR EXPRESSION IS LINKED WITH INCREASED IFN-GAMMA PRODUCTION AND IMPAIRED IMMUNE CHECKPOINT UPREGULATION IN VITILIGO",
+        "fr": "DOWNREGULATED ARYL HYDROCARBON RECEPTOR EXPRESSION IS LINKED WITH INCREASED IFN-GAMMA PRODUCTION AND IMPAIRED IMMUNE CHECKPOINT UPREGULATION IN VITILIGO"
+      },
+      "bevindingen": {
+        "nl": "Verlaagde expressie van de aryl hydrocarbon receptor bij vitiligo gaat gepaard met verhoogde IFN gamma productie en gestoorde regulatie van immuuncheckpoints. Dit wijst op een ontregelde immuunbalans die bijdraagt aan persisterende auto immuunactiviteit.",
+        "en": "Reduced aryl hydrocarbon receptor expression in vitiligo is associated with increased IFN gamma production and impaired upregulation of immune checkpoints. These findings point to a dysregulated immune balance contributing to sustained autoimmune activity.",
+        "fr": "La diminution de l’expression du récepteur des hydrocarbures aromatiques dans le vitiligo est associée à une augmentation de la production d’IFN gamma et à une régulation déficiente des points de contrôle immunitaires. Ces résultats suggèrent un déséquilibre immunitaire favorisant une activité auto immune persistante."
+      }
+    },
+    {
+      "category": "alopecia_areata",
+      "titel": {
+        "nl": "Delrue C, Belpaire A, Delanghe S, Oyaert M, De Bruyne S, Speeckaert MM, Speeckaert R. ",
+        "en": "Delrue C, Belpaire A, Delanghe S, Oyaert M, De Bruyne S, Speeckaert MM, Speeckaert R. ",
+        "fr": "Delrue C, Belpaire A, Delanghe S, Oyaert M, De Bruyne S, Speeckaert MM, Speeckaert R. "
+      },
+      "meta": {
+        "nl": "Diagnostics (Basel). 2025 May 29;15(11):1369. ",
+        "en": "Diagnostics (Basel). 2025 May 29;15(11):1369. ",
+        "fr": "Diagnostics (Basel). 2025 May 29;15(11):1369. "
+      },
+      "tekst": {
+        "nl": "SERUM-BASED ASSESSMENT OF ALOPECIA AREATA RESPONSE TO TREATMENT USING ATR-FTIR SPECTROSCOPY",
+        "en": "SERUM-BASED ASSESSMENT OF ALOPECIA AREATA RESPONSE TO TREATMENT USING ATR-FTIR SPECTROSCOPY",
+        "fr": "SERUM-BASED ASSESSMENT OF ALOPECIA AREATA RESPONSE TO TREATMENT USING ATR-FTIR SPECTROSCOPY"
+      },
+      "bevindingen": {
+        "nl": "Serumgebaseerde vibratiespectroscopie met ATR FTIR maakt het mogelijk om behandelrespons bij alopecia areata objectief te detecteren. Deze benadering suggereert dat moleculaire vingerafdrukken in serum klinische veranderingen kunnen weerspiegelen.",
+        "en": "Serum based ATR FTIR spectroscopy enables objective assessment of treatment response in alopecia areata. The findings suggest that serum molecular fingerprints can reflect clinically relevant changes.",
+        "fr": "L’utilisation de la spectroscopie ATR FTIR sur sérum permet une évaluation objective de la réponse au traitement dans l’alopécie areata. Cette approche montre que des signatures moléculaires sériques peuvent refléter l’évolution clinique."
+      }
+    },
+    {
+      "category": "alopecia_areata",
+      "titel": {
+        "nl": "Belpaire A, Demeyer A, Van Caelenberg E, van Geel N, Speeckaert R. ",
+        "en": "Belpaire A, Demeyer A, Van Caelenberg E, van Geel N, Speeckaert R. ",
+        "fr": "Belpaire A, Demeyer A, Van Caelenberg E, van Geel N, Speeckaert R. "
+      },
+      "meta": {
+        "nl": "J Transl Autoimmun. 2025 Mar 7;10:100282. ",
+        "en": "J Transl Autoimmun. 2025 Mar 7;10:100282. ",
+        "fr": "J Transl Autoimmun. 2025 Mar 7;10:100282. "
+      },
+      "tekst": {
+        "nl": "THE AHR PATHWAY IS DYSREGULATED IN ALOPECIA AREATA",
+        "en": "THE AHR PATHWAY IS DYSREGULATED IN ALOPECIA AREATA",
+        "fr": "THE AHR PATHWAY IS DYSREGULATED IN ALOPECIA AREATA"
+      },
+      "bevindingen": {
+        "nl": "De AHR signaalroute is ontregeld bij alopecia areata en vertoont duidelijke afwijkingen in immuunregulatie. Dit suggereert een rol voor AHR in het onderhoud van auto inflammatoire processen rond de haarfollikel.",
+        "en": "The AHR pathway is shown to be dysregulated in alopecia areata, with clear alterations in immune regulation. These findings indicate a role for AHR in sustaining autoimmune inflammation around the hair follicle.",
+        "fr": "La voie de signalisation AHR est altérée dans l’alopécie areata et s’accompagne de perturbations de la régulation immunitaire. Ces données suggèrent une implication de l’AHR dans le maintien de l’inflammation auto immune autour du follicule pileux."
+      }
+    },
+    {
+      "category": "Vitiligo",
+      "titel": {
+        "nl": "Speeckaert R, Wang L, van Geel N. ",
+        "en": "Speeckaert R, Wang L, van Geel N. ",
+        "fr": "Speeckaert R, Wang L, van Geel N. "
+      },
+      "meta": {
+        "nl": "Clin Exp Dermatol. 2025 Jan 27;50(2):446-448. ",
+        "en": "Clin Exp Dermatol. 2025 Jan 27;50(2):446-448. ",
+        "fr": "Clin Exp Dermatol. 2025 Jan 27;50(2):446-448. "
+      },
+      "tekst": {
+        "nl": "REPIGMENTATION IN FACIAL VITILIGO DEPENDS ON THE AFFECTED AREAS",
+        "en": "REPIGMENTATION IN FACIAL VITILIGO DEPENDS ON THE AFFECTED AREAS",
+        "fr": "REPIGMENTATION IN FACIAL VITILIGO DEPENDS ON THE AFFECTED AREAS"
+      },
+      "bevindingen": {
+        "nl": "Repigmentatie bij gelaatsvitiligo verschilt duidelijk tussen afzonderlijke anatomische zones van het gezicht. Dit wijst erop dat lokale factoren een belangrijke rol spelen in behandelrespons en prognose.",
+        "en": "Repigmentation in facial vitiligo varies significantly according to the specific facial areas involved. This suggests that local biological factors influence treatment response and clinical outcome.",
+        "fr": "La repigmentation du vitiligo facial varie nettement selon les zones du visage atteintes. Ces observations indiquent que des facteurs locaux modulent la réponse au traitement et le pronostic."
+      }
+    },
+    {
+      "category": "Vitiligo",
+      "titel": {
+        "nl": "Duponselle J, Herbelet S, Delbaere L, De Schryver Z, Terwee CB, Wolkerstorfer A, Seneschal J, Spuls P, Garg A, Hamzavi I, Speeckaert R, van Geel N. ",
+        "en": "Duponselle J, Herbelet S, Delbaere L, De Schryver Z, Terwee CB, Wolkerstorfer A, Seneschal J, Spuls P, Garg A, Hamzavi I, Speeckaert R, van Geel N. ",
+        "fr": "Duponselle J, Herbelet S, Delbaere L, De Schryver Z, Terwee CB, Wolkerstorfer A, Seneschal J, Spuls P, Garg A, Hamzavi I, Speeckaert R, van Geel N. "
+      },
+      "meta": {
+        "nl": "Pigment Cell Melanoma Res. 2025 May;38(3):e70014. ",
+        "en": "Pigment Cell Melanoma Res. 2025 May;38(3):e70014. ",
+        "fr": "Pigment Cell Melanoma Res. 2025 May;38(3):e70014. "
+      },
+      "tekst": {
+        "nl": "QUALITY ANALYSIS OF MEASUREMENT PROPERTIES OF PATIENT-REPORTED OUTCOME MEASURES FOR VITILIGO AND OF THE STUDIES ASSESSING THEM: A SYSTEMATIC REVIEW",
+        "en": "QUALITY ANALYSIS OF MEASUREMENT PROPERTIES OF PATIENT-REPORTED OUTCOME MEASURES FOR VITILIGO AND OF THE STUDIES ASSESSING THEM: A SYSTEMATIC REVIEW",
+        "fr": "QUALITY ANALYSIS OF MEASUREMENT PROPERTIES OF PATIENT-REPORTED OUTCOME MEASURES FOR VITILIGO AND OF THE STUDIES ASSESSING THEM: A SYSTEMATIC REVIEW"
+      },
+      "bevindingen": {
+        "nl": "De kwaliteit van patiëntgerapporteerde uitkomstmaten voor vitiligo en van de studies die deze evalueren blijkt wisselend. Deze systematische review benadrukt de nood aan beter gevalideerde instrumenten voor betrouwbaar gebruik in onderzoek en klinische praktijk.",
+        "en": "The quality of patient reported outcome measures for vitiligo and of the studies evaluating them is found to be variable. This systematic review highlights the need for more rigorously validated instruments for use in research and clinical care.",
+        "fr": "La qualité des mesures de résultats rapportés par les patients dans le vitiligo ainsi que celle des études qui les évaluent est hétérogène. Cette revue systématique souligne la nécessité d’outils mieux validés pour une utilisation fiable en recherche et en pratique clinique."
+      }
+    },
+    {
+      "category": "Huidkanker",
+      "titel": {
+        "nl": "Van Coile L, Mangnus JE, Backman E, Kelleners-Smeets NWJ, Lubeek SFK, Hoorens I. ",
+        "en": "Van Coile L, Mangnus JE, Backman E, Kelleners-Smeets NWJ, Lubeek SFK, Hoorens I. ",
+        "fr": "Van Coile L, Mangnus JE, Backman E, Kelleners-Smeets NWJ, Lubeek SFK, Hoorens I. "
+      },
+      "meta": {
+        "nl": "J Eur Acad Dermatol Venereol. 2025 Jul 31. ",
+        "en": "J Eur Acad Dermatol Venereol. 2025 Jul 31. ",
+        "fr": "J Eur Acad Dermatol Venereol. 2025 Jul 31. "
+      },
+      "tekst": {
+        "nl": "ACTIVE SURVEILLANCE IN OLDER ADULTS WITH BASAL CELL CARCINOMA: A SURVEY AMONGST EUROPEAN DERMATOLOGISTS",
+        "en": "ACTIVE SURVEILLANCE IN OLDER ADULTS WITH BASAL CELL CARCINOMA: A SURVEY AMONGST EUROPEAN DERMATOLOGISTS",
+        "fr": "ACTIVE SURVEILLANCE IN OLDER ADULTS WITH BASAL CELL CARCINOMA: A SURVEY AMONGST EUROPEAN DERMATOLOGISTS"
+      },
+      "bevindingen": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      }
+    },
+    {
+      "category": "Psoriasis,Huidkanker",
+      "titel": {
+        "nl": "Lambert J, Lambert J, Roegies K, Nikkels A, Garmyn M, Snauwaert J, Willaert F, Bouffioux B, Hoorens I, Vossaert K, Gutermuth J, Del Marmol V. ",
+        "en": "Lambert J, Lambert J, Roegies K, Nikkels A, Garmyn M, Snauwaert J, Willaert F, Bouffioux B, Hoorens I, Vossaert K, Gutermuth J, Del Marmol V. ",
+        "fr": "Lambert J, Lambert J, Roegies K, Nikkels A, Garmyn M, Snauwaert J, Willaert F, Bouffioux B, Hoorens I, Vossaert K, Gutermuth J, Del Marmol V. "
+      },
+      "meta": {
+        "nl": "J Eur Acad Dermatol Venereol. 2025 Mar;39(3):e204-e205. ",
+        "en": "J Eur Acad Dermatol Venereol. 2025 Mar;39(3):e204-e205. ",
+        "fr": "J Eur Acad Dermatol Venereol. 2025 Mar;39(3):e204-e205. "
+      },
+      "tekst": {
+        "nl": "THE DOCTOR WILL SEE YOU NOW, IN 4 MONTHS: A BELGIAN PERSPECTIVE ON WAITING TIMES FOR DERMATOLOGIC CARE",
+        "en": "THE DOCTOR WILL SEE YOU NOW, IN 4 MONTHS: A BELGIAN PERSPECTIVE ON WAITING TIMES FOR DERMATOLOGIC CARE",
+        "fr": "THE DOCTOR WILL SEE YOU NOW, IN 4 MONTHS: A BELGIAN PERSPECTIVE ON WAITING TIMES FOR DERMATOLOGIC CARE"
+      },
+      "bevindingen": {
+        "nl": "Actieve opvolging bij oudere patiënten met basaalcelcarcinoom wordt door Europese dermatologen gezien als een aanvaardbare optie in geselecteerde gevallen. De bereidheid tot deze aanpak hangt samen met patiëntleeftijd tumorkenmerken en verwachte levensduur.",
+        "en": "Active surveillance in older adults with basal cell carcinoma is considered an acceptable option by European dermatologists in selected cases. Willingness to adopt this strategy depends on patient age tumor characteristics and estimated life expectancy.",
+        "fr": "La surveillance active chez les patients âgés atteints de carcinome basocellulaire est considérée comme une option acceptable dans des cas sélectionnés par les dermatologues européens. Cette approche dépend de l’âge du patient des caractéristiques tumorales et de l’espérance de vie estimée."
+      }
+    }
+  ],
+  "pubCategories": [
+    {
+      "key": "all",
+      "label": {
+        "nl": "Alle",
+        "en": "All",
+        "fr": "Tous"
+      }
+    },
+    {
+      "key": "psoriasis",
+      "label": {
+        "nl": "Psoriasis",
+        "en": "Psoriasis",
+        "fr": "Psoriasis"
+      }
+    },
+    {
+      "key": "vitiligo",
+      "label": {
+        "nl": "Vitiligo",
+        "en": "Vitiligo",
+        "fr": "Vitiligo"
+      }
+    },
+    {
+      "key": "huidkanker",
+      "label": {
+        "nl": "Huidkanker",
+        "en": "Skin cancer",
+        "fr": "Cancer de la peau"
+      }
+    },
+    {
+      "key": "alopecia_areata",
+      "label": {
+        "nl": "Alopecia areata",
+        "en": "Alopecia areata",
+        "fr": "Alopecia areata"
+      }
+    }
+  ],
+  "teamCategories": [
+    {
+      "key": "all",
+      "label": {
+        "nl": "Alle",
+        "en": "All",
+        "fr": "Tous"
+      }
+    },
+    {
+      "key": "psoriasis",
+      "label": {
+        "nl": "Psoriasis",
+        "en": "Psoriasis",
+        "fr": "Psoriasis"
+      }
+    },
+    {
+      "key": "vitiligo",
+      "label": {
+        "nl": "Vitiligo",
+        "en": "Vitiligo",
+        "fr": "Vitiligo"
+      }
+    },
+    {
+      "key": "huidkanker",
+      "label": {
+        "nl": "Huidkanker",
+        "en": "Skin cancer",
+        "fr": "Cancer de la peau"
+      }
+    },
+    {
+      "key": "alopecia_areata",
+      "label": {
+        "nl": "Alopecia areata",
+        "en": "Alopecia areata",
+        "fr": "Alopecia areata"
+      }
+    }
+  ],
+  "i18n": {
+    "nl": {
+      "fund_intro_public": "Het Fonds Paul De Corte verleent financiële steun aan wetenschappelijk onderzoek dat de zorg voor patiënten met chronische huidziekten verbetert. Het slaat een brug tussen wetenschap, patiënten en zorg. Daarnaast ijvert het fonds voor meer maatschappelijke bewustwording over de belastende impact van chronische huidziekten.",
+      "fund_intro_pro": "Het Fonds Paul De Corte verleent financiële steun aan wetenschappelijk onderzoek dat de zorg voor patiënten met chronische huidziekten verbetert. Het slaat een brug tussen wetenschap, patiënten en zorg. Daarnaast ijvert het fonds voor meer maatschappelijke bewustwording over de belastende impact van chronische huidziekten.",
+      "fund_initiatives_title_public": "Initiatieven",
+      "fund_initiatives_title_pro": "Initiatieven",
+      "fund_initiatives_lead_public": "Het Fonds Paul De Corte zamelt geld in voor:",
+      "fund_initiatives_lead_pro": "Het Fonds Paul De Corte zamelt geld in voor::",
+      "fund_init_1_public": "Werkingsmiddelen voor klinisch, fundamenteel, translationeel of toegepast wetenschappelijk onderzoek.",
+      "fund_init_1_pro": "Werkingsmiddelen voor klinisch, fundamenteel, translationeel of toegepast wetenschappelijk onderzoek.",
+      "fund_init_2_public": "Investeringen in technologische innovatie en infrastructuur.",
+      "fund_init_2_pro": "Investeringen in technologische innovatie en infrastructuur.",
+      "fund_init_3_public": "Organisatie van opleidingen, workshops, symposia, congressen en informatiesessies over chronische inflammatoire huidaandoeningen, gericht op onderzoekers, zorgverleners of patiënten.",
+      "fund_init_3_pro": "Organisatie van opleidingen, workshops, symposia, congressen en informatiesessies over chronische inflammatoire huidaandoeningen, gericht op onderzoekers, zorgverleners of patiënten.",
+      "fund_init_4_public": "Initiatieven die het comfort van patiënten met een chronische inflammatoire huidaandoening verbeteren (bv. telemonitoring).",
+      "fund_init_4_pro": "Initiatieven die het comfort van patiënten met een chronische inflammatoire huidaandoening verbeteren (bv. telemonitoring).",
+      "fund_init_5_public": "Activiteiten die de bewustwording over chronische inflammatoire huidaandoeningen bij het brede publiek vergroten.",
+      "fund_init_5_pro": "Activiteiten die de bewustwording over chronische inflammatoire huidaandoeningen bij het brede publiek vergroten.",
+      "fund_init_6_public": "Initiatieven voor meer patiëntenparticipatie in onderzoek. We zoeken patiënten voor wetenschappelijke studies maar ook om het onderzoek mee vorm te geven.",
+      "fund_init_6_pro": "Initiatieven voor meer patiëntenparticipatie in onderzoek. We zoeken patiënten voor wetenschappelijke studies maar ook om het onderzoek mee vorm te geven.",
+      "fund_init_7_public": "Beheer van de biobank (opslag van menselijk lichaamsmateriaal voor onderzoek).",
+      "fund_init_7_pro": "Beheer van de biobank (opslag van menselijk lichaamsmateriaal voor onderzoek).",
+      "fund_init_8_public": "De verdere ontwikkeling van een multidisciplinair zorgmodel.",
+      "fund_init_8_pro": "De verdere ontwikkeling van een multidisciplinair zorgmodel.",
+      "fund_init_9_public": "De ontwikkeling of aankoop van hardware en software voor onderzoek en de klinische praktijk.",
+      "fund_init_9_pro": "De ontwikkeling of aankoop van hardware en software voor onderzoek en de klinische praktijk.",
+      "fund_init_10_public": "Teambuilding en teaminterventies.",
+      "fund_init_10_pro": "Teambuilding en teaminterventies.",
+      "fund_events_title_public": "Volgende infoavonden en activiteiten",
+      "fund_events_title_pro": "Volgende infoavonden en activiteiten",
+      "fund_event_1_public": "Webinar vitiligo: datum volgt",
+      "fund_event_1_pro": "Webinar vitiligo: datum volgt",
+      "fund_sponsors_title_public": "Structurele sponsors",
+      "fund_sponsors_title_pro": "Structurele sponsors",
+      "fund_sponsor_1_public": "Structurele sponsor van het Fonds Paul De Corte in 2025: Aveeno",
+      "fund_sponsor_1_pro": "Structurele sponsor van het Fonds Paul De Corte in 2025: Aveeno",
+      "fund_support_title_public": "Steun het fonds",
+      "fund_support_title_pro": "Steun het fonds",
+      "fund_support_1_public": "Ook jij kan je steentje bijdragen met giften, schenkingen en legaten.",
+      "fund_support_1_pro": "Ook jij kan je steentje bijdragen met giften, schenkingen en legaten.",
+      "fund_support_2_public": "Giften zijn welkom op rekeningnummer BE43 0018 8459 3701 met referentie ‘fiscaal attest FS/DER/001’.",
+      "fund_support_2_pro": "Giften zijn welkom op rekeningnummer BE43 0018 8459 3701 met referentie ‘fiscaal attest FS/DER/001’.",
+      "fund_support_3_public": "Vermeld ook zeker je rijksregisternummer (als je een Belgisch rijksregisternummer hebt).",
+      "fund_support_3_pro": "Vermeld ook zeker je rijksregisternummer (als je een Belgisch rijksregisternummer hebt).",
+      "fund_support_4_public": "Je kan je gift ook veilig online doen.",
+      "fund_support_4_pro": "Je kan je gift ook veilig online doen.",
+      "fund_support_5_public": "Let wel: de toepassing om online te schenken werkt alleen via een recente browser zoals Google Chrome, Microsoft Edge, Firefox of Safari.",
+      "fund_support_5_pro": "Let wel: de toepassing om online te schenken werkt alleen via een recente browser zoals Google Chrome, Microsoft Edge, Firefox of Safari.",
+      "fund_support_6_public": "Voor bedragen boven de 40 euro voorzien we een fiscaal attest.",
+      "fund_support_6_pro": "Voor bedragen boven de 40 euro voorzien we een fiscaal attest.",
+      "fund_support_7_public": "De wetgeving van de FOD Financiën (artikel 323/3 §3 van het Wetboek van de Inkomstenbelastingen 1992) verplicht ons om je rijksregisternummer te vermelden bij giften.",
+      "fund_support_7_pro": "De wetgeving van de FOD Financiën (artikel 323/3 §3 van het Wetboek van de Inkomstenbelastingen 1992) verplicht ons om je rijksregisternummer te vermelden bij giften.",
+      "fund_support_8_public": "Zo wordt je gift aan je belastingaangifte gekoppeld en geniet je van de fiscale aftrekbaarheid bij giften vanaf 40 euro.",
+      "fund_support_8_pro": "Zo wordt je gift aan je belastingaangifte gekoppeld en geniet je van de fiscale aftrekbaarheid bij giften vanaf 40 euro.",
+      "lang_label": "",
+      "nav_news": "Nieuws",
+      "nav_research": "Academisch onderzoek",
+      "nav_trials": "Klinische trials",
+      "nav_fund": "Fonds Paul De Corte",
+      "nav_pubs": "Publicaties",
+      "nav_team": "Team",
+      "nav_contact": "Contact",
+      "hero_title": "Onderzoeksgroep Huidziekten UZ Gent/UGent",
+      "hero_sub": "Van translationeel en klinisch huidonderzoek naar tastbare verbeteringen",
+      "sec_news": "Nieuws",
+      "sec_research": "Onderzoekslijnen",
+      "sec_trials": "Klinische trials",
+      "sec_fund": "Fonds Paul De Corte",
+      "sec_pubs": "Publicaties",
+      "sec_team": "Team",
+      "sec_contact": "Contact",
+      "research_intro": "Vul hier de inleidende tekst aan.",
+      "team_hint": " ",
+      "pub_findings_label": "Belangrijkste bevindingen",
+      "form_name": "Naam",
+      "form_email": "Email",
+      "form_message": "Bericht",
+      "form_send": "Verzenden",
+      "msg_sent": "Bericht verzonden",
+      "msg_sent_alert": "Bericht verzonden",
+      "fund_intro": "Het Fonds Paul De Corte verleent financiële steun aan wetenschappelijk onderzoek dat de zorg voor patiënten met chronische huidziekten verbetert. Het slaat een brug tussen wetenschap, patiënten en zorg. Daarnaast ijvert het fonds voor meer maatschappelijke bewustwording over de belastende impact van chronische huidziekten.",
+      "fund_initiatives_title": "Initiatieven",
+      "fund_initiatives_lead": "Het Fonds Paul De Corte zamelt geld in voor:",
+      "fund_init_1": "Werkingsmiddelen voor klinisch, fundamenteel, translationeel of toegepast wetenschappelijk onderzoek.",
+      "fund_init_2": "Investeringen in technologische innovatie en infrastructuur.",
+      "fund_init_3": "Organisatie van opleidingen, workshops, symposia, congressen en informatiesessies over chronische inflammatoire huidaandoeningen, gericht op onderzoekers, zorgverleners of patiënten.",
+      "fund_init_4": "Initiatieven die het comfort van patiënten met een chronische inflammatoire huidaandoening verbeteren (bv. telemonitoring).",
+      "fund_init_5": "Activiteiten die de bewustwording over chronische inflammatoire huidaandoeningen bij het brede publiek vergroten.",
+      "fund_init_6": "Initiatieven voor meer patiëntenparticipatie in onderzoek. We zoeken patiënten voor wetenschappelijke studies maar ook om het onderzoek mee vorm te geven.",
+      "fund_init_7": "Beheer van de biobank (opslag van menselijk lichaamsmateriaal voor onderzoek).",
+      "fund_init_8": "De verdere ontwikkeling van een multidisciplinair zorgmodel.",
+      "fund_init_9": "De ontwikkeling of aankoop van hardware en software voor onderzoek en de klinische praktijk.",
+      "fund_init_10": "Teambuilding en teaminterventies.",
+      "fund_events_title": "Volgende infoavonden en activiteiten",
+      "fund_event_1": "Webinar vitiligo: datum volgt",
+      "fund_sponsors_title": "Structurele sponsors",
+      "fund_sponsor_1": "Structurele sponsor van het Fonds Paul De Corte in 2025: Aveeno",
+      "fund_support_title": "Steun het fonds",
+      "fund_support_1": "Ook jij kan je steentje bijdragen met giften, schenkingen en legaten.",
+      "fund_support_2": "Giften zijn welkom op rekeningnummer BE43 0018 8459 3701 met referentie ‘fiscaal attest FS/DER/001’.",
+      "fund_support_3": "Vermeld ook zeker je rijksregisternummer (als je een Belgisch rijksregisternummer hebt).",
+      "fund_support_4": "Je kan je gift ook veilig online doen.",
+      "fund_support_5": "Let wel: de toepassing om online te schenken werkt alleen via een recente browser zoals Google Chrome, Microsoft Edge, Firefox of Safari.",
+      "fund_support_6": "Voor bedragen boven de 40 euro voorzien we een fiscaal attest.",
+      "fund_support_7": "De wetgeving van de FOD Financiën (artikel 323/3 §3 van het Wetboek van de Inkomstenbelastingen 1992) verplicht ons om je rijksregisternummer te vermelden bij giften.",
+      "fund_support_8": "Zo wordt je gift aan je belastingaangifte gekoppeld en geniet je van de fiscale aftrekbaarheid bij giften vanaf 40 euro.",
+      "nav_academic": "Onderzoekslijnen",
+      "lines_intro": "Vul hier de inleidende tekst aan.",
+      "academic_intro": "",
+      "sec_academic": "Academische studies",
+      "hero_sub_public": "Van translationeel en klinisch huidonderzoek naar tastbare verbeteringen",
+      "hero_sub_pro": "Van translationeel en klinisch huidonderzoek naar tastbare verbeteringen",
+      "academic_intro_public": "Ons lopend onderzoek!",
+      "academic_intro_pro": "Ons lopend onderzoek!",
+      "lines_intro_pro": "Ons onderzoek focust op de volgende domeinen:",
+      "lines_intro_public": "Ons onderzoek focust op de volgende domeinen:"
+    },
+    "en": {
+      "lang_label": "",
+      "nav_news": "News",
+      "nav_research": "Academic research",
+      "nav_trials": "Clinical trials",
+      "nav_fund": "Paul De Corte Fund",
+      "nav_pubs": "Publications",
+      "nav_team": "Team",
+      "nav_contact": "Contact",
+      "hero_title": "Research group Skin Diseases UZ Gent/UGent",
+      "hero_sub": "From translational and clinical skin research to tangible improvements",
+      "sec_news": "News",
+      "sec_research": "Research lines",
+      "sec_trials": "Clinical trials",
+      "sec_fund": "Paul De Corte Fund",
+      "sec_pubs": "Publications",
+      "sec_team": "Team",
+      "sec_contact": "Contact",
+      "research_intro": "Add the introductory text here.",
+      "team_hint": "Add people by appending an item to teamMembers in the code.",
+      "pub_findings_label": "Main findings",
+      "form_name": "Name",
+      "form_email": "Email",
+      "form_message": "Message",
+      "form_send": "Send",
+      "msg_sent": "Message sent",
+      "msg_sent_alert": "Message sent",
+      "fund_intro": "The Paul De Corte Fund provides financial support for scientific research that improves care for patients with chronic skin diseases. It builds a bridge between science, patients, and healthcare. The fund also works to raise societal awareness of the substantial burden of chronic skin diseases.",
+      "fund_initiatives_title": "Initiatives",
+      "fund_initiatives_lead": "The Paul De Corte Fund raises funds for:",
+      "fund_init_1": "Operational funding for clinical, fundamental, translational, or applied scientific research.",
+      "fund_init_2": "Investments in technological innovation and infrastructure.",
+      "fund_init_3": "Organisation of training courses, workshops, symposia, conferences, and information sessions on chronic inflammatory skin diseases, aimed at researchers, healthcare professionals, or patients.",
+      "fund_init_4": "Initiatives that improve the comfort of patients with a chronic inflammatory skin disease (e.g., telemonitoring).",
+      "fund_init_5": "Activities that increase public awareness of chronic inflammatory skin diseases.",
+      "fund_init_6": "Initiatives to strengthen patient involvement in research. We look for patients for scientific studies and also to help shape the research agenda.",
+      "fund_init_7": "Management of the biobank (storage of human biological material for research).",
+      "fund_init_8": "Further development of a multidisciplinary care model.",
+      "fund_init_9": "Development or purchase of hardware and software for research and clinical practice.",
+      "fund_init_10": "Team building and team interventions.",
+      "fund_events_title": "Upcoming information sessions and activities",
+      "fund_event_1": "Vitiligo webinar: date to be announced",
+      "fund_sponsors_title": "Structural sponsors",
+      "fund_sponsor_1": "Structural sponsor of the Paul De Corte Fund in 2025: Aveeno",
+      "fund_support_title": "Support the fund",
+      "fund_support_1": "You can also contribute through donations, gifts, and bequests.",
+      "fund_support_2": "Donations are welcome on account number BE43 0018 8459 3701 with reference “tax certificate FS/DER/001”.",
+      "fund_support_3": "Please also include your national register number (if you have a Belgian national register number).",
+      "fund_support_4": "You can also donate safely online.",
+      "fund_support_5": "Note: the online donation application only works in a recent browser such as Google Chrome, Microsoft Edge, Firefox, or Safari.",
+      "fund_support_6": "For amounts above 40 euros, we provide a tax certificate.",
+      "fund_support_7": "Belgian tax regulations (FPS Finance; Article 323/3 §3 of the Income Tax Code 1992) require us to include your national register number with donations.",
+      "fund_support_8": "This links your donation to your tax return and enables tax deductibility for donations from 40 euros.",
+      "nav_academic": "Research lines",
+      "lines_intro": "Add the introductory text here.",
+      "academic_intro": "",
+      "sec_academic": "Academic studies",
+      "academic_intro_public": "Our current reearch!",
+      "academic_intro_pro": "Our current research!",
+      "lines_intro_pro": "Our research focuses on the following areas:",
+      "lines_intro_public": "Our research focuses on the following areas:"
+    },
+    "fr": {
+      "fund_intro_public": "Le Fonds Paul De Corte apporte un soutien financier à la recherche scientifique qui améliore les soins aux patients atteints de maladies cutanées chroniques. Il crée un lien entre la science, les patients et les soignants. Le fonds œuvre aussi à renforcer la sensibilisation sociétale à la charge importante des maladies cutanées chroniques.",
+      "fund_intro_pro": "Le Fonds Paul De Corte apporte un soutien financier à la recherche scientifique qui améliore les soins aux patients atteints de maladies cutanées chroniques. Il crée un lien entre la science, les patients et les soignants. Le fonds œuvre aussi à renforcer la sensibilisation sociétale à la charge importante des maladies cutanées chroniques.",
+      "fund_initiatives_title_public": "Initiatives",
+      "fund_initiatives_title_pro": "Initiatives",
+      "fund_initiatives_lead_public": "Le Fonds Paul De Corte collecte des fonds pour :",
+      "fund_initiatives_lead_pro": "Le Fonds Paul De Corte collecte des fonds pour :",
+      "fund_init_1_public": "Fonds de fonctionnement pour la recherche clinique, fondamentale, translationnelle ou appliquée.",
+      "fund_init_1_pro": "Fonds de fonctionnement pour la recherche clinique, fondamentale, translationnelle ou appliquée.",
+      "fund_init_2_public": "Investissements dans l’innovation technologique et les infrastructures.",
+      "fund_init_2_pro": "Investissements dans l’innovation technologique et les infrastructures.",
+      "fund_init_3_public": "Organisation de formations, ateliers, symposiums, congrès et séances d’information sur les dermatoses inflammatoires chroniques, destinées aux chercheurs, soignants ou patients.",
+      "fund_init_3_pro": "Organisation de formations, ateliers, symposiums, congrès et séances d’information sur les dermatoses inflammatoires chroniques, destinées aux chercheurs, soignants ou patients.",
+      "fund_init_4_public": "Initiatives visant à améliorer le confort des patients atteints d’une dermatose inflammatoire chronique (p. ex. télésurveillance).",
+      "fund_init_4_pro": "Initiatives visant à améliorer le confort des patients atteints d’une dermatose inflammatoire chronique (p. ex. télésurveillance).",
+      "fund_init_5_public": "Activités augmentant la sensibilisation du grand public aux dermatoses inflammatoires chroniques.",
+      "fund_init_5_pro": "Activités augmentant la sensibilisation du grand public aux dermatoses inflammatoires chroniques.",
+      "fund_init_6_public": "Initiatives renforçant la participation des patients à la recherche. Nous recherchons des patients pour des études scientifiques, mais aussi pour co-construire l’agenda de recherche.",
+      "fund_init_6_pro": "Initiatives renforçant la participation des patients à la recherche. Nous recherchons des patients pour des études scientifiques, mais aussi pour co-construire l’agenda de recherche.",
+      "fund_init_7_public": "Gestion de la biobanque (stockage de matériel biologique humain pour la recherche).",
+      "fund_init_7_pro": "Gestion de la biobanque (stockage de matériel biologique humain pour la recherche).",
+      "fund_init_8_public": "Développement continu d’un modèle de soins multidisciplinaire.",
+      "fund_init_8_pro": "Développement continu d’un modèle de soins multidisciplinaire.",
+      "fund_init_9_public": "Développement ou achat de matériel et de logiciels pour la recherche et la pratique clinique.",
+      "fund_init_9_pro": "Développement ou achat de matériel et de logiciels pour la recherche et la pratique clinique.",
+      "fund_init_10_public": "Cohésion d’équipe et interventions d’équipe.",
+      "fund_init_10_pro": "Cohésion d’équipe et interventions d’équipe.",
+      "fund_events_title_public": "Prochaines séances d’information et activités",
+      "fund_events_title_pro": "Prochaines séances d’information et activités",
+      "fund_event_1_public": "Webinaire vitiligo : date à annoncer",
+      "fund_event_1_pro": "Webinaire vitiligo : date à annoncer",
+      "fund_sponsors_title_public": "Sponsors structurels",
+      "fund_sponsors_title_pro": "Sponsors structurels",
+      "fund_sponsor_1_public": "Sponsor structurel du Fonds Paul De Corte en 2025 : Aveeno",
+      "fund_sponsor_1_pro": "Sponsor structurel du Fonds Paul De Corte en 2025 : Aveeno",
+      "fund_support_title_public": "Soutenir le fonds",
+      "fund_support_title_pro": "Soutenir le fonds",
+      "fund_support_1_public": "Vous pouvez contribuer via des dons, des libéralités et des legs.",
+      "fund_support_1_pro": "Vous pouvez contribuer via des dons, des libéralités et des legs.",
+      "fund_support_2_public": "Les dons sont les bienvenus sur le compte BE43 0018 8459 3701 avec la référence « attestation fiscale FS/DER/001 ».",
+      "fund_support_2_pro": "Les dons sont les bienvenus sur le compte BE43 0018 8459 3701 avec la référence « attestation fiscale FS/DER/001 ».",
+      "fund_support_3_public": "Veuillez également indiquer votre numéro de registre national (si vous en avez un).",
+      "fund_support_3_pro": "Veuillez également indiquer votre numéro de registre national (si vous en avez un).",
+      "fund_support_4_public": "Vous pouvez aussi faire un don en ligne en toute sécurité.",
+      "fund_support_4_pro": "Vous pouvez aussi faire un don en ligne en toute sécurité.",
+      "fund_support_5_public": "Remarque : l’application de don en ligne fonctionne uniquement avec un navigateur récent comme Google Chrome, Microsoft Edge, Firefox ou Safari.",
+      "fund_support_5_pro": "Remarque : l’application de don en ligne fonctionne uniquement avec un navigateur récent comme Google Chrome, Microsoft Edge, Firefox ou Safari.",
+      "fund_support_6_public": "Pour les montants supérieurs à 40 euros, nous fournissons une attestation fiscale.",
+      "fund_support_6_pro": "Pour les montants supérieurs à 40 euros, nous fournissons une attestation fiscale.",
+      "fund_support_7_public": "La réglementation fiscale belge (SPF Finances, article 323/3 §3 du Code des impôts sur les revenus 1992) nous impose de mentionner votre numéro de registre national pour les dons.",
+      "fund_support_7_pro": "La réglementation fiscale belge (SPF Finances, article 323/3 §3 du Code des impôts sur les revenus 1992) nous impose de mentionner votre numéro de registre national pour les dons.",
+      "fund_support_8_public": "Cela relie votre don à votre déclaration fiscale et permet la déductibilité à partir de 40 euros.",
+      "fund_support_8_pro": "Cela relie votre don à votre déclaration fiscale et permet la déductibilité à partir de 40 euros.",
+      "lang_label": "",
+      "nav_news": "Actualités",
+      "nav_research": "Recherche académique",
+      "nav_trials": "Études cliniques",
+      "nav_fund": "Fonds Paul De Corte",
+      "nav_pubs": "Publications",
+      "nav_team": "Équipe",
+      "nav_contact": "Contact",
+      "hero_title": "Groupe de recherche Maladies cutanées UZ Gent/UGent",
+      "hero_sub": "De la recherche cutanée translationnelle et clinique vers des améliorations tangibles",
+      "sec_news": "Actualités",
+      "sec_research": "Études académiques",
+      "sec_trials": "Études cliniques",
+      "sec_fund": "Fonds Paul De Corte",
+      "sec_pubs": "Publications",
+      "sec_team": "Équipe",
+      "sec_contact": "Contact",
+      "research_intro": "Ajoutez ici le texte d’introduction.",
+      "team_hint": "Add people by appending an item to teamMembers in the code.",
+      "pub_findings_label": "Principaux résultats",
+      "form_name": "Nom",
+      "form_email": "E-mail",
+      "form_message": "Message",
+      "form_send": "Envoyer",
+      "msg_sent": "Message envoyé",
+      "msg_sent_alert": "Message envoyé",
+      "fund_intro": "Le Fonds Paul De Corte apporte un soutien financier à la recherche scientifique qui améliore les soins aux patients atteints de maladies cutanées chroniques. Il crée un lien entre la science, les patients et les soignants. Le fonds œuvre aussi à renforcer la sensibilisation sociétale à la charge importante des maladies cutanées chroniques.",
+      "fund_initiatives_title": "Initiatives",
+      "fund_initiatives_lead": "Le Fonds Paul De Corte collecte des fonds pour :",
+      "fund_init_1": "Fonds de fonctionnement pour la recherche clinique, fondamentale, translationnelle ou appliquée.",
+      "fund_init_2": "Investissements dans l’innovation technologique et les infrastructures.",
+      "fund_init_3": "Organisation de formations, ateliers, symposiums, congrès et séances d’information sur les dermatoses inflammatoires chroniques, destinées aux chercheurs, soignants ou patients.",
+      "fund_init_4": "Initiatives visant à améliorer le confort des patients atteints d’une dermatose inflammatoire chronique (p. ex. télésurveillance).",
+      "fund_init_5": "Activités augmentant la sensibilisation du grand public aux dermatoses inflammatoires chroniques.",
+      "fund_init_6": "Initiatives renforçant la participation des patients à la recherche. Nous recherchons des patients pour des études scientifiques, mais aussi pour co-construire l’agenda de recherche.",
+      "fund_init_7": "Gestion de la biobanque (stockage de matériel biologique humain pour la recherche).",
+      "fund_init_8": "Développement continu d’un modèle de soins multidisciplinaire.",
+      "fund_init_9": "Développement ou achat de matériel et de logiciels pour la recherche et la pratique clinique.",
+      "fund_init_10": "Cohésion d’équipe et interventions d’équipe.",
+      "fund_events_title": "Prochaines séances d’information et activités",
+      "fund_event_1": "Webinaire vitiligo : date à annoncer",
+      "fund_sponsors_title": "Sponsors structurels",
+      "fund_sponsor_1": "Sponsor structurel du Fonds Paul De Corte en 2025 : Aveeno",
+      "fund_support_title": "Soutenir le fonds",
+      "fund_support_1": "Vous pouvez contribuer via des dons, des libéralités et des legs.",
+      "fund_support_2": "Les dons sont les bienvenus sur le compte BE43 0018 8459 3701 avec la référence « attestation fiscale FS/DER/001 ».",
+      "fund_support_3": "Veuillez également indiquer votre numéro de registre national (si vous en avez un).",
+      "fund_support_4": "Vous pouvez aussi faire un don en ligne en toute sécurité.",
+      "fund_support_5": "Remarque : l’application de don en ligne fonctionne uniquement avec un navigateur récent comme Google Chrome, Microsoft Edge, Firefox ou Safari.",
+      "fund_support_6": "Pour les montants supérieurs à 40 euros, nous fournissons une attestation fiscale.",
+      "fund_support_7": "La réglementation fiscale belge (SPF Finances, article 323/3 §3 du Code des impôts sur les revenus 1992) nous impose de mentionner votre numéro de registre national pour les dons.",
+      "fund_support_8": "Cela relie votre don à votre déclaration fiscale et permet la déductibilité à partir de 40 euros.",
+      "nav_academic": "Axes de recherche",
+      "lines_intro": "Ajoutez ici le texte d’introduction.",
+      "academic_intro": "",
+      "sec_academic": "Études académiques",
+      "academic_intro_public": "Nos recherches actuelles !",
+      "academic_intro_pro": "Nos recherches actuelles !",
+      "lines_intro_pro": "Notre recherche se concentre sur les domaines suivants:",
+      "lines_intro_public": "Notre recherche se concentre sur les domaines suivants:"
+    }
+  },
+  "academicCategories": [
+    {
+      "key": "all",
+      "label": {
+        "nl": "Alle",
+        "en": "All",
+        "fr": "Tous"
+      }
+    },
+    {
+      "key": "psoriasis",
+      "label": {
+        "nl": "Psoriasis",
+        "en": "Psoriasis",
+        "fr": "Psoriasis"
+      }
+    },
+    {
+      "key": "vitiligo",
+      "label": {
+        "nl": "Vitiligo",
+        "en": "Vitiligo",
+        "fr": "Vitiligo"
+      }
+    },
+    {
+      "key": "skin_cancer",
+      "label": {
+        "nl": "Huidkanker",
+        "en": "Skin cancer",
+        "fr": "Cancer de la peau"
+      }
+    },
+    {
+      "key": "alopecia_areata",
+      "label": {
+        "nl": "Alopecia areata",
+        "en": "Alopecia areata",
+        "fr": "Alopecia areata"
+      }
+    }
+  ],
+  "trialCategories": [
+    {
+      "key": "all",
+      "label": {
+        "nl": "Alle",
+        "en": "All",
+        "fr": "Tous"
+      }
+    },
+    {
+      "key": "psoriasis",
+      "label": {
+        "nl": "Psoriasis",
+        "en": "Psoriasis",
+        "fr": "Psoriasis"
+      }
+    },
+    {
+      "key": "eczema",
+      "label": {
+        "nl": "Eczeem",
+        "en": "Eczema",
+        "fr": "Eczéma"
+      }
+    },
+    {
+      "key": "vitiligo",
+      "label": {
+        "nl": "Vitiligo",
+        "en": "Vitiligo",
+        "fr": "Vitiligo"
+      }
+    },
+    {
+      "key": "skin_cancer",
+      "label": {
+        "nl": "Huidkanker",
+        "en": "Skin cancer",
+        "fr": "Cancer de la peau"
+      }
+    },
+    {
+      "key": "alopecia_areata",
+      "label": {
+        "nl": "Alopecia areata",
+        "en": "Alopecia areata",
+        "fr": "Alopecia areata"
+      }
+    },
+    {
+      "key": "prurigo_nodularis",
+      "label": {
+        "nl": "Prurigo nodularis",
+        "en": "Prurigo nodularis",
+        "fr": "Prurigo nodularis"
+      }
+    },
+    {
+      "key": "hidradenitis_suppurativa",
+      "label": {
+        "nl": "Hidradenitis Suppurativa",
+        "en": "Hidradenitis Suppurativa",
+        "fr": "Hidradénite suppurée"
+      }
+    },
+    {
+      "key": "lupus",
+      "label": {
+        "nl": "Lupus",
+        "en": "Lupus",
+        "fr": "Lupus"
+      }
+    }
+  ],
+  "linesCategories": [
+    {
+      "key": "all",
+      "label": {
+        "nl": "Alle",
+        "en": "All",
+        "fr": "Tous"
+      }
+    },
+    {
+      "key": "psoriasis",
+      "label": {
+        "nl": "Psoriasis",
+        "en": "Psoriasis",
+        "fr": "Psoriasis"
+      }
+    },
+    {
+      "key": "vitiligo",
+      "label": {
+        "nl": "Vitiligo",
+        "en": "Vitiligo",
+        "fr": "Vitiligo"
+      }
+    },
+    {
+      "key": "alopecia_areata",
+      "label": {
+        "nl": "Alopecia areata",
+        "en": "Alopecia areata",
+        "fr": "Alopecia areata"
+      }
+    }
+  ],
+  "linesItems": [
+    {
+      "titel": {
+        "nl": "Psoriasis",
+        "en": "Psoriasis",
+        "fr": "Psoriasis"
+      },
+      "tekst": {
+        "nl": "Ons psoriasisonderzoek vertrekt vanuit een value-based aanpak waarin niet alleen de huid, maar ook levenskwaliteit, mentaal welzijn en dagelijkse impact centraal staan.\nWe meten systematisch wat behandelingen opleveren voor patiënten in verhouding tot de zorg die nodig is om die resultaten te bereiken.\nZo werken we aan psoriasiszorg die breder kijkt dan de huid en aantoonbaar meer waarde creëert voor patiënten.",
+        "en": "Our psoriasis research is based on a value-based approach that focuses not only on the skin, but also on quality of life, mental well-being, and daily impact. We systematically measure what treatments deliver for patients in relation to the care required to achieve those results. In this way, we are working on psoriasis care that looks beyond the skin and demonstrably creates more value for patients.",
+        "fr": "Notre recherche sur le psoriasis repose sur une approche fondée sur la valeur, centrée non seulement sur la peau, mais aussi sur la qualité de vie, le bien-être mental et l’impact au quotidien. Nous mesurons systématiquement ce que les traitements apportent aux patients par rapport aux soins nécessaires pour atteindre ces résultats. Ainsi, nous travaillons à une prise en charge du psoriasis qui regarde au-delà de la peau et crée une valeur démontrable pour les patients."
+      },
+      "figuur": "assets/onderzoekslijn1.jpg",
+      "category": "psoriasis"
+    },
+    {
+      "titel": {
+        "nl": "Vitiligo",
+        "en": "Vitiligo",
+        "fr": "Vitiligo"
+      },
+      "tekst": {
+        "nl": "Ons vitiligo-onderzoek combineert de klinische blik met labo methoden om de ziekte beter te begrijpen en te behandelen. We ontwikkelen en valideren betere meetinstrumenten voor vitiligo die essentieel zijn voor juiste behandeling en onderzoek. Tegelijk bouwt onze groep klinische kennis op rond innovatieve behandelingen en het afweersysteem met het doel om zorg te optimaliseren in termen van uitkomst en impact op het dagelijks leven.",
+        "en": "Our vitiligo research combines clinical and laboratory methods to better understand and treat the disease. We develop and validate better measurement tools for vitiligo, which are essential for proper treatment and research. At the same time, our group builds clinical knowledge around innovative treatments and the immune system with the aim of optimizing care in terms of outcome and impact on daily life.",
+        "fr": "Notre recherche sur le vitiligo combine l’observation clinique et des méthodes de laboratoire pour mieux comprendre et traiter la maladie. Nous développons et validons de meilleurs instruments de mesure du vitiligo, essentiels pour le traitement et la recherche. Parallèlement, notre groupe consolide des connaissances cliniques sur des traitements innovants et sur le système immunitaire afin d’optimiser les soins, tant en termes de résultats que d’impact sur la vie quotidienne."
+      },
+      "figuur": "assets/onderzoekslijn2.jpg",
+      "category": "vitiligo"
+    },
+    {
+      "titel": {
+        "nl": "Huidkanker",
+        "en": "Skin cancer",
+        "fr": "Cancer de la peau"
+      },
+      "tekst": {
+        "nl": "Ons huidkankeronderzoek aan richt zich op het vroeg opsporen en correct behandelen van huidkanker, met aandacht voor zowel genezing als levenskwaliteit. In onze studies onderzoeken we hoe diagnosestelling, behandeling en opvolging zo veilig, innovatief, doeltreffend en patiëntgericht mogelijk kunnen gebeuren. Zo willen we huidkankerzorg bieden die niet alleen levens redt, maar ook rekening houdt met de impact van de ziekte en de behandeling op de levenskwaliteit.",
+        "en": "Our skin cancer research focuses on the early detection and correct treatment of skin cancer, with attention to both cure and quality of life. In our studies, we investigate how diagnosis, treatment, and follow-up can be made as safe, innovative, effective, and patient-centered as possible. In this way, we aim to provide skin cancer care that not only saves lives, but also takes into account the impact of the disease and its treatment on quality of life.",
+        "fr": "Notre recherche sur le cancer de la peau vise le dépistage précoce et un traitement approprié, avec une attention portée à la guérison et à la qualité de vie. Nous étudions comment le diagnostic, le traitement et le suivi peuvent être réalisés de façon aussi sûre, innovante, efficace et centrée sur le patient que possible. Nous souhaitons proposer des soins qui sauvent des vies tout en tenant compte de l’impact de la maladie et des traitements sur la qualité de vie."
+      },
+      "figuur": "assets/onderzoekslijn3.jpg",
+      "category": "skin_cancer"
+    },
+    {
+      "titel": {
+        "nl": "Alopecia areata",
+        "en": "Alopecia areata",
+        "fr": "Alopecia areata"
+      },
+      "tekst": {
+        "nl": "Ons alopecia areata-onderzoek richt zich op het ontrafelen van de onderliggende immunologische mechanismen die tot alopecia areata leiden. We vertalen deze inzichten naar de ontwikkeling en evaluatie van nieuwe, doelgerichte behandelingen. Zo werken we aan therapieën die niet alleen het immuunsysteem corrigeren, maar ook perspectief bieden op duurzaam haarherstel voor patiënten.",
+        "en": "Our alopecia areata research focuses on unraveling the underlying immunological mechanisms that lead to alopecia areata. We translate these insights into the development and evaluation of new, targeted treatments. In this way, we are working on therapies that not only correct the immune system, but also offer prospects for sustainable hair restoration for patients.",
+        "fr": "Notre recherche sur l’alopécie areata vise à élucider les mécanismes immunologiques sous-jacents. Nous traduisons ces connaissances en développement et en évaluation de nouveaux traitements ciblés. Ainsi, nous travaillons à des thérapies qui corrigent le système immunitaire et offrent des perspectives de repousse durable des cheveux."
+      },
+      "figuur": "assets/onderzoekslijn4.jpg",
+      "category": "alopecia_areata"
+    }
+  ],
+  "academicItems": [],
+  "footerContent": {
+    "nl": "",
+    "en": "",
+    "fr": ""
+  }
+}

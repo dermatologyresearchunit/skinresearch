@@ -1,0 +1,2364 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UGent UZ Gent</title>
+
+  <link rel="stylesheet" href="ugent.css">
+  <link rel="stylesheet" href="uzgent.css">
+  <link rel="stylesheet" href="site.css">
+
+  
+  <style>
+    .hero-box {
+      background: transparent;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .hero-banner {
+      background-image: url('assets/research_building.jpg');
+      background-size: 100% 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .hero-helper {
+      display: none;
+    }
+    .topnav-flex{
+      display:flex;
+      align-items:center;
+      justify-content:flex-end;
+      gap:14px;
+      flex-wrap:wrap;
+    }
+    .topnav-links{
+      display:flex;
+      align-items:center;
+      justify-content:flex-end;
+      gap:12px;
+      flex-wrap:wrap;
+    }
+    .lang-wrap{ white-space:nowrap; }
+    html[lang="nl"] .lang-en, html[lang="nl"] .lang-fr{display:none!important;}
+    html[lang="en"] .lang-nl, html[lang="en"] .lang-fr{display:none!important;}
+    html[lang="fr"] .lang-nl, html[lang="fr"] .lang-en{display:none!important;}
+    .lang-switch{
+      background: rgba(255,255,255,0.15);
+      color:#fff;
+      border:1px solid rgba(255,255,255,0.35);
+      border-radius:10px;
+      padding:6px 10px;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+    }
+
+
+
+    /* Audience selector (under banner) */
+    .audience-toggle-wrap{ width:100%; background:#FFFFFF; }
+    .audience-toggle{
+      display:flex; justify-content:center; gap:12px;
+      padding:10px 12px 0 12px; flex-wrap:wrap;
+    }
+    .audience-btn{
+      background: transparent;
+      color: #000000;
+      border: 2px solid #000000;
+      border-radius: 999px;
+      padding: 10px 16px;
+      font-family: Arial, sans-serif;
+      font-size: 13px;
+      line-height: 1.2;
+      cursor: pointer;
+    }
+    .audience-btn:hover{ background: rgba(0,0,0,0.05); }
+    .audience-btn.is-active{
+      background: #FFD200; /* UGent secondary accent */
+      border-color: #FFD200;
+      color: #000000;
+    }
+    .audience-block{ display:none; }
+    .audience-block.is-active{ display:block; }
+
+    /* Remove the blue-tinted shadow only in Fonds Paul De Corte card */
+    #fondspauldecorte .sectioncard{
+      box-shadow: 0 18px 46px rgba(0,0,0,var(--shadowA));
+    }
+
+  
+.hero-banner {
+  background-attachment: scroll !important;
+  background-size: cover !important;
+  background-position: center center !important;
+}
+
+
+.team-photo{
+  width: 100%;
+  aspect-ratio: 122 / 147; /* 244 × 294 */
+  overflow: hidden;
+}
+.team-photo img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* FORCE rectangular team photos: 244 × 294 */
+.team-grid .team-photo{
+  aspect-ratio: 122 / 147 !important;
+  height: auto !important;
+}
+.team-grid .team-photo::before{
+  display: none !important;
+}
+.team-grid .team-photo img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+    .site-footer{
+      margin-top: 40px;
+      padding: 18px 0;
+      background: rgba(0,0,0,0.04);
+      font-size: 0.95rem;
+    }
+    .site-footer .container{
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 16px;
+    }
+</style>
+
+
+  <style>
+    .hero-banner {
+      border-radius: 12px;
+      overflow: hidden;
+    }
+  
+    select.lang-switch option{
+      background-color:#1f3f7a;
+      color:#ffffff;
+    }
+    select.lang-switch{
+      background-color:#1f3f7a;
+      color:#ffffff;
+    }
+
+
+.hero-banner {
+  background-attachment: scroll !important;
+  background-size: cover !important;
+  background-position: center center !important;
+}
+
+</style>
+
+
+  <style>
+    /* --- Responsive helpers (table-based layout) --- */
+    html, body { margin: 0; padding: 0; }
+    img { max-width: 100%; height: auto; }
+    table[width="1100"] { width: 100% !important; max-width: 1100px; }
+    table[width="620"] { width: 100% !important; max-width: 620px; }
+    table[width="360"] { width: 100% !important; max-width: 360px; }
+
+    .topnav a { text-decoration: none; }
+    .lang-switch { font-family: Arial, sans-serif; font-size: 12px; padding: 6px 8px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.55); background: rgba(255,255,255,0.12); color: #fff; }
+    .lang-wrap { display: inline-block; margin-left: 12px; vertical-align: middle; }
+
+    /* Language pill buttons (replaces dropdown) */
+    .lang-toggle{
+      display:inline-flex;
+      gap:10px;
+      align-items:center;
+    }
+    .lang-btn{
+      display:inline-flex;
+      align-items:center;
+      gap:10px;
+      padding:10px 18px;
+      border-radius:999px;
+      border:1px solid rgba(255,255,255,0.35);
+      background: rgba(255,255,255,0.15);
+      color:#ffffff;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0.3px;
+      cursor:pointer;
+      user-select:none;
+    }
+    .lang-btn:hover{ background: rgba(255,255,255,0.22); }
+    .lang-btn.is-active{
+      border-color: rgba(255,255,255,0.75);
+      box-shadow: 0 10px 22px rgba(0,0,0,0.18);
+    }
+    .lang-btn:focus-visible{
+      outline: 3px solid #FFD200;
+      outline-offset: 3px;
+    }
+    .flag{
+      width:22px;
+      height:14px;
+      border-radius:3px;
+      box-shadow: inset 0 0 0 1px rgba(0,0,0,0.18);
+      flex: 0 0 auto;
+    }
+    .flag-nl{
+      background: linear-gradient(to bottom, #ae1c28 0 33.33%, #ffffff 33.33% 66.66%, #21468b 66.66% 100%);
+    }
+    .flag-en{
+      background-image: url('data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2060%2030%22%3E%0A%3CclipPath%20id=%22t%22%20clipPathUnits=%22userSpaceOnUse%22%3E%3Cpath%20d=%22M0%200h60v30H0z%22/%3E%3C/clipPath%3E%0A%3CclipPath%20id=%22s%22%20clipPathUnits=%22userSpaceOnUse%22%3E%3Cpath%20d=%22M30%2015h30v15H30zM0%2015h30v15H0zM30%200h30v15H30zM0%200h30v15H0z%22/%3E%3C/clipPath%3E%0A%3Cg%20clip-path=%22url(%23t)%22%3E%0A%3Cpath%20d=%22M0%200h60v30H0z%22%20fill=%22%23012169%22/%3E%0A%3Cpath%20d=%22M0%200l60%2030M60%200L0%2030%22%20stroke=%22%23fff%22%20stroke-width=%226%22%20stroke-linecap=%22butt%22/%3E%0A%3Cpath%20d=%22M0%200l60%2030M60%200L0%2030%22%20stroke=%22%23C8102E%22%20stroke-width=%224%22%20stroke-linecap=%22butt%22%20clip-path=%22url(%23s)%22/%3E%0A%3Cpath%20d=%22M30%200v30M0%2015h60%22%20stroke=%22%23fff%22%20stroke-width=%2210%22%20stroke-linecap=%22butt%22/%3E%0A%3Cpath%20d=%22M30%200v30M0%2015h60%22%20stroke=%22%23C8102E%22%20stroke-width=%226%22%20stroke-linecap=%22butt%22/%3E%0A%3C/g%3E%0A%3C/svg%3E');
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    .flag-fr{
+      background: linear-gradient(to right, #0055A4 0 33.33%, #FFFFFF 33.33% 66.66%, #EF4135 66.66% 100%);
+    }
+
+
+    /* Hero banner: keep image readable on all screens */
+    .hero-banner { background-size: cover; background-position: center; }
+
+    /* Research line cards */
+    .research-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+    }
+    .research-card {
+      border: 1px solid #E1E6ED;
+      border-radius: 12px;
+      background: #FFFFFF;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding: 12px;
+      align-items: stretch;
+    }
+    .research-figure {
+      width: 100%;
+      height: 84px;
+      border-radius: 10px;
+      overflow: hidden;
+      background: #F0F3F7;
+      border: 1px solid #E1E6ED;
+    }
+    .research-figure img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .research-body { padding: 0; }
+    .research-title { font-family: Arial, sans-serif; font-size: 16px; font-weight: 700; color: #0B2E64; margin: 0 0 6px 0; }
+    .research-text { font-family: Arial, sans-serif; font-size: 14px; color: #333333; margin: 0; line-height: 1.35; }
+
+    
+    /* Fonds Paul De Corte layout */
+    .fund-layout { width: 100%; }
+    @media (max-width: 720px){
+      .fund-layout > tbody > tr > td{ display:block; width:100% !important; }
+      .fund-gap{ display:none !important; width:0 !important; }
+      .fund-figure table[width="360"]{ max-width: 100% !important; width: 100% !important; }
+      .fund-figure img{ width:100% !important; height:auto !important; }
+    }
+
+/* Mobile */
+    @media (max-width: 720px) {
+      /* Make header stack */
+      table[width="1100"] > tbody > tr > td { display: block; width: 100% !important; text-align: center !important; }
+      .topnav { white-space: normal !important; }
+      
+      .lang-wrap { display: block; margin: 10px 0 0 0; }
+
+      /* Reduce vertical spacing a bit */
+      .hero-banner table[width="1100"] tr td { padding-left: 12px !important; padding-right: 12px !important; }
+
+      /* Research grid */
+      .research-grid { grid-template-columns: 1fr; }
+
+      /* Compact top navigation on small screens */
+      .topnav-flex { justify-content: center; }
+      .topnav-links { justify-content: center; gap: 8px; }
+      .topnav a { display: inline-block; padding: 4px 6px; }
+      .topnav font { font-size: 14px; }
+
+}
+
+    /* Tablet */
+    @media (min-width: 721px) and (max-width: 1024px) {
+      .research-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+  
+    select.lang-switch option{
+      background-color:#1f3f7a;
+      color:#ffffff;
+    }
+    select.lang-switch{
+      background-color:#1f3f7a;
+      color:#ffffff;
+    }
+
+
+.hero-banner {
+  background-attachment: scroll !important;
+  background-size: cover !important;
+  background-position: center center !important;
+}
+
+</style>
+
+
+<style>
+  /* Stacking section effect */
+  .stack-section{
+    position: sticky;
+    top: 18px;
+    z-index: calc(200 - var(--i));
+  }
+  @media (max-width: 720px){
+    .stack-section{ top: 10px; }
+  }
+  .stack-section + .stack-section{
+    margin-top: -34px;
+  }
+  
+
+  /* IntersectionObserver sentinel (kept visually invisible) */
+  .io-sentinel{
+    height: 1px;
+    width: 100%;
+  }
+.stack-section .sectioncard{
+    /* Motion variables so translate + scale compose cleanly */
+    --lift: 0px;
+    
+    --shadowA: 0.14;
+
+    border-radius: 18px;
+    background: #ffffff;
+
+    box-shadow: 0 18px 46px rgba(11,46,100,var(--shadowA));
+    transform: translateY(var(--lift)) scale(var(--scale, 1));
+    transform-origin: center top;
+    will-change: transform;
+  }
+  /* (No discrete "active" state; scroll-driven script updates the CSS variables smoothly.) */
+
+  /* Respect reduced-motion preferences */
+  @media (prefers-reduced-motion: reduce){
+    .stack-section .sectioncard{
+      --lift: 0px;
+      --scale: 1;
+      transform: none;
+    }
+  }
+
+.hero-banner {
+  background-attachment: scroll !important;
+  background-size: cover !important;
+  background-position: center center !important;
+}
+
+</style>
+
+<style>
+  /* Publication category filter buttons */
+  .pub-filter-btn{
+    display: inline-block;
+    margin: 0 8px 8px 0;
+    padding: 8px 12px;
+    border-radius: 999px;
+    border: 1px solid #1E64C8;
+    background: #FFFFFF;
+    color: #1E64C8;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    line-height: 1;
+    cursor: pointer;
+  }
+  .pub-filter-btn:hover{
+    border-color: #0B2E64;
+    color: #0B2E64;
+  }
+  .pub-filter-btn.is-active{
+    background: #1E64C8;
+    color: #FFFFFF;
+    border-color: #1E64C8;
+  }
+
+.hero-banner {
+  background-attachment: scroll !important;
+  background-size: cover !important;
+  background-position: center center !important;
+}
+
+</style>
+
+
+<style id="flashy-ui">
+  :root{
+    --brandA:#1E64C8;
+    --brandB:#0B2E64;
+    --accent:#FFD200;
+    --ink:#0B2E64;
+  }
+
+  /* Smooth anchor scrolling */
+  html{ scroll-behavior:smooth; }
+
+  
+
+/* Scroll progress bar */
+.scroll-progress{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 4px;
+  width: 0%;
+  background: linear-gradient(90deg, var(--accent), #ffffff, var(--brandA));
+  z-index: 9999;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.18);
+}
+
+/* Animated header gradient */
+  .topbar-anim{
+    background: linear-gradient(110deg, var(--brandA), var(--brandB), #123a8a, var(--brandA));
+    background-size: 300% 300%;
+    animation: topbarShift 14s ease-in-out infinite;
+  }
+  @keyframes topbarShift{
+    0%{ background-position: 0% 50%; }
+    50%{ background-position: 100% 50%; }
+    100%{ background-position: 0% 50%; }
+  }
+
+  /* Hero overlay: keep photo visible, add subtle shimmer */
+.hero-banner{
+  position: relative;
+  will-change: background-position;
+}
+.hero-banner::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:
+    radial-gradient(900px 360px at 70% 30%, rgba(255,210,0,0.18), rgba(255,255,255,0) 62%),
+    radial-gradient(780px 320px at 25% 70%, rgba(11,46,100,0.18), rgba(255,255,255,0) 64%),
+    linear-gradient(180deg, rgba(0,0,0,0.18), rgba(0,0,0,0.05) 40%, rgba(0,0,0,0.12));
+  pointer-events:none;
+  mix-blend-mode: multiply;
+}
+.hero-banner > *{ position:relative; z-index:1; }
+
+
+  /* Make the hero text box feel more premium */
+  .herobox{
+    border-radius: 18px;
+    background: rgba(255,255,255,0.84);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 22px 60px rgba(11,46,100,0.18);
+  }
+
+
+  /* Scroll spy: highlight current section in the top navigation */
+  .topnav a{ display:inline-block; position: relative; }
+  .topnav a.is-active::after{
+    content:"";
+    position:absolute;
+    left: 2px;
+    right: 2px;
+    bottom: -6px;
+    height: 2px;
+    border-radius: 2px;
+    background: rgba(255,210,0,0.95);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.22);
+  }
+  @media (prefers-reduced-motion: reduce){
+    .topnav a.is-active::after{ box-shadow:none; }
+  }
+
+  /* Micro interactions */
+  .pub-filter-btn,
+  .audience-btn,
+  .topnav a{
+    transition: transform 140ms ease, box-shadow 160ms ease, background 160ms ease, color 160ms ease, border-color 160ms ease;
+  }
+  .pub-filter-btn:hover,
+  .audience-btn:hover{
+    transform: translateY(-1px);
+    box-shadow: 0 12px 24px rgba(11,46,100,0.12);
+  }
+  .pub-filter-btn:active,
+  .audience-btn:active{
+    transform: translateY(0px) scale(0.99);
+  }
+  .topnav a:hover{
+    text-shadow: 0 8px 18px rgba(0,0,0,0.28);
+  }
+
+  /* Research cards hover polish */
+  .research-card{
+    transition: transform 180ms ease, box-shadow 220ms ease;
+  }
+  .research-card:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 18px 46px rgba(11,46,100,0.18);
+  }
+
+  /* Reveal on scroll */
+  .reveal{
+    opacity: 0;
+    transform: translateY(16px);
+    transition: opacity 520ms ease, transform 520ms ease;
+  }
+  .reveal.is-visible{
+    opacity: 1;
+    transform: translateY(0);
+  }
+  @media (prefers-reduced-motion: reduce){
+    html{ scroll-behavior:auto; }
+    .topbar-anim{ animation:none; }
+    .reveal{ opacity:1; transform:none; transition:none; }
+    .research-card{ transition:none; }
+    .pub-filter-btn, .audience-btn, .topnav a{ transition:none; }
+  }
+
+  /* Back to top button */
+  .to-top{
+    position: fixed;
+    right: 18px;
+    bottom: 18px;
+    z-index: 999;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 999px;
+    border: 1px solid rgba(255,255,255,0.45);
+    background: rgba(11,46,100,0.88);
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 18px 40px rgba(11,46,100,0.20);
+    opacity: 0;
+    transform: translateY(10px);
+    pointer-events: none;
+    transition: opacity 200ms ease, transform 200ms ease, background 160ms ease;
+  }
+  .to-top.is-visible{
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+  .to-top:hover{
+    background: rgba(30,100,200,0.92);
+  }
+  .to-top:focus-visible{
+    outline: 3px solid var(--accent);
+    outline-offset: 3px;
+  }
+
+.hero-banner {
+  background-attachment: scroll !important;
+  background-size: cover !important;
+  background-position: center center !important;
+}
+
+</style>
+
+
+<style>
+/* Team grid: 5 columns on desktop */
+.team-grid{
+  display:grid;
+  grid-template-columns:repeat(5,minmax(0,1fr));
+  gap:12px;
+}
+@media (max-width:1024px){
+  .team-grid{ grid-template-columns:repeat(3,minmax(0,1fr)); }
+}
+@media (max-width:720px){
+  .team-grid{ grid-template-columns:1fr; }
+}
+</style>
+
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+
+  <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#1E64C8" style="background: linear-gradient(90deg,#1E64C8,#0B2E64);">
+    <tr>
+      <td>
+        <table width="1100" cellpadding="14" cellspacing="0" border="0" align="center">
+          <tr>
+            <td valign="middle" width="260">
+              <font face="Arial" size="4" color="#FFFFFF">
+                <b>Dermatology Research Ghent</b><br>
+                <font size="2">Research of Department of Dermatology UZ Gent</font>
+              </font>
+            </td>
+            
+            <td valign="middle" align="right" nowrap class="topnav">
+  <div class="topnav-flex">
+    <div class="topnav-links"><font color="#FFFFFF" face="Arial" size="3">
+                <a href="#nieuws"><font color="#FFFFFF"><span data-i18n="nav_news">Nieuws</span></font></a>
+                &nbsp;&nbsp;
+                <a href="#academischestudies"><font color="#FFFFFF"><span data-i18n="nav_research">Academisch onderzoek</span></font></a>
+                &nbsp;&nbsp;
+                <a href="#onderzoekslijnen"><font color="#FFFFFF"><span data-i18n="nav_academic">Onderzoekslijnen</span></font></a>
+                &nbsp;&nbsp;
+                <a href="#klinischetrials"><font color="#FFFFFF"><span data-i18n="nav_trials">Klinische trials</span></font></a>
+                &nbsp;&nbsp;
+                <a href="#fondspauldecorte"><font color="#FFFFFF"><span data-i18n="nav_fund">Fonds Paul De Corte</span></font></a>
+                &nbsp;&nbsp;
+                <a href="#publicaties"><font color="#FFFFFF"><span data-i18n="nav_pubs">Publicaties</span></font></a>
+                &nbsp;&nbsp;
+                <a href="#team"><font color="#FFFFFF"><span data-i18n="nav_team">Team</span></font></a>
+                &nbsp;&nbsp;
+                <a href="#contact"><font color="#FFFFFF"><span data-i18n="nav_contact">Contact</span></font></a>
+              </font></div>
+    <span class="lang-wrap">
+      <div class="lang-toggle" role="group" aria-label="Language">
+        <button type="button" class="lang-btn" data-lang="nl" aria-label="Nederlands">
+          <span class="flag flag-nl" aria-hidden="true"></span><span class="lang-code">NL</span>
+        </button>
+        <button type="button" class="lang-btn" data-lang="en" aria-label="English">
+          <span class="flag flag-en" aria-hidden="true"></span><span class="lang-code">EN</span>
+        </button>
+        <button type="button" class="lang-btn" data-lang="fr" aria-label="Français">
+          <span class="flag flag-fr" aria-hidden="true"></span><span class="lang-code">FR</span>
+        </button>
+      </div>
+    </span>
+  </div>
+</td>
+
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+  <table width="100%" cellpadding="0" cellspacing="0" border="0" class="hero-banner">
+    <tr>
+      <td>
+        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+          <tr><td height="26" bgcolor="#E6E9ED"></td></tr>
+        </table>
+
+        <table width="1100" cellpadding="0" cellspacing="0" border="0" align="center">
+          <tr><td height="54"></td></tr>
+          <tr>
+            <td>
+              <table cellpadding="18" cellspacing="0" border="0" class="herobox" width="620" align="center">
+                <tr>
+                  <td>
+                    <font face="Arial" size="6" color="#1E64C8"><b><span data-i18n="hero_title">Onderzoeksgroep</span></b></font>
+                    <br>
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                      <tr><td height="10"></td></tr>
+                      <tr><td height="3" bgcolor="#1E64C8"></td></tr>
+                      <tr><td height="10"></td></tr>
+                    </table>
+                    <font face="Arial" size="3" color="#333333">
+                      <span data-i18n="hero_sub">Voeg hier een korte kernboodschap toe over missie en expertise.</span>
+                    </font>
+                  </td>
+                </tr>
+              </table>
+
+              <table cellpadding="0" cellspacing="0" border="0" width="620">
+                <tr><td height="10"></td></tr>
+                <tr>
+                  <td>
+                    <table cellpadding="10" cellspacing="0" border="0" class="hero-box" width="100%" align="center">
+                      <tr>
+                        <td>
+                          <font face="Arial" size="2" color="#333333">
+                            <span class="hero-helper">Plaats een nieuw beeld door assets/research_building.jpg te vervangen.</span>
+                          </font>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+
+            </td>
+          </tr>
+          <tr><td height="64"></td></tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+  <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#FFFFFF">
+    <tr><td height="24"></td></tr>
+  </table>
+
+  <div class="audience-toggle-wrap">
+    <div class="audience-toggle" role="group" aria-label="Audience">
+      <button id="audiencePublicBtn" type="button" class="audience-btn is-active">
+        <span class="lang-nl">Bezoeker/patiënt</span><span class="lang-en">Visitor/patient</span><span class="lang-fr">Visiteur/patient</span>
+      </button>
+      <button id="audienceProBtn" type="button" class="audience-btn">
+        <span class="lang-nl">Zorgverlener/wetenschapper</span><span class="lang-en">Health care professional/scientist</span><span class="lang-fr">Soignant/chercheur</span>
+      </button>
+    </div>
+  </div>
+
+
+  <section id="nieuws" class="stack-section" style="--i:1">
+<a name="nieuws"></a>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#F5F7FA">
+    <tr>
+      <td>
+        <table width="1100" cellpadding="0" cellspacing="0" border="0" align="center">
+          <tr><td height="18"></td></tr>
+          <tr>
+            <td>
+              <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#FFFFFF">
+                <tr><td height="6" bgcolor="#1E64C8"></td></tr>
+                <tr>
+                  <td>
+                    <div class="io-sentinel" aria-hidden="true"></div>
+
+                    <table width="100%" cellpadding="18" cellspacing="0" border="1" bordercolor="#E1E6ED" class="sectioncard">
+                      <tr>
+                        <td>
+                          <font face="Arial" size="4" color="#1E64C8"><b><span data-i18n="sec_news">Nieuws</span></b></font>
+                          <br><br>
+                          <div id="newsList"></div>
+                        </td>
+                      </tr>
+                    </table>
+                  </section>
+</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr><td height="26"></td></tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+  <section id="onderzoekslijnen" class="stack-section" style="--i:2">
+<a name="onderzoekslijnen"></a>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#F5F7FA">
+    <tr>
+      <td>
+        <table width="1100" cellpadding="0" cellspacing="0" border="0" align="center">
+          <tr><td height="18"></td></tr>
+          <tr>
+            <td>
+              <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#FFFFFF">
+                <tr><td height="6" bgcolor="#1E64C8"></td></tr>
+                <tr>
+                  <td>
+                    <div class="io-sentinel" aria-hidden="true"></div>
+
+                    <table width="100%" cellpadding="18" cellspacing="0" border="1" bordercolor="#E1E6ED" class="sectioncard">
+                      <tr>
+                        <td>
+                          <font face="Arial" size="4" color="#1E64C8"><b><span data-i18n="sec_research">Onderzoekslijnen</span></b></font>
+                          <br><br>
+                          <font face="Arial" size="3" color="#333333">
+                            <span data-i18n="lines_intro">Vul hier de inleidende tekst aan.</span>
+                          </font>
+                          <br><br>
+                          <div id="researchLinesList"></div>
+                          <br><br></td>
+                      </tr>
+                    </table>
+                  </section>
+</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr><td height="26"></td></tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  <section id="academischestudies" class="stack-section" style="--i:3">
+<a name="academischestudies"></a>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#FFFFFF">
+    <tr>
+      <td>
+        <table width="1100" cellpadding="0" cellspacing="0" border="0" align="center">
+          <tr><td height="18"></td></tr>
+          <tr>
+            <td>
+              <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#FFFFFF">
+                <tr><td height="6" bgcolor="#E6E9ED"></td></tr>
+                <tr>
+                  <td>
+                    <div class="io-sentinel" aria-hidden="true"></div>
+
+                    <table width="100%" cellpadding="18" cellspacing="0" border="1" bordercolor="#E1E6ED" class="sectioncard">
+                      <tr>
+                        <td>
+                          <font face="Arial" size="4" color="#1E64C8"><b><span data-i18n="sec_academic">Academisch onderzoek</span></b></font>
+                          <br><br>
+                          <font face="Arial" size="3" color="#333333">
+                            <span data-i18n="academic_intro"></span>
+                          </font>
+                          <br><br>
+                          <div id="academicFilters" aria-label="Academic filter" style="margin:0 0 12px 0;"></div>
+                          <div id="academicList"></div>
+                        </td>
+                      </tr>
+                    </table>
+                  </section>
+</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr><td height="26"></td></tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+
+  <section id="klinischetrials" class="stack-section" style="--i:4">
+<a name="klinischetrials"></a>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#FFFFFF">
+    <tr>
+      <td>
+        <table width="1100" cellpadding="0" cellspacing="0" border="0" align="center">
+          <tr><td height="18"></td></tr>
+          <tr>
+            <td>
+              <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#FFFFFF">
+                <tr><td height="6" bgcolor="#E6E9ED"></td></tr>
+                <tr>
+                  <td>
+                    <div class="io-sentinel" aria-hidden="true"></div>
+
+                    <table width="100%" cellpadding="18" cellspacing="0" border="1" bordercolor="#E1E6ED" class="sectioncard">
+                      <tr>
+                        <td>
+                          <font face="Arial" size="4" color="#1E64C8"><b><span data-i18n="sec_trials">Klinische trials</span></b></font>
+                          <br><br>
+                          <div id="trialFilters" aria-label="Trial filter" style="margin:0 0 12px 0;"></div>
+                          <div id="trialList"></div>
+                        </td>
+                      </tr>
+                    </table>
+                  </section>
+</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr><td height="26"></td></tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+  <section id="fondspauldecorte" class="stack-section" style="--i:5">
+<a name="fondspauldecorte"></a>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#F5F7FA">
+    <tr>
+      <td>
+        <table width="1100" cellpadding="0" cellspacing="0" border="0" align="center">
+          <tr><td height="18"></td></tr>
+          <tr>
+            <td>
+              <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#FFFFFF">
+                <tr><td height="6" bgcolor="#1E64C8"></td></tr>
+                <tr>
+                  <td>
+                    <div class="io-sentinel" aria-hidden="true"></div>
+
+                    <table width="100%" cellpadding="18" cellspacing="0" border="1" bordercolor="#E1E6ED" class="sectioncard">
+                      <tr>
+                        <td>
+                          <font face="Arial" size="4" color="#1E64C8"><b><span data-i18n="sec_fund">Fonds Paul De Corte</span></b></font>
+                          <br><br>
+                          <table class="fund-layout" width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <tr>
+                              <td valign="top" class="fund-text">
+                                <div class="audience-block audience-public is-active">
+                                  <font face="Arial" size="3" color="#333333">
+                                    <span data-i18n="fund_intro_public"></span>
+                                    <br><br>
+
+                                    <font face="Arial" size="3" color="#1E64C8"><b><span data-i18n="fund_initiatives_title_public"></span>:</b></font><br>
+                                    <span data-i18n="fund_initiatives_lead_public"></span>
+                                    <ul style="margin:8px 0 0 18px; padding:0;">
+                                      <li><span data-i18n="fund_init_1_public"></span></li>
+                                      <li><span data-i18n="fund_init_2_public"></span></li>
+                                      <li><span data-i18n="fund_init_3_public"></span></li>
+                                      <li><span data-i18n="fund_init_4_public"></span></li>
+                                      <li><span data-i18n="fund_init_5_public"></span></li>
+                                      <li><span data-i18n="fund_init_6_public"></span></li>
+                                      <li><span data-i18n="fund_init_7_public"></span></li>
+                                      <li><span data-i18n="fund_init_8_public"></span></li>
+                                      <li><span data-i18n="fund_init_9_public"></span></li>
+                                      <li><span data-i18n="fund_init_10_public"></span></li>
+                                    </ul>
+
+                                    <font face="Arial" size="3" color="#1E64C8"><b><span data-i18n="fund_events_title_public"></span>:</b></font>
+                                    <ul style="margin:8px 0 0 18px; padding:0;">
+                                      <li><span data-i18n="fund_event_1_public"></span></li>
+                                    </ul>
+
+                                    <font face="Arial" size="3" color="#1E64C8"><b><span data-i18n="fund_sponsors_title_public"></span>:</b></font>
+                                    <ul style="margin:8px 0 0 18px; padding:0;">
+                                      <li><span data-i18n="fund_sponsor_1_public"></span></li>
+                                    </ul>
+
+                                    <br>
+                                    <table cellpadding="14" cellspacing="0" border="1" bordercolor="#1E64C8" width="100%">
+                                      <tr>
+                                        <td bgcolor="#F0F3F7">
+                                          <font face="Arial" size="3" color="#1E64C8"><b><span data-i18n="fund_support_title_public"></span></b></font>
+                                          <br>
+                                          <font face="Arial" size="2" color="#333333">
+                                            <span data-i18n="fund_support_1_public"></span><br>
+                                            <span data-i18n="fund_support_2_public"></span><br>
+                                            <span data-i18n="fund_support_3_public"></span><br>
+                                            <span data-i18n="fund_support_4_public"></span><br>
+                                            <span data-i18n="fund_support_5_public"></span><br>
+                                            <span data-i18n="fund_support_6_public"></span>
+                                            <span data-i18n="fund_support_7_public"></span>
+                                            <span data-i18n="fund_support_8_public"></span>
+                                          </font>
+                                        </td>
+                                      </tr>
+                                    </table>
+                                  </font>
+                                </div>
+
+                                <div class="audience-block audience-pro">
+                                  <font face="Arial" size="3" color="#333333">
+                                    <span data-i18n="fund_intro_pro"></span>
+                                    <br><br>
+
+                                    <font face="Arial" size="3" color="#1E64C8"><b><span data-i18n="fund_initiatives_title_pro"></span>:</b></font><br>
+                                    <span data-i18n="fund_initiatives_lead_pro"></span>
+                                    <ul style="margin:8px 0 0 18px; padding:0;">
+                                      <li><span data-i18n="fund_init_1_pro"></span></li>
+                                      <li><span data-i18n="fund_init_2_pro"></span></li>
+                                      <li><span data-i18n="fund_init_3_pro"></span></li>
+                                      <li><span data-i18n="fund_init_4_pro"></span></li>
+                                      <li><span data-i18n="fund_init_5_pro"></span></li>
+                                      <li><span data-i18n="fund_init_6_pro"></span></li>
+                                      <li><span data-i18n="fund_init_7_pro"></span></li>
+                                      <li><span data-i18n="fund_init_8_pro"></span></li>
+                                      <li><span data-i18n="fund_init_9_pro"></span></li>
+                                      <li><span data-i18n="fund_init_10_pro"></span></li>
+                                    </ul>
+
+                                    <font face="Arial" size="3" color="#1E64C8"><b><span data-i18n="fund_events_title_pro"></span>:</b></font>
+                                    <ul style="margin:8px 0 0 18px; padding:0;">
+                                      <li><span data-i18n="fund_event_1_pro"></span></li>
+                                    </ul>
+
+                                    <font face="Arial" size="3" color="#1E64C8"><b><span data-i18n="fund_sponsors_title_pro"></span>:</b></font>
+                                    <ul style="margin:8px 0 0 18px; padding:0;">
+                                      <li><span data-i18n="fund_sponsor_1_pro"></span></li>
+                                    </ul>
+
+                                    <br>
+                                    <table cellpadding="14" cellspacing="0" border="1" bordercolor="#1E64C8" width="100%">
+                                      <tr>
+                                        <td bgcolor="#F0F3F7">
+                                          <font face="Arial" size="3" color="#1E64C8"><b><span data-i18n="fund_support_title_pro"></span></b></font>
+                                          <br>
+                                          <font face="Arial" size="2" color="#333333">
+                                            <span data-i18n="fund_support_1_pro"></span><br>
+                                            <span data-i18n="fund_support_2_pro"></span><br>
+                                            <span data-i18n="fund_support_3_pro"></span><br>
+                                            <span data-i18n="fund_support_4_pro"></span><br>
+                                            <span data-i18n="fund_support_5_pro"></span><br>
+                                            <span data-i18n="fund_support_6_pro"></span>
+                                            <span data-i18n="fund_support_7_pro"></span>
+                                            <span data-i18n="fund_support_8_pro"></span>
+                                          </font>
+                                        </td>
+                                      </tr>
+                                    </table>
+                                  </font>
+                                </div>
+                              </td>
+
+                              <td width="18" class="fund-gap"></td>
+
+                              <td valign="top" width="360" class="fund-figure">
+                                <table cellpadding="0" cellspacing="0" border="1" bordercolor="#E1E6ED" width="360">
+                                  <tr>
+                                    <td>
+                                      <img src="assets/fonds.jpg" alt="Fonds Paul De Corte" width="360">
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr><td height="26"></td></tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+  <section id="publicaties" class="stack-section" style="--i:5">
+<a name="publicaties"></a>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#FFFFFF">
+    <tr>
+      <td>
+        <table width="1100" cellpadding="0" cellspacing="0" border="0" align="center">
+          <tr><td height="18"></td></tr>
+          <tr>
+            <td>
+              <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#FFFFFF">
+                <tr><td height="6" bgcolor="#E6E9ED"></td></tr>
+                <tr>
+                  <td>
+                    <div class="io-sentinel" aria-hidden="true"></div>
+
+                    <table width="100%" cellpadding="18" cellspacing="0" border="1" bordercolor="#E1E6ED" class="sectioncard">
+                      <tr>
+                        <td>
+                          <font face="Arial" size="4" color="#1E64C8"><b><span data-i18n="sec_pubs">Publicaties</span></b></font>
+                          <br><br>
+                          <!-- Publication filter buttons (set category per publication in pubItems below) -->
+                          <div id="pubFilters" aria-label="Publication filter" style="margin:0 0 12px 0;"></div>
+                          <div id="pubList"></div>
+                        </td>
+                      </tr>
+                    </table>
+                  </section>
+</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr><td height="26"></td></tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+  <section id="team" class="stack-section" style="--i:6">
+<a name="team"></a>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#FFFFFF">
+    <tr>
+      <td>
+        <table width="1100" cellpadding="0" cellspacing="0" border="0" align="center">
+          <tr><td height="18"></td></tr>
+          <tr>
+            <td>
+              <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#FFFFFF">
+                <tr><td height="6" bgcolor="#E6E9ED"></td></tr>
+                <tr>
+                  <td>
+                    <div class="io-sentinel" aria-hidden="true"></div>
+
+                    <table width="100%" cellpadding="18" cellspacing="0" border="1" bordercolor="#E1E6ED" class="sectioncard">
+                      <tr>
+                        <td>
+                          <font face="Arial" size="4" color="#1E64C8"><b><span data-i18n="sec_team">Team</span></b></font>
+                          <br>
+                          <font face="Arial" size="2" color="#333333">
+                            <span data-i18n="team_hint">Voeg personen toe door een item toe te voegen aan teamMembers in de code.</span>
+                          </font>
+                          <br><br>
+                          <div id="teamFilters" aria-label="Team filter" style="margin:0 0 12px 0;"></div>
+                          <div id="teamTable"></div>
+                        </td>
+                      </tr>
+                    </table>
+                  </section>
+</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr><td height="26"></td></tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+  
+<section id="contact" class="stack-section" style="--i:7">
+<a name="contact"></a>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#F5F7FA">
+    <tr>
+      <td>
+        <table width="1100" cellpadding="0" cellspacing="0" border="0" align="center">
+          <tr><td height="18"></td></tr>
+          <tr>
+            <td>
+              <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#FFFFFF">
+                <tr><td height="6" bgcolor="#1E64C8"></td></tr>
+                <tr>
+                  <td>
+                    <div class="io-sentinel" aria-hidden="true"></div>
+
+                    <table width="100%" cellpadding="18" cellspacing="0" border="1" bordercolor="#E1E6ED" class="sectioncard">
+                      <tr>
+                        <td>
+                          <font face="Arial" size="4" color="#1E64C8"><b><span data-i18n="sec_contact">Contact</span></b></font>
+                          <br><br>
+                          <table width="100%" cellpadding="12" cellspacing="0" border="0" bgcolor="#FFFFFF">
+                            <tr>
+                              <td valign="top" width="46%">
+                                <font face="Arial" size="3">
+                                  Email: dermatologie@uzgent.be / Fonds Paul De Corte: rani.soenen@uzgent.be<br>
+                                  Telefoon: 09 332 22 87<br>
+                                  Adres: Corneel Heymanslaan 10, 9000, Gent, België
+                                </font>
+                              </td>
+                              <td width="16"></td>
+                              <td valign="top" width="54%">
+                                <table width="100%" cellpadding="12" cellspacing="0" border="1" bordercolor="#E1E6ED" bgcolor="#F0F3F7">
+                                  <tr>
+                                    <td>
+                                      <font face="Arial" size="3" color="#1E64C8"><b>Bericht</b></font>
+                                      <br><br>
+                                      <form action="mailto:dermatologie@uzgent.be" method="post" enctype="text/plain">
+                                        <font face="Arial" size="2"><span data-i18n="form_name">Naam</span></font><br>
+                                        <input name="naam" size="36"><br><br>
+                                        <font face="Arial" size="2"><span data-i18n="form_email">Email</span></font><br>
+                                        <input name="email" size="36"><br><br>
+                                        <font face="Arial" size="2"><span data-i18n="form_message">Bericht</span></font><br>
+                                        <textarea name="bericht" cols="36" rows="5"></textarea><br><br>
+                                        <input type="submit" value="Verzenden" data-i18n-attr="value:form_send">
+                                      </form>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </section>
+</td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr><td height="26"></td></tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+  <table width="100%" cellpadding="14" cellspacing="0" border="0" bgcolor="#E6E9ED">
+    <tr>
+      <td align="center">
+        <font face="Arial" size="2" color="#FFFFFF">
+          (c) 2026
+        </font>
+      </td>
+    </tr>
+  </table>
+
+  <script>
+    let newsItems = [
+      { titel: { nl: "Nieuwsstuk titel", en: "News title" }, datum: "1.12.2025", tekst: { nl: "Korte inhoud van het nieuws.", en: "Short news summary." } },
+      { titel: { nl: "Nieuwsstuk titel", en: "News title" }, datum: "10.11.2025", tekst: { nl: "Korte inhoud van het nieuws.", en: "Short news summary." } }
+    ];
+
+    let teamMembers = [
+      {
+        naam: "Voornaam Familienaam",
+        functie: "Functie",
+        uitleg: "Korte uitleg over expertise, rol in het team, projecten.",
+        foto: "assets/team/persoon1.jpg",
+        // Kies 0, 1 of meerdere categorieën:
+        // ["psoriasis"], ["vitiligo"], ["skin_cancer"], ["alopecia_areata"], of combinaties
+        categories: ["psoriasis"]
+      },
+      {
+        naam: "Voornaam Familienaam",
+        functie: "Functie",
+        uitleg: "Nog een korte beschrijving.",
+        foto: "assets/team/persoon2.jpg",
+        categories: ["vitiligo", "alopecia_areata"]
+      }
+    ];
+
+    let researchItems = [
+      {
+        titel: { nl: "Psoriasis", en: "Psoriasis" },
+        tekst: { nl: `Ons psoriasisonderzoek vertrekt vanuit een value-based aanpak waarin niet alleen de huid, maar ook levenskwaliteit, mentaal welzijn en dagelijkse impact centraal staan.
+We meten systematisch wat behandelingen opleveren voor patiënten in verhouding tot de zorg die nodig is om die resultaten te bereiken.
+Zo werken we aan psoriasiszorg die breder kijkt dan de huid en aantoonbaar meer waarde creëert voor patiënten.`, en: `Our psoriasis research is based on a value-based approach that focuses not only on the skin, but also on quality of life, mental well-being, and daily impact. We systematically measure what treatments deliver for patients in relation to the care required to achieve those results. In this way, we are working on psoriasis care that looks beyond the skin and demonstrably creates more value for patients.` },
+        figuur: "assets/onderzoekslijn1.jpg"
+      },
+      {
+        titel: { nl: "Vitiligo", en: "Vitiligo" },
+        tekst: { nl: "Ons vitiligo-onderzoek combineert de klinische blik met labo methoden om de ziekte beter te begrijpen en te behandelen. We ontwikkelen en valideren betere meetinstrumenten voor vitiligo die essentieel zijn voor juiste behandeling en onderzoek. Tegelijk bouwt onze groep klinische kennis op rond innovatieve behandelingen en het afweersysteem met het doel om zorg te optimaliseren in termen van uitkomst en impact op het dagelijks leven.", en: "Our vitiligo research combines clinical and laboratory methods to better understand and treat the disease. We develop and validate better measurement tools for vitiligo, which are essential for proper treatment and research. At the same time, our group builds clinical knowledge around innovative treatments and the immune system with the aim of optimizing care in terms of outcome and impact on daily life." },
+        figuur: "assets/onderzoekslijn2.jpg"
+      },
+      {
+        titel: { nl: "Huidkanker", en: "Skin cancer" },
+        tekst: { nl: "Ons huidkankeronderzoek aan richt zich op het vroeg opsporen en correct behandelen van huidkanker, met aandacht voor zowel genezing als levenskwaliteit. In onze studies onderzoeken we hoe diagnosestelling, behandeling en opvolging zo veilig, innovatief, doeltreffend en patiëntgericht mogelijk kunnen gebeuren. Zo willen we huidkankerzorg bieden die niet alleen levens redt, maar ook rekening houdt met de impact van de ziekte en de behandeling op de levenskwaliteit.", en: "Our skin cancer research focuses on the early detection and correct treatment of skin cancer, with attention to both cure and quality of life. In our studies, we investigate how diagnosis, treatment, and follow-up can be made as safe, innovative, effective, and patient-centered as possible. In this way, we aim to provide skin cancer care that not only saves lives, but also takes into account the impact of the disease and its treatment on quality of life." },
+        figuur: "assets/onderzoekslijn3.jpg"
+      },
+      {
+        titel: { nl: "Alopecia areata", en: "Alopecia areata" },
+        tekst: { nl: "Ons alopecia areata-onderzoek aricht zich op het ontrafelen van de onderliggende immunologische mechanismen die tot alopecia areata leiden. We vertalen deze inzichten naar de ontwikkeling en evaluatie van nieuwe, doelgerichte behandelingen. Zo werken we aan therapieën die niet alleen het immuunsysteem corrigeren, maar ook perspectief bieden op duurzaam haarherstel voor patiënten.", en: "Our alopecia areata research focuses on unraveling the underlying immunological mechanisms that lead to alopecia areata. We translate these insights into the development and evaluation of new, targeted treatments. In this way, we are working on therapies that not only correct the immune system, but also offer prospects for sustainable hair restoration for patients." },
+        figuur: "assets/onderzoekslijn4.jpg"
+      }
+    ];
+
+    let linesItems = [
+      {
+        titel: { nl: "Onderzoekslijn titel", en: "Research line title", fr: "Titre de l’axe de recherche" },
+        tekst: { nl: "Korte beschrijving van deze onderzoekslijn.", en: "Short description of this research line.", fr: "Brève description de cet axe de recherche." }
+      }
+    ];
+
+    let trialItems = [
+      {
+        titel: { nl: "Trial naam 1", en: "Trial name 1" },
+        meta:  { nl: "Rekruterend – EudraCT 2024-000001", en: "Recruiting – EudraCT 2024-000001" },
+        tekst: { nl: "Korte samenvatting en inclusiecriteria.", en: "Short summary and inclusion criteria." }
+      },
+      {
+        titel: { nl: "Trial naam 2", en: "Trial name 2" },
+        meta:  { nl: "Afgesloten – ClinicalTrials.gov", en: "Completed – ClinicalTrials.gov" },
+        tekst: { nl: "Resultaten in analysefase.", en: "Results under analysis." }
+      },
+      {
+        titel: { nl: "Trial naam 3", en: "Trial name 3" },
+        meta:  { nl: "Start gepland 2026", en: "Planned start 2026" },
+        tekst: { nl: "Protocol in ontwikkeling.", en: "Protocol under development." }
+      }
+    ];
+
+    let pubItems = [
+      {
+        // category: all | psoriasis | vitiligo | skin_cancer | alopecia_areata
+        category: "psoriasis",
+        titel: { nl: "Auteur et al, 2024", en: "Author et al, 2024" },
+        meta:  { nl: "J Invest Dermatol", en: "J Invest Dermatol" },
+        tekst: { nl: "DOI: 10.xxxx/xxxx", en: "DOI: 10.xxxx/xxxx" },
+        bevindingen: { nl: "Kernbevindingen in één of twee zinnen.", en: "Key findings in one or two sentences." }
+      },
+      {
+        category: "vitiligo",
+        titel: { nl: "Auteur et al, 2023", en: "Author et al, 2023" },
+        meta:  { nl: "Br J Dermatol", en: "Br J Dermatol" },
+        tekst: { nl: "Open access", en: "Open access" },
+        bevindingen: { nl: "Kernbevindingen in één of twee zinnen.", en: "Key findings in one or two sentences." }
+      },
+      {
+        category: "skin_cancer",
+        titel: { nl: "Auteur et al, 2022", en: "Author et al, 2022" },
+        meta:  { nl: "Exp Dermatol", en: "Exp Dermatol" },
+        tekst: { nl: "Supplementary data available", en: "Supplementary data available" },
+        bevindingen: { nl: "Kernbevindingen in één of twee zinnen.", en: "Key findings in one or two sentences." }
+      }
+    ];
+
+    // Publication categories for filter buttons
+    let pubCategories = [
+      { key: "all", label: { nl: "Alle", en: "All" } },
+      { key: "psoriasis", label: { nl: "Psoriasis", en: "Psoriasis" } },
+      { key: "vitiligo", label: { nl: "Vitiligo", en: "Vitiligo" } },
+      { key: "skin_cancer", label: { nl: "Skin cancer", en: "Skin cancer" } },
+      { key: "alopecia_areata", label: { nl: "Alopecia areata", en: "Alopecia areata" } }
+    ];
+
+    let currentPubFilter = "all";
+
+
+    // Team categories for filter buttons (set categories per person in teamMembers below)
+    let teamCategories = [
+      { key: "all", label: { nl: "Alle", en: "All" } },
+      { key: "psoriasis", label: { nl: "Psoriasis", en: "Psoriasis" } },
+      { key: "vitiligo", label: { nl: "Vitiligo", en: "Vitiligo" } },
+      { key: "skin_cancer", label: { nl: "Skin cancer", en: "Skin cancer" } },
+      { key: "alopecia_areata", label: { nl: "Alopecia areata", en: "Alopecia areata" } }
+    ];
+
+    let currentTeamFilter = "all";
+
+    // Academic studies categories for filter buttons
+    let academicCategories = [
+      { key: "all", label: { nl: "Alle", en: "All", fr: "Tous" } },
+      { key: "psoriasis", label: { nl: "Psoriasis", en: "Psoriasis", fr: "Psoriasis" } },
+      { key: "vitiligo", label: { nl: "Vitiligo", en: "Vitiligo", fr: "Vitiligo" } },
+      { key: "skin_cancer", label: { nl: "Huidkanker", en: "Skin cancer", fr: "Cancer de la peau" } },
+      { key: "alopecia_areata", label: { nl: "Alopecia areata", en: "Alopecia areata", fr: "Alopecia areata" } }
+    ];
+    let currentAcademicFilter = "all";
+
+    // Clinical trial categories for filter buttons
+    let trialCategories = [
+      { key: "all", label: { nl: "Alle", en: "All", fr: "Tous" } },
+      { key: "psoriasis", label: { nl: "Psoriasis", en: "Psoriasis", fr: "Psoriasis" } },
+      { key: "eczema", label: { nl: "Eczeem", en: "Eczema", fr: "Eczéma" } },
+      { key: "vitiligo", label: { nl: "Vitiligo", en: "Vitiligo", fr: "Vitiligo" } },
+      { key: "skin_cancer", label: { nl: "Huidkanker", en: "Skin cancer", fr: "Cancer de la peau" } },
+      { key: "alopecia_areata", label: { nl: "Alopecia areata", en: "Alopecia areata", fr: "Alopecia areata" } },
+      { key: "prurigo_nodularis", label: { nl: "Prurigo nodularis", en: "Prurigo nodularis", fr: "Prurigo nodularis" } },
+      { key: "hidradenitis_suppurativa", label: { nl: "Hidradenitis Suppurativa", en: "Hidradenitis Suppurativa", fr: "Hidradénite suppurée" } },
+      { key: "lupus", label: { nl: "Lupus", en: "Lupus", fr: "Lupus" } }
+    ];
+    let currentTrialFilter = "all";
+
+    function renderAcademicFilters(){
+      const wrap = document.getElementById("academicFilters");
+      if (!wrap) return;
+      wrap.innerHTML = academicCategories.map(c => {
+        const isActive = (c.key === currentAcademicFilter);
+        const label = esc((c.label && (c.label[currentLang] || c.label.nl)) || c.key);
+        return "<button type='button' class='pub-filter-btn" + (isActive ? " is-active" : "") + "' data-academiccat='" + esc(c.key) + "'>" + label + "</button>";
+      }).join("");
+      wrap.querySelectorAll("button[data-academiccat]").forEach(btn => {
+        btn.addEventListener("click", () => {
+          currentAcademicFilter = btn.getAttribute("data-academiccat") || "all";
+          renderAcademicFilters();
+          renderAcademicStudies();
+        });
+      });
+    }
+
+    function renderTrialFilters(){
+      const wrap = document.getElementById("trialFilters");
+      if (!wrap) return;
+      wrap.innerHTML = trialCategories.map(c => {
+        const isActive = (c.key === currentTrialFilter);
+        const label = esc((c.label && (c.label[currentLang] || c.label.nl)) || c.key);
+        return "<button type='button' class='pub-filter-btn" + (isActive ? " is-active" : "") + "' data-trialcat='" + esc(c.key) + "'>" + label + "</button>";
+      }).join("");
+      wrap.querySelectorAll("button[data-trialcat]").forEach(btn => {
+        btn.addEventListener("click", () => {
+          currentTrialFilter = btn.getAttribute("data-trialcat") || "all";
+          renderTrialFilters();
+          renderTrials();
+        });
+      });
+    }
+
+
+    // --- i18n (default: Nederlands) ---
+    let i18n = {
+      nl: {        fund_intro_public: "Het Fonds Paul De Corte verleent financiële steun aan wetenschappelijk onderzoek dat de zorg voor patiënten met chronische huidziekten verbetert. Het slaat een brug tussen wetenschap, patiënten en zorg. Daarnaast ijvert het fonds voor meer maatschappelijke bewustwording over de belastende impact van chronische huidziekten.",
+        fund_intro_pro: "Het Fonds Paul De Corte verleent financiële steun aan wetenschappelijk onderzoek dat de zorg voor patiënten met chronische huidziekten verbetert. Het slaat een brug tussen wetenschap, patiënten en zorg. Daarnaast ijvert het fonds voor meer maatschappelijke bewustwording over de belastende impact van chronische huidziekten.",
+        fund_initiatives_title_public: "Initiatieven",
+        fund_initiatives_title_pro: "Initiatieven",
+        fund_initiatives_lead_public: "Het Fonds Paul De Corte zamelt geld in voor:",
+        fund_initiatives_lead_pro: "Het Fonds Paul De Corte zamelt geld in voor:",
+        fund_init_1_public: "Werkingsmiddelen voor klinisch, fundamenteel, translationeel of toegepast wetenschappelijk onderzoek.",
+        fund_init_1_pro: "Werkingsmiddelen voor klinisch, fundamenteel, translationeel of toegepast wetenschappelijk onderzoek.",
+        fund_init_2_public: "Investeringen in technologische innovatie en infrastructuur.",
+        fund_init_2_pro: "Investeringen in technologische innovatie en infrastructuur.",
+        fund_init_3_public: "Organisatie van opleidingen, workshops, symposia, congressen en informatiesessies over chronische inflammatoire huidaandoeningen, gericht op onderzoekers, zorgverleners of patiënten.",
+        fund_init_3_pro: "Organisatie van opleidingen, workshops, symposia, congressen en informatiesessies over chronische inflammatoire huidaandoeningen, gericht op onderzoekers, zorgverleners of patiënten.",
+        fund_init_4_public: "Initiatieven die het comfort van patiënten met een chronische inflammatoire huidaandoening verbeteren (bv. telemonitoring).",
+        fund_init_4_pro: "Initiatieven die het comfort van patiënten met een chronische inflammatoire huidaandoening verbeteren (bv. telemonitoring).",
+        fund_init_5_public: "Activiteiten die de bewustwording over chronische inflammatoire huidaandoeningen bij het brede publiek vergroten.",
+        fund_init_5_pro: "Activiteiten die de bewustwording over chronische inflammatoire huidaandoeningen bij het brede publiek vergroten.",
+        fund_init_6_public: "Initiatieven voor meer patiëntenparticipatie in onderzoek. We zoeken patiënten voor wetenschappelijke studies maar ook om het onderzoek mee vorm te geven.",
+        fund_init_6_pro: "Initiatieven voor meer patiëntenparticipatie in onderzoek. We zoeken patiënten voor wetenschappelijke studies maar ook om het onderzoek mee vorm te geven.",
+        fund_init_7_public: "Beheer van de biobank (opslag van menselijk lichaamsmateriaal voor onderzoek).",
+        fund_init_7_pro: "Beheer van de biobank (opslag van menselijk lichaamsmateriaal voor onderzoek).",
+        fund_init_8_public: "De verdere ontwikkeling van een multidisciplinair zorgmodel.",
+        fund_init_8_pro: "De verdere ontwikkeling van een multidisciplinair zorgmodel.",
+        fund_init_9_public: "De ontwikkeling of aankoop van hardware en software voor onderzoek en de klinische praktijk.",
+        fund_init_9_pro: "De ontwikkeling of aankoop van hardware en software voor onderzoek en de klinische praktijk.",
+        fund_init_10_public: "Teambuilding en teaminterventies.",
+        fund_init_10_pro: "Teambuilding en teaminterventies.",
+        fund_events_title_public: "Volgende infoavonden en activiteiten",
+        fund_events_title_pro: "Volgende infoavonden en activiteiten",
+        fund_event_1_public: "Webinar vitiligo: datum volgt",
+        fund_event_1_pro: "Webinar vitiligo: datum volgt",
+        fund_sponsors_title_public: "Structurele sponsors",
+        fund_sponsors_title_pro: "Structurele sponsors",
+        fund_sponsor_1_public: "Structurele sponsor van het Fonds Paul De Corte in 2025: Aveeno",
+        fund_sponsor_1_pro: "Structurele sponsor van het Fonds Paul De Corte in 2025: Aveeno",
+        fund_support_title_public: "Steun het fonds",
+        fund_support_title_pro: "Steun het fonds",
+        fund_support_1_public: "Ook jij kan je steentje bijdragen met giften, schenkingen en legaten.",
+        fund_support_1_pro: "Ook jij kan je steentje bijdragen met giften, schenkingen en legaten.",
+        fund_support_2_public: "Giften zijn welkom op rekeningnummer BE43 0018 8459 3701 met referentie ‘fiscaal attest FS/DER/001’.",
+        fund_support_2_pro: "Giften zijn welkom op rekeningnummer BE43 0018 8459 3701 met referentie ‘fiscaal attest FS/DER/001’.",
+        fund_support_3_public: "Vermeld ook zeker je rijksregisternummer (als je een Belgisch rijksregisternummer hebt).",
+        fund_support_3_pro: "Vermeld ook zeker je rijksregisternummer (als je een Belgisch rijksregisternummer hebt).",
+        fund_support_4_public: "Je kan je gift ook veilig online doen.",
+        fund_support_4_pro: "Je kan je gift ook veilig online doen.",
+        fund_support_5_public: "Let wel: de toepassing om online te schenken werkt alleen via een recente browser zoals Google Chrome, Microsoft Edge, Firefox of Safari.",
+        fund_support_5_pro: "Let wel: de toepassing om online te schenken werkt alleen via een recente browser zoals Google Chrome, Microsoft Edge, Firefox of Safari.",
+        fund_support_6_public: "Voor bedragen boven de 40 euro voorzien we een fiscaal attest.",
+        fund_support_6_pro: "Voor bedragen boven de 40 euro voorzien we een fiscaal attest.",
+        fund_support_7_public: "De wetgeving van de FOD Financiën (artikel 323/3 §3 van het Wetboek van de Inkomstenbelastingen 1992) verplicht ons om je rijksregisternummer te vermelden bij giften.",
+        fund_support_7_pro: "De wetgeving van de FOD Financiën (artikel 323/3 §3 van het Wetboek van de Inkomstenbelastingen 1992) verplicht ons om je rijksregisternummer te vermelden bij giften.",
+        fund_support_8_public: "Zo wordt je gift aan je belastingaangifte gekoppeld en geniet je van de fiscale aftrekbaarheid bij giften vanaf 40 euro.",
+        fund_support_8_pro: "Zo wordt je gift aan je belastingaangifte gekoppeld en geniet je van de fiscale aftrekbaarheid bij giften vanaf 40 euro.",
+
+        lang_label: "",
+        nav_news: "Nieuws",
+        nav_academic: "Onderzoekslijnen",
+        nav_research: "Academisch onderzoek",
+        nav_trials: "Klinische trials",
+        nav_fund: "Fonds Paul De Corte",
+        nav_pubs: "Publicaties",
+        nav_team: "Team",
+        nav_contact: "Contact",
+        hero_title: "Onderzoeksgroep Huidziekten UZ Gent/UGent",
+        hero_sub: "Van translationeel en klinisch huidonderzoek naar tastbare verbeteringen",
+        sec_news: "Nieuws",
+        sec_research: "Onderzoekslijnen",
+        sec_academic: "Academisch onderzoek",
+        sec_trials: "Klinische trials",
+        sec_fund: "Fonds Paul De Corte",
+        sec_pubs: "Publicaties",
+        sec_team: "Team",
+        sec_contact: "Contact",
+        lines_intro: "Vul hier de inleidende tekst aan.",
+        academic_intro: "",
+        team_hint: " ",
+        pub_findings_label: "Belangrijkste bevindingen",
+        form_name: "Naam",
+        form_email: "Email",
+        form_message: "Bericht",
+        form_send: "Verzenden",
+        msg_sent: "Bericht verzonden",
+        msg_sent_alert: "Bericht verzonden",
+        fund_intro: "Het Fonds Paul De Corte verleent financiële steun aan wetenschappelijk onderzoek dat de zorg voor patiënten met chronische huidziekten verbetert. Het slaat een brug tussen wetenschap, patiënten en zorg. Daarnaast ijvert het fonds voor meer maatschappelijke bewustwording over de belastende impact van chronische huidziekten.",
+        fund_initiatives_title: "Initiatieven",
+        fund_initiatives_lead: "Het Fonds Paul De Corte zamelt geld in voor:",
+        fund_init_1: "Werkingsmiddelen voor klinisch, fundamenteel, translationeel of toegepast wetenschappelijk onderzoek.",
+        fund_init_2: "Investeringen in technologische innovatie en infrastructuur.",
+        fund_init_3: "Organisatie van opleidingen, workshops, symposia, congressen en informatiesessies over chronische inflammatoire huidaandoeningen, gericht op onderzoekers, zorgverleners of patiënten.",
+        fund_init_4: "Initiatieven die het comfort van patiënten met een chronische inflammatoire huidaandoening verbeteren (bv. telemonitoring).",
+        fund_init_5: "Activiteiten die de bewustwording over chronische inflammatoire huidaandoeningen bij het brede publiek vergroten.",
+        fund_init_6: "Initiatieven voor meer patiëntenparticipatie in onderzoek. We zoeken patiënten voor wetenschappelijke studies maar ook om het onderzoek mee vorm te geven.",
+        fund_init_7: "Beheer van de biobank (opslag van menselijk lichaamsmateriaal voor onderzoek).",
+        fund_init_8: "De verdere ontwikkeling van een multidisciplinair zorgmodel.",
+        fund_init_9: "De ontwikkeling of aankoop van hardware en software voor onderzoek en de klinische praktijk.",
+        fund_init_10: "Teambuilding en teaminterventies.",
+        fund_events_title: "Volgende infoavonden en activiteiten",
+        fund_event_1: "Webinar vitiligo: datum volgt",
+        fund_sponsors_title: "Structurele sponsors",
+        fund_sponsor_1: "Structurele sponsor van het Fonds Paul De Corte in 2025: Aveeno",
+        fund_support_title: "Steun het fonds",
+        fund_support_1: "Ook jij kan je steentje bijdragen met giften, schenkingen en legaten.",
+        fund_support_2: "Giften zijn welkom op rekeningnummer BE43 0018 8459 3701 met referentie ‘fiscaal attest FS/DER/001’.",
+        fund_support_3: "Vermeld ook zeker je rijksregisternummer (als je een Belgisch rijksregisternummer hebt).",
+        fund_support_4: "Je kan je gift ook veilig online doen.",
+        fund_support_5: "Let wel: de toepassing om online te schenken werkt alleen via een recente browser zoals Google Chrome, Microsoft Edge, Firefox of Safari.",
+        fund_support_6: "Voor bedragen boven de 40 euro voorzien we een fiscaal attest.",
+        fund_support_7: "De wetgeving van de FOD Financiën (artikel 323/3 §3 van het Wetboek van de Inkomstenbelastingen 1992) verplicht ons om je rijksregisternummer te vermelden bij giften.",
+        fund_support_8: "Zo wordt je gift aan je belastingaangifte gekoppeld en geniet je van de fiscale aftrekbaarheid bij giften vanaf 40 euro.",
+      },
+      en: {
+        lang_label: "",
+        nav_news: "News",
+        nav_academic: "Research lines",
+        nav_research: "Academic research",
+        nav_trials: "Clinical trials",
+        nav_fund: "Paul De Corte Fund",
+        nav_pubs: "Publications",
+        nav_team: "Team",
+        nav_contact: "Contact",
+        hero_title: "Research group Skin Diseases UZ Gent/UGent",
+        hero_sub: "From translational and clinical skin research to tangible improvements",
+        sec_news: "News",
+        sec_research: "Research lines",
+        sec_academic: "Academic research",
+        sec_trials: "Clinical trials",
+        sec_fund: "Paul De Corte Fund",
+        sec_pubs: "Publications",
+        sec_team: "Team",
+        sec_contact: "Contact",
+        lines_intro: "Add the introductory text here.",
+        academic_intro: "",
+        team_hint: "Add people by appending an item to teamMembers in the code.",
+        pub_findings_label: "Main findings",
+        form_name: "Name",
+        form_email: "Email",
+        form_message: "Message",
+        form_send: "Send",
+        msg_sent: "Message sent",
+        msg_sent_alert: "Message sent",
+        fund_intro: "The Paul De Corte Fund provides financial support for scientific research that improves care for patients with chronic skin diseases. It builds a bridge between science, patients, and healthcare. The fund also works to raise societal awareness of the substantial burden of chronic skin diseases.",
+        fund_initiatives_title: "Initiatives",
+        fund_initiatives_lead: "The Paul De Corte Fund raises funds for:",
+        fund_init_1: "Operational funding for clinical, fundamental, translational, or applied scientific research.",
+        fund_init_2: "Investments in technological innovation and infrastructure.",
+        fund_init_3: "Organisation of training courses, workshops, symposia, conferences, and information sessions on chronic inflammatory skin diseases, aimed at researchers, healthcare professionals, or patients.",
+        fund_init_4: "Initiatives that improve the comfort of patients with a chronic inflammatory skin disease (e.g., telemonitoring).",
+        fund_init_5: "Activities that increase public awareness of chronic inflammatory skin diseases.",
+        fund_init_6: "Initiatives to strengthen patient involvement in research. We look for patients for scientific studies and also to help shape the research agenda.",
+        fund_init_7: "Management of the biobank (storage of human biological material for research).",
+        fund_init_8: "Further development of a multidisciplinary care model.",
+        fund_init_9: "Development or purchase of hardware and software for research and clinical practice.",
+        fund_init_10: "Team building and team interventions.",
+        fund_events_title: "Upcoming information sessions and activities",
+        fund_event_1: "Vitiligo webinar: date to be announced",
+        fund_sponsors_title: "Structural sponsors",
+        fund_sponsor_1: "Structural sponsor of the Paul De Corte Fund in 2025: Aveeno",
+        fund_support_title: "Support the fund",
+        fund_support_1: "You can also contribute through donations, gifts, and bequests.",
+        fund_support_2: "Donations are welcome on account number BE43 0018 8459 3701 with reference “tax certificate FS/DER/001”.",
+        fund_support_3: "Please also include your national register number (if you have a Belgian national register number).",
+        fund_support_4: "You can also donate safely online.",
+        fund_support_5: "Note: the online donation application only works in a recent browser such as Google Chrome, Microsoft Edge, Firefox, or Safari.",
+        fund_support_6: "For amounts above 40 euros, we provide a tax certificate.",
+        fund_support_7: "Belgian tax regulations (FPS Finance; Article 323/3 §3 of the Income Tax Code 1992) require us to include your national register number with donations.",
+        fund_support_8: "This links your donation to your tax return and enables tax deductibility for donations from 40 euros.",
+      }
+      ,
+      fr: {
+        lang_label: "",
+        nav_news: "Actualités",
+        nav_academic: "Axes de recherche",
+        nav_research: "Recherche académique",
+        nav_trials: "Essais cliniques",
+        nav_fund: "Fonds Paul De Corte",
+        nav_pubs: "Publications",
+        nav_team: "Équipe",
+        nav_contact: "Contact",
+        hero_title: "Groupe de recherche Maladies de la peau UZ Gand/UGent",
+        hero_sub: "De la recherche translationnelle et clinique à des améliorations concrètes",
+        sec_news: "Actualités",
+        sec_research: "Axes de recherche",
+        sec_academic: "Recherche académique",
+        sec_trials: "Essais cliniques",
+        sec_fund: "Fonds Paul De Corte",
+        sec_pubs: "Publications",
+        sec_team: "Équipe",
+        sec_contact: "Contact",
+        lines_intro: "Ajoutez ici le texte d’introduction.",
+        academic_intro: "",
+        team_hint: " ",
+        pub_findings_label: "Principaux résultats",
+        form_name: "Nom",
+        form_email: "E-mail",
+        form_message: "Message",
+        form_send: "Envoyer",
+        msg_sent: "Message envoyé",
+        msg_sent_alert: "Message envoyé",
+        fund_intro: "",
+        fund_initiatives_title: "",
+        fund_initiatives_lead: "",
+        fund_events_title: "",
+        fund_sponsors_title: "",
+        fund_support_title: "",
+      }
+    };
+
+
+    
+    const CMS_STORAGE_KEY = "huidpunt_content_v1";
+    let __cmsHasLocal = false;
+
+    
+    // Optional footer content (empty => no footer)
+    let footerContent = { nl: "", en: "", fr: "" };
+
+function getDefaultContent(){
+      return {
+        newsItems: newsItems,
+        teamMembers: teamMembers,
+        researchItems: researchItems,
+        linesItems: linesItems,
+        trialItems: trialItems,
+        pubItems: pubItems,
+        academicCategories: academicCategories,
+        trialCategories: trialCategories,
+        pubCategories: pubCategories,
+        teamCategories: teamCategories,
+        footerContent: footerContent,
+        i18n: i18n
+      };
+    }
+
+    // Keep a frozen snapshot of built-in defaults so i18n and other fallbacks never show raw keys.
+    const DEFAULT_CONTENT = (function(){
+      try{ return JSON.parse(JSON.stringify(getDefaultContent())); }catch(e){ return getDefaultContent(); }
+    })();
+
+    function applyContentObject(obj){
+      if (!obj || typeof obj !== "object") return;
+      // normalize
+      obj.academicCategories = Array.isArray(obj.academicCategories) ? obj.academicCategories : [];
+      obj.trialCategories = Array.isArray(obj.trialCategories) ? obj.trialCategories : [];
+      obj.pubCategories = Array.isArray(obj.pubCategories) ? obj.pubCategories : [];
+      obj.teamCategories = Array.isArray(obj.teamCategories) ? obj.teamCategories : [];
+      if (obj.i18n && typeof obj.i18n === "object"){
+        obj.i18n.nl = obj.i18n.nl && typeof obj.i18n.nl === "object" ? obj.i18n.nl : {};
+        obj.i18n.en = obj.i18n.en && typeof obj.i18n.en === "object" ? obj.i18n.en : {};
+        obj.i18n.fr = obj.i18n.fr && typeof obj.i18n.fr === "object" ? obj.i18n.fr : {};
+
+        // Backwards compatibility: older content used research_intro for the Onderzoekslijnen intro.
+        ["nl","en","fr"].forEach(lang => {
+          const d = obj.i18n[lang];
+          if (d && d.research_intro && !d.lines_intro) d.lines_intro = d.research_intro;
+          if (d && d.academic_intro === undefined) d.academic_intro = "";
+        });
+      }
+
+      if (Array.isArray(obj.newsItems)) obj.newsItems.forEach(x => { if (x && typeof x === "object" && x.figuur === undefined) x.figuur = ""; });
+
+      if (obj.newsItems) newsItems = obj.newsItems;
+      if (obj.teamMembers) teamMembers = obj.teamMembers;
+      if (obj.researchItems) researchItems = obj.researchItems;
+      if (obj.linesItems) linesItems = obj.linesItems;
+      if (obj.footerContent) footerContent = obj.footerContent;
+      if (obj.trialItems) trialItems = obj.trialItems;
+      if (obj.pubItems) pubItems = obj.pubItems;
+      if (obj.pubCategories) pubCategories = obj.pubCategories;
+      if (obj.teamCategories) teamCategories = obj.teamCategories;
+      if (obj.academicCategories) academicCategories = obj.academicCategories;
+      if (obj.trialCategories) trialCategories = obj.trialCategories;
+      if (obj.i18n) i18n = obj.i18n;
+    }
+
+    function loadCmsContent(){
+      try{
+        const raw = localStorage.getItem(CMS_STORAGE_KEY);
+        if (!raw) return;
+        __cmsHasLocal = true;
+        const obj = JSON.parse(raw);
+        applyContentObject(obj);
+      }catch(e){}
+    }
+
+    function saveCmsContent(obj){
+      try{
+        localStorage.setItem(CMS_STORAGE_KEY, JSON.stringify(obj));
+      }catch(e){}
+    }
+
+    function exportCmsContent(){
+      const obj = getDefaultContent();
+      try{
+        const raw = localStorage.getItem(CMS_STORAGE_KEY);
+        if (raw) return raw;
+      }catch(e){}
+      return JSON.stringify(obj, null, 2);
+    }
+
+    loadCmsContent();
+
+
+    
+    async function loadContentJsonIfNoLocal(){
+      if (__cmsHasLocal) return;
+      try{
+        const r = await fetch("content.json", { cache: "no-store" });
+        if (!r.ok) return;
+        const obj = await r.json();
+        applyContentObject(obj);
+      }catch(e){}
+    }
+
+let currentLang = (localStorage.getItem("lang") || "nl");
+    if (!["nl","en","fr"].includes(currentLang)) currentLang = "nl";
+
+    // Audience (public vs physician/scientist)
+    let currentAudience = (localStorage.getItem("audience") || "public");
+    function audienceOk(x){
+      if (!x || !x.audience) return true;
+      if (Array.isArray(x.audience)) return x.audience.includes(currentAudience);
+      return String(x.audience) === currentAudience;
+    }
+
+    function setAudience(aud){
+      currentAudience = (aud === "pro") ? "pro" : "public";
+      localStorage.setItem("audience", currentAudience);
+
+      const bPublic = document.getElementById("audiencePublicBtn");
+      const bPro = document.getElementById("audienceProBtn");
+      if (bPublic && bPro){
+        bPublic.classList.toggle("is-active", currentAudience === "public");
+        bPro.classList.toggle("is-active", currentAudience === "pro");
+      }
+
+      document.querySelectorAll(".audience-block").forEach(el => el.classList.remove("is-active"));
+      document.querySelectorAll(".audience-" + currentAudience).forEach(el => el.classList.add("is-active"));
+
+      // Update all i18n text nodes that may have audience-specific variants
+      if (typeof applyI18n === "function") applyI18n();
+
+      // Re-render lists that may have audience-specific items
+      if (typeof renderNieuws === "function") renderNieuws();
+      if (typeof renderResearchLines === "function") renderResearchLines();
+      if (typeof renderAcademicStudies === "function") renderAcademicStudies();
+    }
+
+    // Translation helper with safe fallbacks.
+    // Priority: CMS (current lang) -> CMS NL -> built-in defaults (current lang) -> built-in NL -> key.
+    function t(key) {
+      const aKey = key + "_" + currentAudience;
+
+      const cmsVal = (i18n && i18n[currentLang] && i18n[currentLang][aKey]) ? i18n[currentLang][aKey]
+        : (i18n && i18n.nl && i18n.nl[aKey]) ? i18n.nl[aKey]
+        : (i18n && i18n[currentLang] && i18n[currentLang][key]) ? i18n[currentLang][key]
+        : (i18n && i18n.nl && i18n.nl[key]) ? i18n.nl[key]
+        : "";
+
+      if (cmsVal !== undefined && cmsVal !== null && String(cmsVal).trim() !== "") return cmsVal;
+
+      // built-in defaults live in DEFAULT_CONTENT
+      const def = (typeof DEFAULT_CONTENT !== "undefined" && DEFAULT_CONTENT && DEFAULT_CONTENT.i18n) ? DEFAULT_CONTENT.i18n : null;
+
+      const defVal = (def && def[currentLang] && def[currentLang][aKey]) ? def[currentLang][aKey]
+        : (def && def.nl && def.nl[aKey]) ? def.nl[aKey]
+        : (def && def[currentLang] && def[currentLang][key]) ? def[currentLang][key]
+        : (def && def.nl && def.nl[key]) ? def.nl[key]
+        : "";
+
+      return (defVal !== undefined && defVal !== null && String(defVal).trim() !== "") ? defVal : key;
+    }
+
+    function sanitizeRich(html){
+  // Allow only: b, strong, i, em, u, br, span with style color, a with safe href
+  const allowed = new Set(["B","STRONG","I","EM","U","BR","SPAN","A"]);
+  const doc = new DOMParser().parseFromString("<div>" + String(html || "") + "</div>", "text/html");
+  const root = doc.body.firstChild;
+
+  function cleanStyle(styleText){
+    const s = String(styleText || "");
+    // Extract only color property
+    const m = s.match(/color\s*:\s*([^;]+)\s*;?/i);
+    if (!m) return "";
+    const v = m[1].trim();
+    // Allow hex or rgb or rgba
+    const ok = /^#([0-9a-f]{3}|[0-9a-f]{6})$/i.test(v)
+      || /^rgb\(\s*\d{1,3}\s*,\s*\d{1,3}\s*,\s*\d{1,3}\s*\)$/i.test(v)
+      || /^rgba\(\s*\d{1,3}\s*,\s*\d{1,3}\s*,\s*\d{1,3}\s*,\s*(0|1|0?\.\d+)\s*\)$/i.test(v);
+    return ok ? ("color:" + v) : "";
+  }
+ function cleanHref(href){
+  const h = String(href || "").trim();
+  if (!h) return "";
+  // Allow http(s), mailto, tel, and in-page anchors. Block javascript:, data:, vbscript:, etc.
+  if (h.startsWith('#')) return h;
+  const lower = h.toLowerCase();
+  if (lower.startsWith('http://') || lower.startsWith('https://') || lower.startsWith('mailto:') || lower.startsWith('tel:')) return h;
+  return "";
+ }
+
+
+  function walk(node){
+    if (node.nodeType === 3) return doc.createTextNode(node.nodeValue);
+    if (node.nodeType !== 1) return doc.createTextNode("");
+    const tag = node.tagName;
+    const frag = doc.createDocumentFragment();
+
+    if (!allowed.has(tag)){
+      // unwrap unknown tags
+      Array.from(node.childNodes).forEach(ch => frag.appendChild(walk(ch)));
+      return frag;
+    }
+
+    if (tag === "BR"){
+      return doc.createElement("br");
+    }
+
+    const out = doc.createElement(tag.toLowerCase());
+    if (tag === "SPAN"){
+      const cs = cleanStyle(node.getAttribute("style"));
+      if (cs) out.setAttribute("style", cs);
+    }
+    if (tag === "A"){
+  const href = cleanHref(node.getAttribute("href"));
+  if (href) out.setAttribute("href", href);
+  // Open external links in a new tab by default
+  if (href && (href.toLowerCase().startsWith('http://') || href.toLowerCase().startsWith('https://'))){
+    out.setAttribute("target", "_blank");
+    out.setAttribute("rel", "noopener noreferrer");
+  }
+
+  // Optional: keep link color if user sets it via span inside, not via inline style on <a>
+
+}
+Array.from(node.childNodes).forEach(ch => out.appendChild(walk(ch)));
+    return out;
+  }
+
+  const container = doc.createElement("div");
+  Array.from(root.childNodes).forEach(ch => container.appendChild(walk(ch)));
+  return container.innerHTML;
+}
+
+function applyI18n() {
+  document.documentElement.lang = currentLang;
+  document.querySelectorAll("[data-i18n]").forEach(el => {
+    const key = el.getAttribute("data-i18n");
+    const val = t(key);
+    // If the CMS text contains markup, render it safely as limited HTML
+    if (val && String(val).indexOf("<") !== -1){
+      el.innerHTML = sanitizeRich(val);
+    } else {
+      el.textContent = val;
+    }
+  });
+  // Attribute translations (e.g., button value)
+  document.querySelectorAll("[data-i18n-attr]").forEach(el => {
+    const spec = el.getAttribute("data-i18n-attr"); // e.g., "value:form_send"
+    const parts = spec.split(":");
+    if (parts.length === 2) el.setAttribute(parts[0], t(parts[1]));
+  });
+}
+
+function esc(s) {
+      return String(s)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    }
+
+    function renderNieuws() {
+      const el = document.getElementById("newsList");
+      el.innerHTML = "<table width='100%' cellpadding='0' cellspacing='0' border='0'>" +
+        newsItems.filter(audienceOk).map(x => {
+          const title = esc((x.titel && (x.titel[currentLang] || x.titel.nl)) || "");
+          const date  = esc(x.datum || "");
+          const body  = (x.tekst && (x.tekst[currentLang] || x.tekst.nl)) || "";
+          const fig   = (x.figuur && String(x.figuur).trim()) ? String(x.figuur).trim() : "";
+
+          const textBlock =
+            "<font face='Arial' size='3' color='#0B2E64'><b>" + title + "</b></font><br>" +
+            "<font face='Arial' size='2' color='#333333'><b>" + date + "</b></font><br><br>" +
+            "<font face='Arial' size='3'>" + sanitizeRich(body) + "</font>";
+
+          const inner = fig
+            ? ("<table width='100%' cellpadding='0' cellspacing='0' border='0'><tr>" +
+                "<td width='180' valign='top' style='padding:0;'>" +
+                  "<img src='" + esc(fig) + "' alt='" + title + "' style='display:block;width:180px;height:auto;border-radius:10px;border:1px solid #E1E6ED;'>" +
+                "</td>" +
+                "<td width='14'></td>" +
+                "<td valign='top' style='padding:0;'>" + textBlock + "</td>" +
+              "</tr></table>")
+            : textBlock;
+
+          return (
+            "<tr><td>" +
+              "<table width='100%' cellpadding='14' cellspacing='0' border='1' bordercolor='#E1E6ED' bgcolor='#FFFFFF'>" +
+                "<tr><td>" + inner + "</td></tr>" +
+              "</table>" +
+            "</td></tr><tr><td height='12'></td></tr>"
+          );
+        }).join("") +
+      "</table>";
+    }
+
+
+    function renderResearchLines() {
+      const el = document.getElementById("researchLinesList");
+      if (!el) return;
+      const filtered = (linesItems || []).filter(audienceOk);
+      if (!filtered.length){
+        el.innerHTML = "";
+        return;
+      }
+      el.innerHTML = "<table width='100%' cellpadding='0' cellspacing='0' border='0'>" +
+        filtered.map(x => {
+          const title = (x.titel && (x.titel[currentLang] || x.titel.nl)) || "";
+          const text  = (x.tekst && (x.tekst[currentLang] || x.tekst.nl)) || "";
+          const fig   = (x.figuur && String(x.figuur).trim()) ? String(x.figuur).trim() : "";
+          const figTd = fig
+            ? ("<td width='200' valign='top' style='padding:0;'>" +
+                "<img src='" + esc(fig) + "' alt='" + esc(title) + "' style='display:block;width:200px;height:auto;border-radius:10px;border:1px solid #E1E6ED;'>" +
+              "</td><td width='14'></td>")
+            : "";
+          return (
+            "<tr><td>" +
+              "<table width='100%' cellpadding='14' cellspacing='0' border='1' bordercolor='#E1E6ED' bgcolor='#FFFFFF'>" +
+                "<tr><td>" +
+                  "<table width='100%' cellpadding='0' cellspacing='0' border='0'>" +
+                    "<tr>" +
+                      figTd +
+                      "<td valign='top'>" +
+                        "<font face='Arial' size='3' color='#0B2E64'><b>" + esc(title) + "</b></font><br><br>" +
+                        "<font face='Arial' size='3'>" + sanitizeRich(text) + "</font>" +
+                      "</td>" +
+                    "</tr>" +
+                  "</table>" +
+                "</td></tr>" +
+              "</table>" +
+            "</td></tr><tr><td height='12'></td></tr>"
+          );
+        }).join("") +
+      "</table>";
+    }
+
+    function renderTeamFilters() {
+      const wrap = document.getElementById("teamFilters");
+      if (!wrap) return;
+
+      wrap.innerHTML = teamCategories.map(c => {
+        const isActive = (c.key === currentTeamFilter);
+        const label = esc((c.label && (c.label[currentLang] || c.label.nl)) || c.key);
+        return "<button type='button' class='pub-filter-btn" + (isActive ? " is-active" : "") + "' data-teamcat='" + esc(c.key) + "'>" + label + "</button>";
+      }).join("");
+
+      wrap.querySelectorAll("button[data-teamcat]").forEach(btn => {
+        btn.addEventListener("click", () => {
+          currentTeamFilter = btn.getAttribute("data-teamcat") || "all";
+          renderTeamFilters();
+          renderTeam();
+        });
+      });
+    }
+
+    function renderTeam() {
+      const el = document.getElementById("teamTable");
+      if (!el) return;
+
+      const filtered = (currentTeamFilter === "all")
+        ? teamMembers
+        : teamMembers.filter(p => {
+            const catsRaw = (p && (p.categories || p.category)) || [];
+            const cats = Array.isArray(catsRaw) ? catsRaw : [catsRaw];
+            return cats.map(x => String(x || "").toLowerCase()).includes(currentTeamFilter);
+          });
+
+      el.innerHTML =
+        "<div class='team-grid'>" +
+          filtered.map(p =>
+            "<div style='border:1px solid #E1E6ED;border-radius:12px;overflow:hidden;background:#FFFFFF;'>" +
+              (p.foto ? (
+                "<div class='team-photo'>" + "<img src='" + esc(p.foto) + "' alt='" + esc(p.naam || "") + "'>" + "</div>"
+              ) : "") +
+              "<div style='padding:12px;'>" +
+                "<div style='font-family:Arial,sans-serif;font-size:14px;font-weight:700;color:#0B2E64;margin:0 0 4px 0;'>" + esc(p.naam || "") + "</div>" +
+                "<div style='font-family:Arial,sans-serif;font-size:12px;color:#333333;margin:0 0 10px 0;'>" +
+                  esc(((p.functie && typeof p.functie === "object") ? (p.functie[currentLang] || p.functie.nl || p.functie.en || "") : (p.functie || ""))) +
+                "</div>" +
+                "<div style='font-family:Arial,sans-serif;font-size:13px;line-height:1.35;color:#333333;'>" +
+                  sanitizeRich(((p.uitleg && typeof p.uitleg === "object") ? (p.uitleg[currentLang] || p.uitleg.nl || p.uitleg.en || "") : (p.uitleg || ""))) +
+                "</div>" +
+              "</div>" +
+            "</div>"
+          ).join("") +
+        "</div>";
+    }
+
+    function renderAcademicStudies() {
+      const el = document.getElementById("academicList");
+      if (!el) return;
+      const filtered = (currentAcademicFilter === "all")
+        ? researchItems.filter(audienceOk)
+        : researchItems.filter(audienceOk).filter(x => {
+            const catsRaw = (x && (x.category || x.categories)) || "";
+            const cats = Array.isArray(catsRaw) ? catsRaw : [catsRaw];
+            return cats.map(v => String(v || "").toLowerCase()).includes(currentAcademicFilter);
+          });
+      el.innerHTML =
+        "<div class='research-grid'>" +
+          filtered.map(x =>
+            "<div class='research-card'>" +
+              (x.figuur ? ("<div class='research-figure'>" +
+                "<img src='" + esc(x.figuur) + "' alt='" + esc((x.titel && (x.titel[currentLang] || x.titel.nl)) || "") + "'>" +
+              "</div>") : "") +
+              "<div class='research-body'>" +
+                "<div class='research-title'>" + esc((x.titel && (x.titel[currentLang] || x.titel.nl)) || "") + "</div>" +
+                "<div class='research-text'>" + sanitizeRich((x.tekst && (x.tekst[currentLang] || x.tekst.nl)) || "") + "</div>" +
+              "</div>" +
+            "</div>"
+          ).join("") +
+        "</div>";
+    }
+
+    function renderTrials() {
+      const el = document.getElementById("trialList");
+      const filtered = (currentTrialFilter === "all")
+        ? trialItems
+        : trialItems.filter(x => {
+            const catsRaw = (x && (x.category || x.categories)) || "";
+            const cats = Array.isArray(catsRaw) ? catsRaw : [catsRaw];
+            return cats.map(v => String(v || "").toLowerCase()).includes(currentTrialFilter);
+          });
+      el.innerHTML = "<table width='100%' cellpadding='0' cellspacing='0' border='0'>" +
+        filtered.map(x =>
+          "<tr><td>" +
+            "<table width='100%' cellpadding='14' cellspacing='0' border='1' bordercolor='#E1E6ED' bgcolor='#FFFFFF'>" +
+              "<tr><td>" +
+                "<font face='Arial' size='3' color='#0B2E64'><b>" + esc(x.titel[currentLang] || x.titel.nl) + "</b></font><br>" +
+                "<font face='Arial' size='2' color='#333333'><b>" + esc(x.meta[currentLang] || x.meta.nl) + "</b></font><br><br>" +
+                "<font face='Arial' size='3'>" + sanitizeRich(x.tekst[currentLang] || x.tekst.nl) + "</font>" +
+              "</td></tr>" +
+            "</table>" +
+          "</td></tr><tr><td height='12'></td></tr>"
+        ).join("") +
+      "</table>";
+    }
+
+    function renderPubFilters() {
+      const wrap = document.getElementById("pubFilters");
+      if (!wrap) return;
+
+      wrap.innerHTML = pubCategories.map(c => {
+        const isActive = (c.key === currentPubFilter);
+        const label = esc((c.label && (c.label[currentLang] || c.label.nl)) || c.key);
+        return "<button type='button' class='pub-filter-btn" + (isActive ? " is-active" : "") + "' data-pubcat='" + esc(c.key) + "'>" + label + "</button>";
+      }).join("");
+
+      wrap.querySelectorAll("button[data-pubcat]").forEach(btn => {
+        btn.addEventListener("click", () => {
+          currentPubFilter = btn.getAttribute("data-pubcat") || "all";
+          renderPubFilters();
+          renderPublicaties();
+        });
+      });
+    }
+
+    function renderPublicaties() {
+      const el = document.getElementById("pubList");
+      const label = esc(t("pub_findings_label"));
+      const filtered = (currentPubFilter === "all")
+        ? pubItems
+        : pubItems.filter(p => (p.category || "").toLowerCase() === currentPubFilter);
+
+      el.innerHTML = "<table width='100%' cellpadding='0' cellspacing='0' border='0'>" +
+        filtered.map(x => {
+          const title = esc((x.titel && (x.titel[currentLang] || x.titel.nl)) || "");
+          const meta  = esc((x.meta  && (x.meta[currentLang]  || x.meta.nl))  || "");
+          const link  = esc((x.tekst && (x.tekst[currentLang] || x.tekst.nl)) || "");
+          const findings = sanitizeRich((x.bevindingen && (x.bevindingen[currentLang] || x.bevindingen.nl)) || "");
+          return (
+            "<tr><td>" +
+              "<table width='100%' cellpadding='14' cellspacing='0' border='1' bordercolor='#E1E6ED' bgcolor='#FFFFFF' style='border-radius:12px; overflow:hidden;'>" +
+                "<tr><td>" +
+                  "<font face='Arial' size='3' color='#0B2E64'><b>" + title + "</b></font><br>" +
+                  "<font face='Arial' size='2' color='#333333'><b>" + meta + "</b></font><br><br>" +
+                  "<font face='Arial' size='3'>" + link + "</font><br><br>" +
+                  "<table width='100%' cellpadding='12' cellspacing='0' border='1' bordercolor='#1E64C8' bgcolor='#F0F3F7' style='border-radius:10px; overflow:hidden;'>" +
+                    "<tr><td>" +
+                      "<font face='Arial' size='2' color='#1E64C8'><b>" + label + "</b></font><br>" +
+                      "<font face='Arial' size='3' color='#333333'>" + (findings || "&nbsp;") + "</font>" +
+                    "</td></tr>" +
+                  "</table>" +
+                "</td></tr>" +
+              "</table>" +
+            "</td></tr><tr><td height='12'></td></tr>"
+          );
+        }).join("") +
+      "</table>";
+    }
+
+    // Language buttons
+    
+    function renderFooter(){
+      const el = document.getElementById("site-footer");
+      const txt = document.getElementById("footer-text");
+      if (!el || !txt) return;
+      const v = (footerContent && footerContent[currentLang]) ? footerContent[currentLang].trim() : "";
+      if (!v){
+        el.style.display = "none";
+        txt.innerHTML = "";
+        return;
+      }
+      el.style.display = "";
+      // allow simple markup; if you want plain text only, replace with esc(v)
+      txt.innerHTML = v;
+    }
+
+function setLang(lang){
+      currentLang = (lang === "en" || lang === "fr") ? lang : "nl";
+      localStorage.setItem("lang", currentLang);
+      applyI18n();
+      renderFooter();
+      renderNieuws();
+      renderResearchLines();
+      renderTeamFilters();
+      renderTeam();
+      renderAcademicFilters();
+      renderAcademicStudies();
+      renderTrialFilters();
+      renderTrials();
+      renderPubFilters();
+      renderPublicaties();
+      renderFooter();
+      updateLangButtons();
+    }
+
+    function updateLangButtons(){
+      document.querySelectorAll(".lang-btn[data-lang]").forEach(btn => {
+        const v = btn.getAttribute("data-lang") || "nl";
+        btn.classList.toggle("is-active", v === currentLang);
+        btn.setAttribute("aria-pressed", (v === currentLang) ? "true" : "false");
+      });
+    }
+
+    document.querySelectorAll(".lang-btn[data-lang]").forEach(btn => {
+      btn.addEventListener("click", () => setLang(btn.getAttribute("data-lang") || "nl"));
+    });
+
+    // Ensure correct initial state on load
+    updateLangButtons();
+    // Wire audience buttons (if present)
+    const aPub = document.getElementById("audiencePublicBtn");
+    const aPro = document.getElementById("audienceProBtn");
+    if (aPub) aPub.addEventListener("click", () => setAudience("public"));
+    if (aPro) aPro.addEventListener("click", () => setAudience("pro"));
+
+    (async function boot(){
+      await loadContentJsonIfNoLocal();
+
+      // Apply saved audience immediately so static sections (e.g. Fonds) show text on load
+      setAudience(currentAudience);
+
+      applyI18n();
+      renderNieuws();
+      renderResearchLines();
+      renderTeamFilters();
+      renderTeam();
+      renderAcademicFilters();
+      renderAcademicStudies();
+      renderTrialFilters();
+      renderTrials();
+      renderPubFilters();
+      renderPublicaties();
+    })();
+
+    // Some browsers may not paint long/complex table sections until after the first layout pass.
+    // Re-apply i18n and force a scroll-driven update on the next frame so all text is visible immediately.
+    requestAnimationFrame(() => { applyI18n(); });
+    requestAnimationFrame(() => { window.dispatchEvent(new Event('scroll')); });
+  </script>
+
+
+<script>
+  (function(){
+    const sections = Array.from(document.querySelectorAll(".stack-section"));
+    if (!sections.length) return;
+
+    // Respect reduced motion.
+    const prefersReduced = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const isDesktop = window.matchMedia && window.matchMedia("(min-width: 1024px)").matches;
+    if (!isDesktop) return;
+    if (prefersReduced) return;
+
+    // Ensure stacking order variable exists
+    sections.forEach((sec, idx) => {
+      if (!sec.style.getPropertyValue("--i")) sec.style.setProperty("--i", String(idx + 1));
+    });
+
+    const cards = sections
+      .map(sec => sec.querySelector(".sectioncard"))
+      .filter(Boolean);
+
+    // Smooth, scroll-driven focus: cards near the middle third of the viewport are enlarged.
+    const state = new Map();
+    cards.forEach(card => state.set(card, { scale: 0.97, lift: 0, shadowA: 0.14 }));
+
+    function clamp(v, a, b){ return Math.min(b, Math.max(a, v)); }
+    function smoothstep(t){ return t * t * (3 - 2 * t); }
+    function lerp(a, b, t){ return a + (b - a) * t; }
+
+    let ticking = false;
+    function schedule(){
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(update);
+    }
+
+    function update(){
+      ticking = false;
+      const vh = window.innerHeight || 1;
+      const viewMid = vh / 2;
+
+      // Middle third boundaries -> focus plateau around +/- vh/6.
+      const plateau = vh / 6;
+      // Fade-out by about half the viewport away from center.
+      const fade = vh / 2;
+
+      for (const card of cards){
+        const r = card.getBoundingClientRect();
+        const cardMid = r.top + r.height / 2;
+        const d = Math.abs(cardMid - viewMid);
+
+        // 1.0 when inside middle third, down to 0.0 when far away.
+        const x = clamp((d - plateau) / Math.max(1, (fade - plateau)), 0, 1);
+        const focus = 1 - smoothstep(x);
+
+        const targetScale = lerp(0.965, 1.035, focus);
+        const targetLift = lerp(0, -14, focus);
+        const targetShadowA = lerp(0.12, 0.26, focus);
+
+        const s = state.get(card);
+        // Critically damped-ish smoothing: higher = snappier.
+        const k = 0.06;
+        s.scale = lerp(s.scale, targetScale, k);
+        s.lift = lerp(s.lift, targetLift, k);
+        s.shadowA = lerp(s.shadowA, targetShadowA, k);
+
+        card.style.setProperty("--scale", s.scale.toFixed(4));
+        card.style.setProperty("--lift", s.lift.toFixed(2) + "px");
+        card.style.setProperty("--shadowA", s.shadowA.toFixed(3));
+      }
+
+    }
+
+    window.addEventListener("scroll", schedule, { passive: true });
+    window.addEventListener("resize", schedule);
+    schedule();
+  })();
+</script>
+
+
+<script id="flashy-ui-js">
+  (function(){
+    // Add animated top bar class
+    const topbar = document.querySelector('table[bgcolor="#1E64C8"]');
+    if (topbar) topbar.classList.add("topbar-anim");
+
+    
+// Scroll progress bar
+const progress = document.createElement("div");
+progress.className = "scroll-progress";
+progress.setAttribute("aria-hidden", "true");
+document.body.appendChild(progress);
+
+// Back to top button
+const btn = document.createElement("button");
+btn.type = "button";
+btn.className = "to-top";
+btn.setAttribute("aria-label", "Back to top");
+btn.innerHTML = "↑";
+btn.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
+document.body.appendChild(btn);
+
+const hero = document.querySelector(".hero-banner");
+
+function updateScrollFx(){
+  const doc = document.documentElement;
+  const y = window.scrollY || doc.scrollTop || 0;
+
+  // Back to top visibility
+  btn.classList.toggle("is-visible", y > 600);
+
+  // Progress bar
+  const h = (doc.scrollHeight || 0) - (window.innerHeight || 1);
+  const p = h > 0 ? Math.min(1, Math.max(0, y / h)) : 0;
+  progress.style.width = (p * 100).toFixed(2) + "%";
+
+  // Subtle parallax on hero photo while it is near viewport
+  if (hero){
+    const r = hero.getBoundingClientRect();
+    if (r.bottom > 0 && r.top < (window.innerHeight || 0)){
+      const offset = Math.round((y) * 0.12);
+      hero.style.backgroundPosition = "center " + (-offset) + "px";
+    }
+  }
+}
+
+window.addEventListener("scroll", updateScrollFx, { passive: true });
+window.addEventListener("resize", updateScrollFx);
+updateScrollFx();
+// Reveal on scroll (IntersectionObserver)
+    const prefersReduced = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (prefersReduced) return;
+
+    const targets = [];
+    document.querySelectorAll(".research-card").forEach(el => targets.push(el));
+    // Table based list entries: add reveal to direct child tables inside lists
+    ["newsList", "trialList", "teamTable"].forEach(id => {
+      const host = document.getElementById(id);
+      if (!host) return;
+      host.querySelectorAll("table").forEach(t => targets.push(t));
+    });
+
+    targets.forEach(el => el.classList.add("reveal"));
+
+    if (!("IntersectionObserver" in window)){
+      targets.forEach(el => el.classList.add("is-visible"));
+      return;
+    }
+
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) e.target.classList.add("is-visible");
+      });
+    }, { threshold: 0.12, rootMargin: "0px 0px -10% 0px" });
+
+
+    // Scroll spy: mark current section in the top navigation
+    (function(){
+      const links = Array.from(document.querySelectorAll(".topnav a[href^='#']"));
+      const map = new Map();
+      links.forEach(a => {
+        const id = (a.getAttribute("href") || "").slice(1);
+        if (!id) return;
+        const sec = document.getElementById(id);
+        if (sec) map.set(sec, a);
+      });
+      if (!map.size) return;
+
+      function setActive(sec){
+        links.forEach(a => a.classList.remove("is-active"));
+        const a = map.get(sec);
+        if (a) a.classList.add("is-active");
+      }
+
+      // Prefer IntersectionObserver; fallback to scroll position.
+      if ("IntersectionObserver" in window){
+        const io2 = new IntersectionObserver((entries) => {
+          // Choose the most visible intersecting section.
+          const visible = entries
+            .filter(e => e.isIntersecting)
+            .sort((a,b) => (b.intersectionRatio || 0) - (a.intersectionRatio || 0));
+          if (visible[0]) setActive(visible[0].target);
+        }, { threshold: [0.25, 0.35, 0.45, 0.55], rootMargin: "-15% 0px -55% 0px" });
+
+        map.forEach((_, sec) => io2.observe(sec));
+      } else {
+        const secs = Array.from(map.keys());
+        function onScrollSpy(){
+          const y = (window.scrollY || document.documentElement.scrollTop || 0) + (window.innerHeight || 0) * 0.35;
+          let best = secs[0];
+          for (const s of secs){
+            if (s.offsetTop <= y) best = s;
+          }
+          setActive(best);
+        }
+        window.addEventListener("scroll", onScrollSpy, { passive:true });
+        onScrollSpy();
+      }
+    })();
+
+    // Smooth scrolling removed: use native browser wheel scrolling.
+
+    targets.forEach(el => io.observe(el));
+  })();
+</script>
+
+  <footer id="site-footer" class="site-footer" style="display:none">
+    <div class="container">
+      <div id="footer-text"></div>
+    </div>
+  </footer>
+
+
+</body>
+</html>
