@@ -1539,7 +1539,9 @@
       "academic_intro_public": "Ons lopend onderzoek!",
       "academic_intro_pro": "Ons lopend onderzoek!",
       "lines_intro_pro": "Ons onderzoek focust op de volgende domeinen:",
-      "lines_intro_public": "Ons onderzoek focust op de volgende domeinen:"
+      "lines_intro_public": "Ons onderzoek focust op de volgende domeinen:",
+      "hero_title_public": "Onderzoeksgroep Huidziekten<br> UZ Gent/UGent",
+      "hero_title_pro": "Onderzoeksgroep Huidziekten<br> UZ Gent/UGent"
     },
     "en": {
       "lang_label": "",
@@ -1601,7 +1603,9 @@
       "academic_intro_public": "Our current reearch!",
       "academic_intro_pro": "Our current research!",
       "lines_intro_pro": "Our research focuses on the following areas:",
-      "lines_intro_public": "Our research focuses on the following areas:"
+      "lines_intro_public": "Our research focuses on the following areas:",
+      "hero_title_public": "Research group Skin Diseases<br> UZ Gent/UGent",
+      "hero_title_pro": "Research group Skin Diseases<br> UZ Gent/UGent"
     },
     "fr": {
       "fund_intro_public": "Le Fonds Paul De Corte apporte un soutien financier à la recherche scientifique qui améliore les soins aux patients atteints de maladies cutanées chroniques. Il crée un lien entre la science, les patients et les soignants. Le fonds œuvre aussi à renforcer la sensibilisation sociétale à la charge importante des maladies cutanées chroniques.",
@@ -1715,7 +1719,9 @@
       "academic_intro_public": "Nos recherches actuelles !",
       "academic_intro_pro": "Nos recherches actuelles !",
       "lines_intro_pro": "Notre recherche se concentre sur les domaines suivants:",
-      "lines_intro_public": "Notre recherche se concentre sur les domaines suivants:"
+      "lines_intro_public": "Notre recherche se concentre sur les domaines suivants:",
+      "hero_title_public": "Groupe de recherche Maladies cutanées<br> UZ Gent/UGent",
+      "hero_title_pro": "Groupe de recherche Maladies cutanées<br> UZ Gent/UGent"
     }
   },
   "academicCategories": [
