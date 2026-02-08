@@ -168,7 +168,7 @@
       "foto": "Team/SofieD.jpg",
       "categories": [
         "Alle",
-        "Eczeem"
+        "eczeem"
       ]
     },
     {
@@ -186,7 +186,7 @@
       "foto": "Team/HildeL.jpg",
       "categories": [
         "Alle",
-        "Eczeem"
+        "eczeem"
       ]
     },
     {
@@ -279,7 +279,7 @@
         "Vitiligo",
         "Huidkanker",
         "Alopecia_areata",
-        "Eczeem"
+        "eczeem"
       ]
     },
     {
@@ -301,7 +301,7 @@
         "Vitiligo",
         "Huidkanker",
         "Alopecia_areata",
-        "Eczeem"
+        "eczeem"
       ]
     },
     {
@@ -323,7 +323,7 @@
         "Vitiligo",
         "Huidkanker",
         "Alopecia_areata",
-        "Eczeem"
+        "eczeem"
       ]
     },
     {
@@ -1416,7 +1416,7 @@
       }
     },
     {
-      "key": "Eczeem",
+      "key": "eczeem",
       "label": {
         "nl": "Eczeem",
         "en": "Atopic dermatitis",
