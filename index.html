@@ -137,6 +137,20 @@
     }
 
 @media (max-width: 720px) {
+  /* Prevent horizontal cut-off on small screens */
+  html, body { max-width: 100%; overflow-x: hidden; }
+
+  /* Force fixed-width tables to fit viewport */
+  table[width="1100"],
+  table[width="620"],
+  table[width="360"]{
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Ensure table cells don't create overflow */
+  td, th { box-sizing: border-box; }
+
   table[width="100%"] > tbody > tr > td {
     display:block;
     width:100% !important;
