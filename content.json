@@ -154,91 +154,89 @@
       ]
     },
     {
-      "naam": "Dr Anke Eylenbosch",
+      "naam": "Prof Dr Sofie De Schepper",
       "functie": {
-        "nl": "PhD onderzoeker",
-        "en": "PhD researcher",
-        "fr": "PhD investigateur"
+        "nl": "Hoofdonderzoeker",
+        "en": "Principal investigator",
+        "fr": "Investigateur principal"
       },
       "uitleg": {
         "nl": "",
         "en": "",
         "fr": ""
       },
-      "foto": "Team/Anke.jpg",
+      "foto": "Team/SofieD.jpg",
       "categories": [
         "Alle",
-        "Psoriasis"
+        "Eczeem"
       ]
     },
     {
-      "naam": "Dr Elise Van Caelenberg",
+      "naam": "Prof Dr Hilde Lapeere",
       "functie": {
-        "nl": "PhD onderzoeker",
-        "en": "PhD researcher",
-        "fr": "PhD investigateur"
+        "nl": "Hoofdonderzoeker",
+        "en": "Principal investigator",
+        "fr": "Investigateur principal"
       },
       "uitleg": {
         "nl": "",
         "en": "",
         "fr": ""
       },
-      "foto": "Team/Elise.jpg",
+      "foto": "Team/HildeL.jpg",
       "categories": [
         "Alle",
-        "Vitiligo",
-        "Alopecia_areata"
+        "Eczeem"
       ]
     },
     {
-      "naam": "Dr Leen Vermoesen",
+      "naam": "Prof Dr Hilde Beele",
       "functie": {
-        "nl": "PhD onderzoeker",
-        "en": "PhD researcher",
-        "fr": "PhD investigateur"
+        "nl": "Hoofdonderzoeker",
+        "en": "Principal investigator",
+        "fr": "Investigateur principal"
       },
       "uitleg": {
         "nl": "",
         "en": "",
         "fr": ""
       },
-      "foto": "Team/LeenV.jpg",
+      "foto": "Team/HildeB.jpg",
       "categories": [
-        "Alle",
-        "Psoriasis"
+        "Alle"
       ]
     },
     {
-      "naam": "Dr Lise Vanden Broucke",
+      "naam": "Prof Dr Barbara Boone",
       "functie": {
-        "nl": "PhD onderzoeker",
-        "en": "PhD researcher",
-        "fr": "PhD investigateur"
+        "nl": "Hoofdonderzoeker",
+        "en": "Principal investigator",
+        "fr": "Investigateur principal"
       },
       "uitleg": {
         "nl": "",
         "en": "",
         "fr": ""
       },
-      "foto": "Team/LiseV.jpg",
+      "foto": "Team/BarbaraB.jpg",
       "categories": [
         "Alle",
-        "Vitiligo"
+        "Huidkanker"
       ]
     },
     {
-      "naam": "Amber Shen",
+      "naam": "Prof Dr Katia Ongenae",
       "functie": {
-        "nl": "PhD onderzoeker",
-        "en": "PhD researcher",
-        "fr": "PhD investigateur"
+        "nl": "Hoofdonderzoeker",
+        "en": "Principal investigator",
+        "fr": "Investigateur principal"
       },
       "uitleg": {
         "nl": "",
         "en": "",
         "fr": ""
       },
-      "foto": "Team/Amber.jpg",
+      "foto": "Team/KatiaO.jpg",
       "categories": [
         "Alle",
         "Huidkanker"
@@ -263,6 +261,72 @@
       ]
     },
     {
+      "naam": "David Dewaele",
+      "functie": {
+        "nl": "Studie coördinator",
+        "en": "Study coordinator",
+        "fr": "Coordinateur des études"
+      },
+      "uitleg": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "foto": "Team/DavidD.jpg",
+      "categories": [
+        "Alle",
+        "Psoriasis",
+        "Vitiligo",
+        "Huidkanker",
+        "Alopecia_areata",
+        "Eczeem"
+      ]
+    },
+    {
+      "naam": "Nele Maes",
+      "functie": {
+        "nl": "Studie coördinator",
+        "en": "Study coordinator",
+        "fr": "Coordinateur des études"
+      },
+      "uitleg": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "foto": "Team/NeleM.jpg",
+      "categories": [
+        "Alle",
+        "Psoriasis",
+        "Vitiligo",
+        "Huidkanker",
+        "Alopecia_areata",
+        "Eczeem"
+      ]
+    },
+    {
+      "naam": "Isabel Devuysdere",
+      "functie": {
+        "nl": "Studie coördinator",
+        "en": "Study coordinator",
+        "fr": "Coordinateur des études"
+      },
+      "uitleg": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "foto": "Team/IsabelD.jpg",
+      "categories": [
+        "Alle",
+        "Psoriasis",
+        "Vitiligo",
+        "Huidkanker",
+        "Alopecia_areata",
+        "Eczeem"
+      ]
+    },
+    {
       "naam": "Dr Annelies Demeyer",
       "functie": {
         "nl": "Postdoctoraal onderzoeker",
@@ -274,10 +338,216 @@
         "en": "",
         "fr": ""
       },
-      "foto": "",
+      "foto": "Team/AnneliesD.jpg",
       "categories": [
         "Alle",
         "Huidkanker"
+      ]
+    },
+    {
+      "naam": "Els Van Maelsaeke",
+      "functie": {
+        "nl": "Laborante",
+        "en": "Laboratory technician",
+        "fr": "Laborante"
+      },
+      "uitleg": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "foto": "Team/ElsV.jpg",
+      "categories": [
+        "Alle",
+        "Psoriasis",
+        "Vitiligo",
+        "Huidkanker",
+        "Alopecia_areata"
+      ]
+    },
+    {
+      "naam": "Larysa Neudakh",
+      "functie": {
+        "nl": "Laborante",
+        "en": "Laboratory technician",
+        "fr": "Laborante"
+      },
+      "uitleg": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "foto": "Team/Larysa.jpg",
+      "categories": [
+        "Alle",
+        "Psoriasis",
+        "Vitiligo",
+        "Huidkanker",
+        "Alopecia_areata"
+      ]
+    },
+    {
+      "naam": "Dr Arno Belpaire",
+      "functie": {
+        "nl": "PhD onderzoeker",
+        "en": "PhD researcher",
+        "fr": "PhD investigateur"
+      },
+      "uitleg": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "foto": "Team/Arno.jpg",
+      "categories": [
+        "Alle",
+        "Vitiligo",
+        "Alopecia_areata"
+      ]
+    },
+    {
+      "naam": "Dr Anke Eylenbosch",
+      "functie": {
+        "nl": "PhD onderzoeker",
+        "en": "PhD researcher",
+        "fr": "PhD investigateur"
+      },
+      "uitleg": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "foto": "Team/Anke.jpg",
+      "categories": [
+        "Alle",
+        "Psoriasis"
+      ]
+    },
+    {
+      "naam": "Dr Julie Kips",
+      "functie": {
+        "nl": "PhD onderzoeker",
+        "en": "PhD researcher",
+        "fr": "PhD investigateur"
+      },
+      "uitleg": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "foto": "Team/Julie.jpg",
+      "categories": [
+        "Alle",
+        "Huidkanker"
+      ]
+    },
+    {
+      "naam": "Dr Sofie Monsieurs",
+      "functie": {
+        "nl": "PhD onderzoeker",
+        "en": "PhD researcher",
+        "fr": "PhD investigateur"
+      },
+      "uitleg": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "foto": "Team/SofieM.jpg",
+      "categories": [
+        "Alle",
+        "Vitiligo"
+      ]
+    },
+    {
+      "naam": "Amber Shen",
+      "functie": {
+        "nl": "PhD onderzoeker",
+        "en": "PhD researcher",
+        "fr": "PhD investigateur"
+      },
+      "uitleg": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "foto": "Team/Amber.jpg",
+      "categories": [
+        "Alle",
+        "Huidkanker"
+      ]
+    },
+    {
+      "naam": "Dr Elise Van Caelenberg",
+      "functie": {
+        "nl": "PhD onderzoeker",
+        "en": "PhD researcher",
+        "fr": "PhD investigateur"
+      },
+      "uitleg": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "foto": "Team/Elise.jpg",
+      "categories": [
+        "Alle",
+        "Vitiligo",
+        "Alopecia_areata"
+      ]
+    },
+    {
+      "naam": "Annick Meertens",
+      "functie": {
+        "nl": "PhD onderzoeker",
+        "en": "PhD researcher",
+        "fr": "PhD investigateur"
+      },
+      "uitleg": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "foto": "Team/Annick.jpg",
+      "categories": [
+        "Alle",
+        "Huidkanker"
+      ]
+    },
+    {
+      "naam": "Dr Lise Vanden Broucke",
+      "functie": {
+        "nl": "PhD onderzoeker",
+        "en": "PhD researcher",
+        "fr": "PhD investigateur"
+      },
+      "uitleg": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "foto": "Team/LiseV.jpg",
+      "categories": [
+        "Alle",
+        "Vitiligo"
+      ]
+    },
+    {
+      "naam": "Dr Leen Vermoesen",
+      "functie": {
+        "nl": "PhD onderzoeker",
+        "en": "PhD researcher",
+        "fr": "PhD investigateur"
+      },
+      "uitleg": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "foto": "Team/LeenV.jpg",
+      "categories": [
+        "Alle",
+        "Psoriasis"
       ]
     },
     {
@@ -315,121 +585,6 @@
         "Alle",
         "Psoriasis"
       ]
-    },
-    {
-      "naam": "Dr Sofie Monsieurs",
-      "functie": {
-        "nl": "PhD onderzoeker",
-        "en": "PhD researcher",
-        "fr": "PhD investigateur"
-      },
-      "uitleg": {
-        "nl": "",
-        "en": "",
-        "fr": ""
-      },
-      "foto": "",
-      "categories": [
-        "Alle",
-        "Vitiligo"
-      ]
-    },
-    {
-      "naam": "Annick Meertens",
-      "functie": {
-        "nl": "PhD onderzoeker",
-        "en": "PhD researcher",
-        "fr": "PhD investigateur"
-      },
-      "uitleg": {
-        "nl": "",
-        "en": "",
-        "fr": ""
-      },
-      "foto": "Team/Annick.jpg",
-      "categories": [
-        "Alle",
-        "Huidkanker"
-      ]
-    },
-    {
-      "naam": "Els Van Maelsaeke",
-      "functie": {
-        "nl": "Laborante",
-        "en": "Laboratory technician",
-        "fr": "Laborante"
-      },
-      "uitleg": {
-        "nl": "",
-        "en": "",
-        "fr": ""
-      },
-      "foto": "",
-      "categories": [
-        "Alle",
-        "Psoriasis",
-        "Vitiligo",
-        "Huidkanker",
-        "Alopecia_areata"
-      ]
-    },
-    {
-      "naam": "Larysa Neudakh",
-      "functie": {
-        "nl": "Laborante",
-        "en": "Laboratory technician",
-        "fr": "Laborante"
-      },
-      "uitleg": {
-        "nl": "",
-        "en": "",
-        "fr": ""
-      },
-      "foto": "Team/Larysa.jpg",
-      "categories": [
-        "Alle",
-        "Psoriasis",
-        "Vitiligo",
-        "Huidkanker",
-        "Alopecia_areata"
-      ]
-    },
-    {
-      "naam": "Dr Julie Kips",
-      "functie": {
-        "nl": "PhD onderzoeker",
-        "en": "PhD researcher",
-        "fr": "PhD investigateur"
-      },
-      "uitleg": {
-        "nl": "",
-        "en": "",
-        "fr": ""
-      },
-      "foto": "Team/Julie.jpg",
-      "categories": [
-        "Alle",
-        "Huidkanker"
-      ]
-    },
-    {
-      "naam": "Dr Arno Belpaire",
-      "functie": {
-        "nl": "PhD onderzoeker",
-        "en": "PhD researcher",
-        "fr": "PhD investigateur"
-      },
-      "uitleg": {
-        "nl": "",
-        "en": "",
-        "fr": ""
-      },
-      "foto": "Team/Arno.jpg",
-      "categories": [
-        "Alle",
-        "Vitiligo",
-        "Alopecia_areata"
-      ]
     }
   ],
   "researchItems": [
@@ -440,7 +595,7 @@
         "fr": "BENEBIO"
       },
       "tekst": {
-        "nl": "Biologicals zijn effectieve middelen voor de behandeling van psoriasis. De nieuwste biologics zijn de zogenaamde interleukine (IL) 17 en 23-remmers. Deze middelen schrijft de arts altijd in een vaste dosis voor, maar waarschijnlijk heeft niet iedere patiënt die vaste dosis nodig. Daarom willen we bij patiënten bij wie de psoriasis rustig is tijdens behandeling met de normale dosis, onderzoeken of hun normale dosis kan worden verlaagd, zonder dat de psoriasis erger wordt. Een lagere dosis heeft namelijk voordelen: het kan leiden tot minder bijwerkingen en minder zorgkosten. We zullen onderzoeken hoe en bij wie we het beste kunnen afbouwen. In 17 Belgische en Nederlandse ziekenhuizen zullen we door loting patiënten verdelen in 2 groepen: een groep die langzaam de medicatie afbouwt, en een groep die de normale dosis blijft gebruiken. We zullen nagaan of de verlaagde dosis even effectief is en of de kwaliteit van leven goed blijft. Ook kijken we naar bijwerkingen, kosten en naar de bloedspiegels van de medicijnen. Met dit onderzoek hopen we te bereiken dat een aantal mensen met minder medicatie kan worden behandeld, terwijl het effect op de huid goed blijft.<br><br>\n\nLink naar KCE website: https://kce.fgov.be/nl/kce-trials/gefinancierde-klinische-studies/benebio-dosis-reductie-van-de-nieuwste-generatie-biologics-interleukine-17-en-23-remmers-voorBeNeBio: Dosis reductie van de nieuwste generatie biologics\nLink naar BeNeBio website: Home - BeNeBio\n\n\nClinicaltrial.gov:  NCT04340076<br><br>\n\nStatus: gesloten<br><br>\n\nResultaten: te verwachten in voorjaar 2026<br>\n\nLink naar KCE website: https://kce.fgov.be/nl/kce-trials/gefinancierde-klinische-studies/benebio-dosis-reductie-van-de-nieuwste-generatie-biologics-interleukine-17-en-23-remmers-voorBeNeBio: Dosis reductie van de nieuwste generatie biologics</a>\n",
+        "nl": "Biologicals zijn effectieve middelen voor de behandeling van psoriasis. De nieuwste biologics zijn de zogenaamde interleukine (IL) 17 en 23-remmers. Deze middelen schrijft de arts altijd in een vaste dosis voor, maar waarschijnlijk heeft niet iedere patiënt die vaste dosis nodig. Daarom willen we bij patiënten bij wie de psoriasis rustig is tijdens behandeling met de normale dosis, onderzoeken of hun normale dosis kan worden verlaagd, zonder dat de psoriasis erger wordt. Een lagere dosis heeft namelijk voordelen: het kan leiden tot minder bijwerkingen en minder zorgkosten. We zullen onderzoeken hoe en bij wie we het beste kunnen afbouwen. In 17 Belgische en Nederlandse ziekenhuizen zullen we door loting patiënten verdelen in 2 groepen: een groep die langzaam de medicatie afbouwt, en een groep die de normale dosis blijft gebruiken. We zullen nagaan of de verlaagde dosis even effectief is en of de kwaliteit van leven goed blijft. Ook kijken we naar bijwerkingen, kosten en naar de bloedspiegels van de medicijnen. Met dit onderzoek hopen we te bereiken dat een aantal mensen met minder medicatie kan worden behandeld, terwijl het effect op de huid goed blijft.<br><br>\n\n<a href=\"https://kce.fgov.be/nl/kce-trials/gefinancierde-klinische-studies/benebio-dosis-reductie-van-de-nieuwste-generatie-biologics-interleukine-17-en-23-remmers-\">Link naar KCE website</a><br>\n\n<a href=\"https://benebio.info/\">Link naar BeNeBio </a><br>\n\n<a href=\"https://clinicaltrials.gov/study/NCT04340076\">Clinicaltrial.gov:NCT04340076</a><br>\n\nStatus: gesloten<br><br>\n\nResultaten: te verwachten in voorjaar 2026<br>",
         "en": "Biologicals are effective treatments for psoriasis. The latest biologicals are the so-called interleukin (IL) 17 and 23 inhibitors. Doctors always prescribe these drugs in a fixed dose, but it is likely that not every patient needs that fixed dose. That is why we want to investigate whether patients whose psoriasis is stable during treatment with the normal dose can have their normal dose reduced without their psoriasis worsening. A lower dose has advantages: it can lead to fewer side effects and lower healthcare costs. We will investigate how and in whom we can best reduce the dose. In 17 Belgian and Dutch hospitals, we will randomly divide patients into two groups: one group that slowly reduces the medication and one group that continues to use the normal dose. We will investigate whether the reduced dose is equally effective and whether the quality of life remains good. We will also look at side effects, costs, and blood levels of the drugs. With this study, we hope to achieve a situation where a number of people can be treated with less medication, while the effect on the skin remains good.<br><br>\n\nClinicaltrial.gov:  NCT04340076<br><br>\n\nStatus: closed<br><br>\n\nResults: expected in spring 2026",
         "fr": "Les produits biologiques sont des moyens efficaces pour traiter le psoriasis. Les derniers produits biologiques sont les inhibiteurs de l'interleukine (IL) 17 et 23. Le médecin prescrit toujours ces médicaments à une dose fixe, mais tous les patients n'ont probablement pas besoin de cette dose fixe. C'est pourquoi nous voulons examiner, chez les patients dont le psoriasis est stable pendant le traitement à la dose normale, si leur dose normale peut être réduite sans aggraver le psoriasis. Une dose plus faible présente en effet des avantages : elle peut entraîner moins d'effets secondaires et réduire les coûts des soins. Nous allons examiner comment et chez qui il est préférable de réduire la dose. Dans 17 hôpitaux belges et néerlandais, nous répartirons les patients par tirage au sort en deux groupes : un groupe qui réduira progressivement le médicament et un groupe qui continuera à utiliser la dose normale. Nous vérifierons si la dose réduite est tout aussi efficace et si la qualité de vie reste bonne. Nous examinerons également les effets secondaires, les coûts et les taux sanguins des médicaments. Grâce à cette étude, nous espérons permettre à un certain nombre de personnes d'être traitées avec moins de médicaments, tout en conservant un effet positif sur la peau.<br><br>\n\nClinicaltrial.gov :  NCT04340076<br><br>\n\nStatut : clôturé<br><br>\n\nRésultats : attendus au printemps 2026"
       },
@@ -544,6 +699,60 @@
         "fr": "Inclusion : <br>\n- ≥ 12 ans<br>\n- ≥ 30 kg<br>\n- HS depuis au moins 6 mois<br>\n- Utilisation préalable d'au moins un inhibiteur du TNF pour traiter l'HS pendant au moins 12 semaines et/ou\n1 traitement biologique non anti-TNF approuvé pour le traitement de l'HS pendant au moins 16 semaines, caractérisé par\nune réponse insuffisante<br>\n- Nombre total d'AN ≥ 5<br>\n- Au moins 2 zones anatomiques distinctes<br>\n- Nombre de fistules drainantes ≤ 20<br>\nInclusion : <br>\n≥ 16 ans<br>\nPoids corporel ≥ 50 kg<br>\nHS depuis au moins 6 mois<br>\nNombre total d'AN ≥ 5 au départ<br>\nLésions HS présentes dans au moins deux zones anatomiques distinctes au départ<br>\nAu moins 1 zone anatomique touchée par le HS caractérisée comme étant au stade II de Hurley ou supérieur au départ."
       },
       "category": "hidradenitis_suppurativa"
+    },
+    {
+      "category": "prurigo_nodularis",
+      "titel": {
+        "nl": "Een fase 3, gerandomiseerd, dubbelblind, placebogecontroleerd onderzoek naar de werkzaamheid en veiligheid van povorcitinib bij deelnemers met prurigo nodularis",
+        "en": "A Phase 3, Randomized, Double-Blind, Placebo-Controlled, Efficacy and Safety Study of Povorcitinib in Participants With Prurigo Nodularis",
+        "fr": "Étude de phase III, randomisée, en double aveugle, contrôlée par placebo, sur l'efficacité et la sécurité d'emploi du povorcitinib chez des participants atteints de prurigo nodulaire"
+      },
+      "meta": {
+        "nl": "Rekruterend",
+        "en": "Recruiting ",
+        "fr": "Recrutement en cours "
+      },
+      "tekst": {
+        "nl": "Inclusie: <br>\n- 18 tot 75 jaar<br>\n- Diagnose van PN gedurende ten minste 3 maanden<br>\n- Jeukscore ≥ 7 tijdens de 7 dagen voorafgaand aan dag 1<br>\n- ≥ 20 jeukende laesies in totaal op ≥ 2 verschillende lichaamsdelen<br>\n- IGA-CPG-S-score ≥ 3<br>\n- Mislukte behandeling met een eerdere PN-behandeling (bijv. TCS of TCI), met uitzondering van mislukte behandeling met eerdere lokale of systemische JAK- of TYK2-remmers\n",
+        "en": "Inclusion: <br>\n- 18 to 75 years<br>\n- Diagnosis of PN for at least 3 months<br>\n- Itch NRS score ≥ 7 during the 7 days prior to Day 1<br>\n- ≥ 20 pruriginous lesions in total on ≥ 2 different body regions<br>\n- IGA-CPG-S score ≥ 3<br>\n- Treatment failure to  a previous PN treatment (eg, TCS or TCI) with the exception of treatment failure with prior topical or systemic JAK or TYK2 inhibitors\n",
+        "fr": "Inclusion : <br>\n- Âge compris entre 18 et 75 ans<br>\n- Diagnostic de PN depuis au moins 3 mois<br>\n- Score NRS de démangeaisons ≥ 7 au cours des 7 jours précédant le jour 1<br>\n- ≥ 20 lésions prurigineuses au total sur ≥ 2 régions différentes du corps<br>\n- Score IGA-CPG-S ≥ 3<br>\n- Échec d'un traitement antérieur du PN (par exemple, TCS ou TCI), à l'exception de l'échec d'un traitement antérieur par des inhibiteurs topiques ou systémiques de JAK ou TYK2\n"
+      }
+    },
+    {
+      "category": "vitiligo",
+      "titel": {
+        "nl": "Een fase 3, gerandomiseerd, dubbelblind onderzoek naar de werkzaamheid en veiligheid van  ruxolitinibcrème bij kinderen (6 tot < 12 jaar) met  niet-segmentale vitiligo",
+        "en": "A Phase 3, Randomized, Double-Blind, Efficacy, and Safety Study of  Ruxolitinib Cream in Children (6 to < 12 Years Old) With  Nonsegmental Vitiligo",
+        "fr": "Étude de phase III, randomisée, en double aveugle, sur l'efficacité et la sécurité d'emploi de la  crème Ruxolitinib chez les enfants (âgés de 6 à < 12 ans) atteints de  vitiligo non segmentaire"
+      },
+      "meta": {
+        "nl": "Rekruterend",
+        "en": "Recruiting ",
+        "fr": "Recrutement en cours "
+      },
+      "tekst": {
+        "nl": "Inclusie: <br>\n- 6 tot < 12 jaar<br>\n- ≥ 0,5% BSA op het gezicht, ≥ 0,5 F-VASI, ≥ 3% BSA op niet-gezichtsgebieden, ≥ 3 T-VASI<br>\n- Het totale vitiligogebied op het lichaam (gezichts- en niet-gezichtsgebieden) bedraagt niet meer dan 10% BSA.\n\n",
+        "en": "Inclusion: <br>\n- 6 to < 12 years<br>\n- ≥ 0.5% BSA on the face, ≥ 0.5 F-VASI, ≥ 3% BSA on nonfacial areas, ≥ 3 T-VASI<br>\n- Total body vitiligo area (facial and nonfacial) does not exceed 10% BSA.\n",
+        "fr": "Étude de phase III, randomisée, en double aveugle, sur l'efficacité et la sécurité d'emploi de la \ncrème Ruxolitinib chez les enfants (âgés de 6 à < 12 ans) atteints de \nvitiligo non segmentaire\n\nInclusion : <br>\n- 6 à < 12 ans<br>\n- ≥ 0,5 % de la surface corporelle (SC) sur le visage, ≥ 0,5 F-VASI, ≥ 3 % de la SC sur les zones non faciales, ≥ 3 T-VASI<br>\n- La surface totale du vitiligo (facial et non facial) ne dépasse pas 10 % de la SC.\n"
+      }
+    },
+    {
+      "category": "urticaria",
+      "titel": {
+        "nl": "Een fase 3 gerandomiseerde, dubbelblinde, placebogecontroleerde studie ter beoordeling van de  werkzaamheid en veiligheid van barzolvolimab bij patiënten met chronische spontane  urticaria die ondanks behandeling met H1-antihistaminica symptomatisch blijven",
+        "en": " A Phase 3, Randomized, Double-Blind, Efficacy, and Safety Study of  Ruxolitinib Cream in Children (6 to < 12 Years Old) With  Nonsegmental Vitiligo",
+        "fr": "Étude de phase III randomisée, en double aveugle, contrôlée par placebo, visant à évaluer l' efficacité et la sécurité d'emploi du barzolvolimab chez les patients atteints d'urticaire chronique spontanée  qui restent symptomatiques malgré un traitement par antihistaminique H1"
+      },
+      "meta": {
+        "nl": "Rekruterend",
+        "en": "Recruiting ",
+        "fr": "Recrutement en cours "
+      },
+      "tekst": {
+        "nl": "Inclusie: <br>\n- ≥ 18 jaar<br>\n- CSU ≥ 6 maanden<br>\n- CSU refractair voor een stabiele dosis en een regime met een tweede generatie H1AH: <br>\n- Terugkerende jeukende bultjes met of zonder angio-oedeem gedurende ≥ 6 weken op enig moment voorafgaand aan screening (bezoek 1) ondanks behandeling met een H1AH. <br>\n- UAS7 (bereik: 0-42) ≥ 16 en ISS7 (bereik: 0-21) ≥ 8\n",
+        "en": "Inclusion: <br>\n- 6 to < 12 years<br>\n- ≥ 0.5% BSA on the face, ≥ 0.5 F-VASI, ≥ 3% BSA on nonfacial areas, ≥ 3 T-VASI<br>\n- Total body vitiligo area (facial and nonfacial) does not exceed 10% BSA.\n",
+        "fr": "Inclusion : <br>\n- Âge ≥ 18 ans<br>\n- UCS ≥ 6 mois<br>\n- UCS réfractaire à une dose et un schéma thérapeutique stables contenant un H1AH de deuxième génération : <br>\n- Papules prurigineuses récurrentes avec ou sans œdème de Quincke pendant ≥ 6 semaines à tout moment avant le dépistage (visite 1) malgré un traitement par un H1AH. <br>\n- UAS7 (plage : 0-42) ≥ 16 et ISS7 (plage : 0-21) ≥ 8\n"
+      }
     }
   ],
   "pubItems": [
@@ -1205,6 +1414,14 @@
         "en": "Alopecia areata",
         "fr": "Alopecia areata"
       }
+    },
+    {
+      "key": "Eczeem",
+      "label": {
+        "nl": "Eczeem",
+        "en": "Atopic dermatitis",
+        "fr": "Eczéma"
+      }
     }
   ],
   "i18n": {
@@ -1615,6 +1832,14 @@
         "en": "Lupus",
         "fr": "Lupus"
       }
+    },
+    {
+      "key": "urticaria",
+      "label": {
+        "nl": "Urticaria",
+        "en": "Urticaria",
+        "fr": "Urticaire"
+      }
     }
   ],
   "linesCategories": [
@@ -1659,9 +1884,9 @@
         "fr": "Psoriasis"
       },
       "tekst": {
-        "nl": "Ons psoriasisonderzoek vertrekt vanuit een value-based aanpak waarin niet alleen de huid, maar ook levenskwaliteit, mentaal welzijn en dagelijkse impact centraal staan.\nWe meten systematisch wat behandelingen opleveren voor patiënten in verhouding tot de zorg die nodig is om die resultaten te bereiken.\nZo werken we aan psoriasiszorg die breder kijkt dan de huid en aantoonbaar meer waarde creëert voor patiënten.",
-        "en": "Our psoriasis research is based on a value-based approach that focuses not only on the skin, but also on quality of life, mental well-being, and daily impact. We systematically measure what treatments deliver for patients in relation to the care required to achieve those results. In this way, we are working on psoriasis care that looks beyond the skin and demonstrably creates more value for patients.",
-        "fr": "Notre recherche sur le psoriasis repose sur une approche fondée sur la valeur, centrée non seulement sur la peau, mais aussi sur la qualité de vie, le bien-être mental et l’impact au quotidien. Nous mesurons systématiquement ce que les traitements apportent aux patients par rapport aux soins nécessaires pour atteindre ces résultats. Ainsi, nous travaillons à une prise en charge du psoriasis qui regarde au-delà de la peau et crée une valeur démontrable pour les patients."
+        "nl": "Ons psoriasisonderzoek vertrekt vanuit een value-based aanpak waarin niet alleen de huid, maar ook levenskwaliteit, mentaal welzijn en dagelijkse impact centraal staan.\nWe meten systematisch wat behandelingen opleveren voor patiënten in verhouding tot de zorg die nodig is om die resultaten te bereiken.\nZo werken we aan psoriasiszorg die breder kijkt dan de huid en aantoonbaar meer waarde creëert voor patiënten. Meer info op: <a href=\" https://psogent.ugent.be/\"> https://psogent.ugent.be/ </a>",
+        "en": "Our psoriasis research is based on a value-based approach that focuses not only on the skin, but also on quality of life, mental well-being, and daily impact. We systematically measure what treatments deliver for patients in relation to the care required to achieve those results. In this way, we are working on psoriasis care that looks beyond the skin and demonstrably creates more value for patients. Additional information: <a href=\" https://psogent.ugent.be/\"> https://psogent.ugent.be/ </a>",
+        "fr": "Notre recherche sur le psoriasis repose sur une approche fondée sur la valeur, centrée non seulement sur la peau, mais aussi sur la qualité de vie, le bien-être mental et l’impact au quotidien. Nous mesurons systématiquement ce que les traitements apportent aux patients par rapport aux soins nécessaires pour atteindre ces résultats. Ainsi, nous travaillons à une prise en charge du psoriasis qui regarde au-delà de la peau et crée une valeur démontrable pour les patients. Plus d'info: <a href=\" https://psogent.ugent.be/\"> https://psogent.ugent.be/ </a>"
       },
       "figuur": "assets/onderzoekslijn1.jpg",
       "category": "psoriasis"
@@ -1673,9 +1898,9 @@
         "fr": "Vitiligo"
       },
       "tekst": {
-        "nl": "Ons vitiligo-onderzoek combineert de klinische blik met labo methoden om de ziekte beter te begrijpen en te behandelen. We ontwikkelen en valideren betere meetinstrumenten voor vitiligo die essentieel zijn voor juiste behandeling en onderzoek. Tegelijk bouwt onze groep klinische kennis op rond innovatieve behandelingen en het afweersysteem met het doel om zorg te optimaliseren in termen van uitkomst en impact op het dagelijks leven.",
-        "en": "Our vitiligo research combines clinical and laboratory methods to better understand and treat the disease. We develop and validate better measurement tools for vitiligo, which are essential for proper treatment and research. At the same time, our group builds clinical knowledge around innovative treatments and the immune system with the aim of optimizing care in terms of outcome and impact on daily life.",
-        "fr": "Notre recherche sur le vitiligo combine l’observation clinique et des méthodes de laboratoire pour mieux comprendre et traiter la maladie. Nous développons et validons de meilleurs instruments de mesure du vitiligo, essentiels pour le traitement et la recherche. Parallèlement, notre groupe consolide des connaissances cliniques sur des traitements innovants et sur le système immunitaire afin d’optimiser les soins, tant en termes de résultats que d’impact sur la vie quotidienne."
+        "nl": "Ons vitiligo-onderzoek combineert de klinische blik met labo methoden om de ziekte beter te begrijpen en te behandelen. We ontwikkelen en valideren betere meetinstrumenten voor vitiligo die essentieel zijn voor juiste behandeling en onderzoek. Tegelijk bouwt onze groep klinische kennis op rond innovatieve behandelingen en het afweersysteem met het doel om zorg te optimaliseren in termen van uitkomst en impact op het dagelijks leven. Onze scoringstools zijn beschikbaar op: <a href=\"https://www.vitiligo-calculator.com\">vitiligo-calculator.com </a>",
+        "en": "Our vitiligo research combines clinical and laboratory methods to better understand and treat the disease. We develop and validate better measurement tools for vitiligo, which are essential for proper treatment and research. At the same time, our group builds clinical knowledge around innovative treatments and the immune system with the aim of optimizing care in terms of outcome and impact on daily life. Our scoringstools are available at <a href=\"https://www.vitiligo-calculator.com\">vitiligo-calculator.com </a>",
+        "fr": "Notre recherche sur le vitiligo combine l’observation clinique et des méthodes de laboratoire pour mieux comprendre et traiter la maladie. Nous développons et validons de meilleurs instruments de mesure du vitiligo, essentiels pour le traitement et la recherche. Parallèlement, notre groupe consolide des connaissances cliniques sur des traitements innovants et sur le système immunitaire afin d’optimiser les soins, tant en termes de résultats que d’impact sur la vie quotidienne.Nos outils de notation sont disponibles sur :<a href=\"https://www.vitiligo-calculator.com\">vitiligo-calculator.com </a>"
       },
       "figuur": "assets/onderzoekslijn2.jpg",
       "category": "vitiligo"
@@ -1701,9 +1926,9 @@
         "fr": "Alopecia areata"
       },
       "tekst": {
-        "nl": "Ons alopecia areata-onderzoek richt zich op het ontrafelen van de onderliggende immunologische mechanismen die tot alopecia areata leiden. We vertalen deze inzichten naar de ontwikkeling en evaluatie van nieuwe, doelgerichte behandelingen. Zo werken we aan therapieën die niet alleen het immuunsysteem corrigeren, maar ook perspectief bieden op duurzaam haarherstel voor patiënten.",
-        "en": "Our alopecia areata research focuses on unraveling the underlying immunological mechanisms that lead to alopecia areata. We translate these insights into the development and evaluation of new, targeted treatments. In this way, we are working on therapies that not only correct the immune system, but also offer prospects for sustainable hair restoration for patients.",
-        "fr": "Notre recherche sur l’alopécie areata vise à élucider les mécanismes immunologiques sous-jacents. Nous traduisons ces connaissances en développement et en évaluation de nouveaux traitements ciblés. Ainsi, nous travaillons à des thérapies qui corrigent le système immunitaire et offrent des perspectives de repousse durable des cheveux."
+        "nl": "Ons alopecia areata-onderzoek richt zich op het ontrafelen van de onderliggende immunologische mechanismen die tot alopecia areata leiden. We vertalen deze inzichten naar de ontwikkeling en evaluatie van nieuwe, doelgerichte behandelingen. Zo werken we aan therapieën die niet alleen het immuunsysteem corrigeren, maar ook perspectief bieden op duurzaam haarherstel voor patiënten. Onze scoringstool is beschikbaar op: <a href=\"https://www.alopecia-areata-calculator.com\">alopecia-areata-calculator.com </a>",
+        "en": "Our alopecia areata research focuses on unraveling the underlying immunological mechanisms that lead to alopecia areata. We translate these insights into the development and evaluation of new, targeted treatments. In this way, we are working on therapies that not only correct the immune system, but also offer prospects for sustainable hair restoration for patients. Our scoring tool is available at: <a href=\"https://www.alopecia-areata-calculator.com\">alopecia-areata-calculator.com </a>",
+        "fr": "Notre recherche sur l’alopécie areata vise à élucider les mécanismes immunologiques sous-jacents. Nous traduisons ces connaissances en développement et en évaluation de nouveaux traitements ciblés. Ainsi, nous travaillons à des thérapies qui corrigent le système immunitaire et offrent des perspectives de repousse durable des cheveux. Notre outil de notation est disponible sur : <a href=\"https://www.alopecia-areata-calculator.com\">alopecia-areata-calculator.com </a>"
       },
       "figuur": "assets/onderzoekslijn4.jpg",
       "category": "alopecia_areata"
@@ -1711,6 +1936,33 @@
   ],
   "academicItems": [],
   "footerContent": {
+    "emailTo": "dermatologie@uzgent.be",
+    "left": {
+      "nl": "<b>Adres onderzoekslabo:</b> MRB2, 1ste verdieping, Corneel Heymanslaan 10, 9000, Gent, België<br><br>\n\n<b>Adres klinische dienst:</b> Nobel 1, 2de verdieping, Corneel Heymanslaan 10, 9000, Gent, België\n\n",
+      "en": "Telephone:</b> 09 332 22 87<br><br>\n\n<b>Research lab address:</b> MRB2, 1st floor, Corneel Heymanslaan 10, 9000, Ghent, Belgium<br><br>\n\n<b>Clinical service address:</b> Nobel 1, 2nd floor, Corneel Heymanslaan 10, 9000, Ghent, Belgium\n\n",
+      "fr": "<b>Adresse du laboratoire de recherche :</b> MRB2, 1er étage, Corneel Heymanslaan 10, 9000, Gand, Belgique<br>\n<b>Adresse du service clinique :</b> Nobel 1, 2e étage, Corneel Heymanslaan 10, 9000, Gand, Belgique"
+    },
+    "formTitle": {
+      "nl": "Email: dermatologie@uzgent.be\nFonds Paul De Corte: rani.soenen@uzgent.be\n\nTelefoon: 09 332 22 87",
+      "en": "Email: dermatologie@uzgent.be\nFund Paul De Corte: rani.soenen@uzgent.be\n\nTel: 09 332 22 87 ",
+      "fr": "E-mail :dermatologie@uzgent.be\nFonds Paul De Corte: rani.soenen@uzgent.be\n\nTel: 09 332 22 87"
+    },
+    "nl": "",
+    "en": "",
+    "fr": ""
+  },
+  "contact": {
+    "emailTo": "dermatologie@uzgent.be",
+    "left": {
+      "nl": "<b>Adres onderzoekslabo:</b> MRB2, 1ste verdieping, Corneel Heymanslaan 10, 9000, Gent, België<br><br>\n\n<b>Adres klinische dienst:</b> Nobel 1, 2de verdieping, Corneel Heymanslaan 10, 9000, Gent, België\n\n",
+      "en": "Telephone:</b> 09 332 22 87<br><br>\n\n<b>Research lab address:</b> MRB2, 1st floor, Corneel Heymanslaan 10, 9000, Ghent, Belgium<br><br>\n\n<b>Clinical service address:</b> Nobel 1, 2nd floor, Corneel Heymanslaan 10, 9000, Ghent, Belgium\n\n",
+      "fr": "<b>Adresse du laboratoire de recherche :</b> MRB2, 1er étage, Corneel Heymanslaan 10, 9000, Gand, Belgique<br>\n<b>Adresse du service clinique :</b> Nobel 1, 2e étage, Corneel Heymanslaan 10, 9000, Gand, Belgique"
+    },
+    "formTitle": {
+      "nl": "Email: dermatologie@uzgent.be\nFonds Paul De Corte: rani.soenen@uzgent.be\n\nTelefoon: 09 332 22 87",
+      "en": "Email: dermatologie@uzgent.be\nFund Paul De Corte: rani.soenen@uzgent.be\n\nTel: 09 332 22 87 ",
+      "fr": "E-mail :dermatologie@uzgent.be\nFonds Paul De Corte: rani.soenen@uzgent.be\n\nTel: 09 332 22 87"
+    },
     "nl": "",
     "en": "",
     "fr": ""
