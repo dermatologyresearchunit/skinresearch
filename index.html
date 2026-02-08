@@ -590,6 +590,24 @@
 }
 </style>
 
+
+<style id="disable-stacking">
+  /* Disable sticky stacking so sections scroll normally */
+  .stack-section{
+    position: static !important;
+    top: auto !important;
+    z-index: auto !important;
+  }
+  .stack-section + .stack-section{
+    margin-top: 0 !important;
+  }
+</style>
+
+
+<style id="contact-formtitle-multiline">
+  #contactFormTitle { white-space: pre-line; }
+</style>
+
 </head>
 
 <body bgcolor="#FFFFFF" text="#000000">
@@ -1084,9 +1102,7 @@
                           <font face="Arial" size="4" color="#1E64C8"><b><span data-i18n="sec_team">Team</span></b></font>
                           <br>
                           <font face="Arial" size="2" color="#333333">
-                            <span data-i18n="team_hint">Voeg personen toe door een item toe te voegen aan teamMembers in de code.</span>
-                          </font>
-                          <br><br>
+                    <br>
                           <div id="teamFilters" aria-label="Team filter" style="margin:0 0 12px 0;"></div>
                           <div id="teamTable"></div>
                         </td>
@@ -1129,9 +1145,7 @@
                             <tr>
                               <td valign="top" width="46%">
                                 <font face="Arial" size="3">
-                                  Email: dermatologie@uzgent.be / Fonds Paul De Corte: rani.soenen@uzgent.be<br>
-                                  Telefoon: 09 332 22 87<br>
-                                  Adres: Corneel Heymanslaan 10, 9000, Gent, België
+                                  <div id="contactLeft"></div>
                                 </font>
                               </td>
                               <td width="16"></td>
@@ -1139,21 +1153,30 @@
                                 <table width="100%" cellpadding="12" cellspacing="0" border="1" bordercolor="#E1E6ED" bgcolor="#F0F3F7">
                                   <tr>
                                     <td>
-                                      <font face="Arial" size="3" color="#1E64C8"><b>Bericht</b></font>
+                                      <font face="Arial" size="3" color="#1E64C8"><b><span id="contactFormTitle"></span></b></font>
                                       <br><br>
-                                      <form action="mailto:dermatologie@uzgent.be" method="post" enctype="text/plain">
-                                        <font face="Arial" size="2"><span data-i18n="form_name">Naam</span></font><br>
-                                        <input name="naam" size="36"><br><br>
-                                        <font face="Arial" size="2"><span data-i18n="form_email">Email</span></font><br>
-                                        <input name="email" size="36"><br><br>
-                                        <font face="Arial" size="2"><span data-i18n="form_message">Bericht</span></font><br>
-                                        <textarea name="bericht" cols="36" rows="5"></textarea><br><br>
-                                        <input type="submit" value="Verzenden" data-i18n-attr="value:form_send">
-                                      </form>
+                                      
                                     </td>
                                   </tr>
                                 </table>
-                              </section>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr><td height="26"></td></tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</section>
 </td>
                             </tr>
                           </table>
@@ -1580,6 +1603,17 @@ Zo werken we aan psoriasiszorg die breder kijkt dan de huid en aantoonbaar meer 
     // Optional footer content (empty => no footer)
     let footerContent = { nl: "", en: "", fr: "" };
 
+  // Contact section (editable via CMS)
+  let contactConfig = {
+    emailTo: "dermatologie@uzgent.be",
+    left: {
+      nl: "Email: dermatologie@uzgent.be / Fonds Paul De Corte: rani.soenen@uzgent.be<br>Telefoon: 09 332 22 87<br>Adres: Corneel Heymanslaan 10, 9000, Gent, België",
+      en: "Email: dermatologie@uzgent.be / Fund Paul De Corte: rani.soenen@uzgent.be<br>Phone: +32 9 332 22 87<br>Address: Corneel Heymanslaan 10, 9000 Ghent, Belgium",
+      fr: "Email: dermatologie@uzgent.be / Fonds Paul De Corte: rani.soenen@uzgent.be<br>Téléphone: +32 9 332 22 87<br>Adresse: Corneel Heymanslaan 10, 9000 Gand, Belgique"
+    },
+    formTitle: { nl: "Bericht", en: "Message", fr: "Message" }
+  };
+
 function getDefaultContent(){
       return {
         newsItems: newsItems,
@@ -1593,6 +1627,7 @@ function getDefaultContent(){
         pubCategories: pubCategories,
         teamCategories: teamCategories,
         footerContent: footerContent,
+        contact: contactConfig,
         i18n: i18n
       };
     }
@@ -1629,6 +1664,17 @@ function getDefaultContent(){
       if (obj.researchItems) researchItems = obj.researchItems;
       if (obj.linesItems) linesItems = obj.linesItems;
       if (obj.footerContent) footerContent = obj.footerContent;
+      if (obj.contact && typeof obj.contact === "object"){
+        const c = obj.contact;
+        contactConfig = contactConfig || { emailTo:"", left:{}, formTitle:{} };
+        contactConfig.emailTo = (typeof c.emailTo === "string" && c.emailTo.trim()) ? c.emailTo.trim() : contactConfig.emailTo;
+        contactConfig.left = contactConfig.left || { nl:"", en:"", fr:"" };
+        contactConfig.formTitle = contactConfig.formTitle || { nl:"", en:"", fr:"" };
+        ["nl","en","fr"].forEach(lang=>{
+          if (c.left && typeof c.left[lang] === "string") contactConfig.left[lang] = c.left[lang];
+          if (c.formTitle && typeof c.formTitle[lang] === "string") contactConfig.formTitle[lang] = c.formTitle[lang];
+        });
+      }
       if (obj.trialItems) trialItems = obj.trialItems;
       if (obj.pubItems) pubItems = obj.pubItems;
       if (obj.pubCategories) pubCategories = obj.pubCategories;
@@ -2068,7 +2114,27 @@ function esc(s) {
 
     // Language buttons
     
-    function renderFooter(){
+    
+    function renderContact(){
+      const leftEl = document.getElementById("contactLeft");
+      const titleEl = document.getElementById("contactFormTitle");
+      const formEl = document.getElementById("contactForm");
+      if (!leftEl || !titleEl) return;
+
+      const left = (contactConfig && contactConfig.left && contactConfig.left[currentLang] !== undefined) ? contactConfig.left[currentLang] : "";
+      const leftFallback = (contactConfig && contactConfig.left) ? (contactConfig.left.nl || "") : "";
+      leftEl.innerHTML = (String(left).trim() !== "") ? left : leftFallback;
+
+      const ttl = (contactConfig && contactConfig.formTitle && contactConfig.formTitle[currentLang] !== undefined) ? contactConfig.formTitle[currentLang] : "";
+      const ttlFallback = (contactConfig && contactConfig.formTitle) ? (contactConfig.formTitle.nl || "") : "";
+      titleEl.textContent = (String(ttl).trim() !== "") ? ttl : ttlFallback;
+
+      if (formEl && contactConfig && contactConfig.emailTo){
+        formEl.setAttribute("action", "mailto:" + contactConfig.emailTo);
+      }
+    }
+
+function renderFooter(){
       const el = document.getElementById("site-footer");
       const txt = document.getElementById("footer-text");
       if (!el || !txt) return;
@@ -2098,6 +2164,7 @@ function setLang(lang){
       renderTrials();
       renderPubFilters();
       renderPublicaties();
+      renderContact();
       renderFooter();
       updateLangButtons();
     }
@@ -2129,6 +2196,7 @@ function setLang(lang){
       setAudience(currentAudience);
 
       applyI18n();
+      renderContact();
       renderNieuws();
       renderResearchLines();
       renderTeamFilters();
