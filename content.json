@@ -387,6 +387,24 @@
       ]
     },
     {
+      "naam": "Elfie Deprez",
+      "functie": {
+        "nl": "Verpleegkundig-specialist",
+        "en": "Nurse practitioner",
+        "fr": "Infirmier spécialisé"
+      },
+      "uitleg": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "foto": "Team/ElfieD.jpg",
+      "categories": [
+        "Alle",
+        "Psoriasis"
+      ]
+    },
+    {
       "naam": "Dr Arno Belpaire",
       "functie": {
         "nl": "PhD onderzoeker",
@@ -475,6 +493,24 @@
       "categories": [
         "Alle",
         "Huidkanker"
+      ]
+    },
+    {
+      "naam": "Julie Depelseneer",
+      "functie": {
+        "nl": "Studie verpleegkundige",
+        "en": "Study nurse",
+        "fr": "Études d'infirmière"
+      },
+      "uitleg": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "foto": "Team/JulieD.jpg",
+      "categories": [
+        "Alle",
+        "Psoriasis"
       ]
     },
     {
@@ -581,42 +617,6 @@
         "fr": ""
       },
       "foto": "Team/EmmaV.jpg",
-      "categories": [
-        "Alle",
-        "Psoriasis"
-      ]
-    },
-    {
-      "naam": "Julie Depelseneer",
-      "functie": {
-        "nl": "Studie verpleegkundige",
-        "en": "Study nurse",
-        "fr": "Études d'infirmière"
-      },
-      "uitleg": {
-        "nl": "",
-        "en": "",
-        "fr": ""
-      },
-      "foto": "Team/JulieD.jpg",
-      "categories": [
-        "Alle",
-        "Psoriasis"
-      ]
-    },
-    {
-      "naam": "Elfie Deprez",
-      "functie": {
-        "nl": "Verpleegkundig-specialist",
-        "en": "Nurse practitioner",
-        "fr": "Infirmier spécialisé"
-      },
-      "uitleg": {
-        "nl": "",
-        "en": "",
-        "fr": ""
-      },
-      "foto": "Team/ElfieD.jpg",
       "categories": [
         "Alle",
         "Psoriasis"
