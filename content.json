@@ -585,6 +585,60 @@
         "Alle",
         "Psoriasis"
       ]
+    },
+    {
+      "naam": "Julie Depelseneer",
+      "functie": {
+        "nl": "Studie verpleegkundige",
+        "en": "Study nurse",
+        "fr": "Études d'infirmière"
+      },
+      "uitleg": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "foto": "Team/JulieD.jpg",
+      "categories": [
+        "Alle",
+        "Psoriasis"
+      ]
+    },
+    {
+      "naam": "Elfie Deprez",
+      "functie": {
+        "nl": "Verpleegkundig-specialist",
+        "en": "Nurse practitioner",
+        "fr": "Infirmier spécialisé"
+      },
+      "uitleg": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "foto": "Team/ElfieD.jpg",
+      "categories": [
+        "Alle",
+        "Psoriasis"
+      ]
+    },
+    {
+      "naam": "Dr Laura Van Coile",
+      "functie": {
+        "nl": "PhD onderzoeker",
+        "en": "PhD Investigator",
+        "fr": "PhD Investigateur"
+      },
+      "uitleg": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "foto": "Team/LauraV.jpg",
+      "categories": [
+        "Alle",
+        "Huidkanker"
+      ]
     }
   ],
   "researchItems": [
@@ -643,6 +697,48 @@
       },
       "figuur": "assets/AAimmun.jpg",
       "category": "alopecia_areata"
+    },
+    {
+      "category": "all",
+      "titel": {
+        "nl": "HELIOS ",
+        "en": "HELIOS ",
+        "fr": "HELIOS "
+      },
+      "tekst": {
+        "nl": "Biologicals zijn effectieve middelen voor de behandeling van psoriasis. De nieuwste generatie blokkeert interleukine 17 en 23. Artsen schrijven ze altijd in een vaste dosis voor, maar dit kan leiden tot onder- en overdosering bij sommige patiënten. Onderdosering kan na verloop van tijd onvoldoende of verlies van respons tot gevolg hebben. Overdosering kan dan weer het  risico op bijwerkingen en de kosten voor de gezondheidszorg verhogen. In de dagelijkse klinische praktijk pakken artsen dit probleem vaak aan door blindelings de dosis aan te passen of over te stappen op een ander biologisch geneesmiddel. In deze studie willen we deze dosisaanpassingen rationaliseren en de dosering optimaliseren op basis van de meting van geneesmiddelconcentraties in het bloed van de patiënt (d.w.z. therapeutic drug monitoring of TDM). Afhankelijk van de geneesmiddelconcentratie wordt het interval tussen de injecties verlengd of verkort om op die manier de vereiste geneesmiddelconcentratie te bereiken voor het beste klinische resultaat. De studie zal worden uitgevoerd in 12 Belgische ziekenhuizen. De patiënten worden ingedeeld in 2 studiegroepen: een groep die advies krijgt over het doseringsschema van hun biologisch geneesmiddel op basis van de gemeten geneesmiddelconcentratie en een groep die blijft doseren zoals in de dagelijkse klinische praktijk. We zullen controleren of de klinische respons en kwaliteit van leven stabiel blijft. Met dit onderzoek hopen we een betere veiligheid, lagere kosten voor de gezondheidszorg en een hogere kwaliteit van leven te bereiken. \n\nClinicaltrial.gov: NCT06398106 \n\nStatus: actief rekruterend",
+        "en": "Biologics are effective treatments for psoriasis. The latest generation blocks interleukin 17 and 23. Doctors always prescribe them in a fixed dose, but this can lead to under- and overdosing in some patients. Under-dosing can result in an insufficient or loss of response over time. Overdosing, on the other hand, can increase the risk of side effects and healthcare costs. In daily clinical practice, doctors often address this problem by blindly adjusting the dose or switching to another biological medicine. In this study, we want to rationalize these dose adjustments and optimize the dosage based on the measurement of drug concentrations in the patient's blood (i.e., therapeutic drug monitoring or TDM). Depending on the drug concentration, the interval between injections is lengthened or shortened in order to achieve the required drug concentration for the best clinical outcome. The study will be conducted in 12 Belgian hospitals. Patients will be divided into two study groups: one group will receive advice on the dosing schedule for their biological medicine based on the measured drug concentration, and one group will continue to be dosed as in daily clinical practice. We will monitor whether the clinical response and quality of life remain stable. With this research, we hope to achieve better safety, lower healthcare costs, and a higher quality of life.\n\nClinicaltrial.gov: NCT06398106\n\nStatus: actively recruiting",
+        "fr": "Les médicaments biologiques sont efficaces pour traiter le psoriasis. La dernière génération bloque les interleukines 17 et 23. Les médecins les prescrivent toujours à dose fixe, mais cela peut entraîner un sous-dosage ou un surdosage chez certains patients. Un sous-dosage peut entraîner une réponse insuffisante ou une perte de réponse au fil du temps. Le surdosage peut quant à lui augmenter le risque d'effets secondaires et les coûts pour les soins de santé. Dans la pratique clinique quotidienne, les médecins abordent souvent ce problème en ajustant aveuglément la dose ou en passant à un autre médicament biologique. Dans cette étude, nous voulons rationaliser ces ajustements de dose et optimiser le dosage sur la base de la mesure des concentrations du médicament dans le sang du patient (c'est-à-dire la surveillance thérapeutique des médicaments ou TDM). En fonction de la concentration du médicament, l'intervalle entre les injections est allongé ou raccourci afin d'atteindre la concentration requise pour obtenir le meilleur résultat clinique. L'étude sera menée dans 12 hôpitaux belges. Les patients seront répartis en deux groupes : un groupe qui recevra des conseils sur le schéma posologique de leur médicament biologique sur la base de la concentration mesurée dans le sang et un groupe qui continuera à suivre le schéma posologique habituel dans la pratique clinique quotidienne. Nous vérifierons si la réponse clinique et la qualité de vie restent stables. Grâce à cette étude, nous espérons améliorer la sécurité, réduire les coûts des soins de santé et améliorer la qualité de vie.\n\nClinicaltrial.gov : NCT06398106\n\nStatut : recrutement en cours"
+      },
+      "figuur": "assets/Helios.jpg"
+    },
+    {
+      "category": "all",
+      "titel": {
+        "nl": "Scoringstools voor vitiligo en alopecia areata",
+        "en": "Scoring tools for vitiligo and alopecia areata",
+        "fr": "Outils d'évaluation du vitiligo et de l'alopécie areata"
+      },
+      "tekst": {
+        "nl": "We ontwikkelen en valideren scoresystemen om de huidaandoeningen te monitoren. Voor vitiligo en alopecia areata hebben we online tools gemaakt. \nOnze scoretools zijn beschikbaar op:\n\n<a href=\"www.vitiligo-calculator.com \">www.vitiligo-calculator.com </a> en\n\n<a href=\"www.alopecia-areata-calculator.com\">www.alopecia-areata-calculator.com</a>.",
+        "en": "We develop and validate scoring systems to monitor skin conditions. We have created online tools for vitiligo and alopecia areata.\nOur scoring tools are available at:\n<a href=\"www.vitiligo-calculator.com \">www.vitiligo-calculator.com </a> en\n\n<a href=\"www.alopecia-areata-calculator.com\">www.alopecia-areata-calculator.com</a>.",
+        "fr": "Nous développons et validons des systèmes de notation pour surveiller les affections cutanées. Nous avons créé des outils en ligne pour le vitiligo et l'alopécie areata.\nNos outils de notation sont disponibles sur :\n<a href=\"www.vitiligo-calculator.com \">www.vitiligo-calculator.com </a> en\n\n<a href=\"www.alopecia-areata-calculator.com\">www.alopecia-areata-calculator.com</a>."
+      },
+      "figuur": "assets/VES.jpg"
+    },
+    {
+      "category": "all",
+      "titel": {
+        "nl": "Gezondheidseconomische effecten van interventies bij huidkanker ",
+        "en": "Health economic effects of interventions for skin cancer ",
+        "fr": "Effets économiques des interventions en matière de santé dans le domaine du cancer de la peau "
+      },
+      "tekst": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "figuur": "assets/GEI.jpg"
     }
   ],
   "trialItems": [
@@ -1537,7 +1633,7 @@
       "hero_sub_public": "Van translationeel en klinisch huidonderzoek naar tastbare verbeteringen",
       "hero_sub_pro": "Van translationeel en klinisch huidonderzoek naar tastbare verbeteringen",
       "academic_intro_public": "Ons lopend onderzoek!",
-      "academic_intro_pro": "Ons lopend onderzoek!",
+      "academic_intro_pro": "Klik op de titels voor meer info!",
       "lines_intro_pro": "Ons onderzoek focust op de volgende domeinen:",
       "lines_intro_public": "Ons onderzoek focust op de volgende domeinen:",
       "hero_title_public": "Onderzoeksgroep Huidziekten<br> UZ Gent/UGent",
@@ -1601,7 +1697,7 @@
       "academic_intro": "",
       "sec_academic": "Academic studies",
       "academic_intro_public": "Our current reearch!",
-      "academic_intro_pro": "Our current research!",
+      "academic_intro_pro": "Click on the titles for more information!",
       "lines_intro_pro": "Our research focuses on the following areas:",
       "lines_intro_public": "Our research focuses on the following areas:",
       "hero_title_public": "Research group Skin Diseases<br> UZ Gent/UGent",
@@ -1717,7 +1813,7 @@
       "academic_intro": "",
       "sec_academic": "Études académiques",
       "academic_intro_public": "Nos recherches actuelles !",
-      "academic_intro_pro": "Nos recherches actuelles !",
+      "academic_intro_pro": "Cliquez sur les titres pour plus d'informations !",
       "lines_intro_pro": "Notre recherche se concentre sur les domaines suivants:",
       "lines_intro_public": "Notre recherche se concentre sur les domaines suivants:",
       "hero_title_public": "Groupe de recherche Maladies cutanées<br> UZ Gent/UGent",
