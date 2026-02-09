@@ -136,7 +136,7 @@
       padding: 0 16px;
     }
 
-@media (max-width: 720px) {
+@media (max-width: 1024px) {
   /* Prevent horizontal cut-off on small screens */
   html, body { max-width: 100%; overflow-x: hidden; }
 
@@ -180,6 +180,69 @@
     }
 
 
+  /* Publications: show first 6, then +10 per click */
+  .pub-more-wrap{ text-align:center; margin: 8px 0 0 0; }
+  .pub-more-btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+    padding: 10px 16px;
+    border-radius: 999px;
+    border: 1px solid #1E64C8;
+    background: #FFFFFF;
+    color: #1E64C8;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1;
+    cursor: pointer;
+  }
+  .pub-more-btn:hover{ border-color:#0B2E64; color:#0B2E64; }
+  .pub-more-btn:focus-visible{ outline: 3px solid #FFD200; outline-offset: 3px; }
+
+  /* Academisch onderzoek: only figure + title; text appears below on hover/click */
+  .research-card.academic-card{ cursor: pointer; }
+  .research-card.academic-card:focus-visible{ outline: 3px solid #FFD200; outline-offset: 3px; }
+  .academic-detail{
+    margin-top: 12px;
+    border: 1px solid #E1E6ED;
+    border-radius: 12px;
+    background: #F0F3F7;
+    padding: 14px;
+  }
+  .academic-detail-title{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #0B2E64;
+    margin: 0 0 8px 0;
+  }
+  .academic-detail-text{
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333333;
+    line-height: 1.45;
+  }
+
+
+
+
+/* Academisch onderzoek: inline text for touch widths (no hover) */
+.academic-inline-text{
+  display:none;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333333;
+  line-height: 1.45;
+  margin-top: 8px;
+}
+@media (max-width: 1024px){
+  .academic-inline-text{ display:block; }
+  .academic-detail{ display:none !important; }
+  .research-card.academic-card{ cursor: default; }
+}
+
 .hero-banner {
   background-attachment: scroll !important;
   background-size: cover !important;
@@ -187,7 +250,7 @@
 }
 
 
-@media (max-width: 720px) {
+@media (max-width: 1024px) {
   table[width="100%"] > tbody > tr > td {
     display:block;
     width:100% !important;
@@ -301,7 +364,7 @@
     
     /* Fonds Paul De Corte layout */
     .fund-layout { width: 100%; }
-    @media (max-width: 720px){
+    @media (max-width: 1024px){
       .fund-layout > tbody > tr > td{ display:block; width:100% !important; }
       .fund-gap{ display:none !important; width:0 !important; }
       .fund-figure table[width="360"]{ max-width: 100% !important; width: 100% !important; }
@@ -309,7 +372,7 @@
     }
 
 /* Mobile */
-    @media (max-width: 720px) {
+    @media (max-width: 1024px) {
       /* Make header stack */
       table[width="1100"] > tbody > tr > td { display: block; width: 100% !important; text-align: center !important; }
       .topnav { white-space: normal !important; }
@@ -352,7 +415,7 @@
 }
 
 
-@media (max-width: 720px) {
+@media (max-width: 1024px) {
   table[width="100%"] > tbody > tr > td {
     display:block;
     width:100% !important;
@@ -373,7 +436,7 @@
     top: 18px;
     z-index: calc(200 - var(--i));
   }
-  @media (max-width: 720px){
+  @media (max-width: 1024px){
     .stack-section{ top: 10px; }
   }
   .stack-section + .stack-section{
@@ -418,7 +481,7 @@
 }
 
 
-@media (max-width: 720px) {
+@media (max-width: 1024px) {
   table[width="100%"] > tbody > tr > td {
     display:block;
     width:100% !important;
@@ -463,7 +526,7 @@
 }
 
 
-@media (max-width: 720px) {
+@media (max-width: 1024px) {
   table[width="100%"] > tbody > tr > td {
     display:block;
     width:100% !important;
@@ -647,7 +710,7 @@
 }
 
 
-@media (max-width: 720px) {
+@media (max-width: 1024px) {
   table[width="100%"] > tbody > tr > td {
     display:block;
     width:100% !important;
@@ -671,11 +734,11 @@
 @media (max-width:1024px){
   .team-grid{ grid-template-columns:repeat(3,minmax(0,1fr)); }
 }
-@media (max-width:720px){
+@media (max-width: 1024px){
   .team-grid{ grid-template-columns:1fr; }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 1024px) {
   table[width="100%"] > tbody > tr > td {
     display:block;
     width:100% !important;
@@ -700,7 +763,7 @@
     margin-top: 0 !important;
   }
 
-@media (max-width: 720px) {
+@media (max-width: 1024px) {
   table[width="100%"] > tbody > tr > td {
     display:block;
     width:100% !important;
@@ -717,7 +780,7 @@
 <style id="contact-formtitle-multiline">
   #contactFormTitle { white-space: pre-line; }
 
-@media (max-width: 720px) {
+@media (max-width: 1024px) {
   table[width="100%"] > tbody > tr > td {
     display:block;
     width:100% !important;
@@ -1437,6 +1500,12 @@ Zo werken we aan psoriasiszorg die breder kijkt dan de huid en aantoonbaar meer 
 
     let currentPubFilter = "all";
 
+    // Publications pager (first 6, then +10 per click)
+    const PUB_INITIAL_COUNT = 6;
+    const PUB_STEP_COUNT = 10;
+    let pubVisibleCount = PUB_INITIAL_COUNT;
+    function resetPubPager(){ pubVisibleCount = PUB_INITIAL_COUNT; }
+
 
     // Team categories for filter buttons (set categories per person in teamMembers below)
     let teamCategories = [
@@ -1586,6 +1655,7 @@ Zo werken we aan psoriasiszorg die breder kijkt dan de huid en aantoonbaar meer 
         academic_intro: "",
         team_hint: " ",
         pub_findings_label: "Belangrijkste bevindingen",
+        pub_more_label: "Meer publicaties",
         form_name: "Naam",
         form_email: "Email",
         form_message: "Bericht",
@@ -1643,6 +1713,7 @@ Zo werken we aan psoriasiszorg die breder kijkt dan de huid en aantoonbaar meer 
         academic_intro: "",
         team_hint: "Add people by appending an item to teamMembers in the code.",
         pub_findings_label: "Main findings",
+        pub_more_label: "Show more publications",
         form_name: "Name",
         form_email: "Email",
         form_message: "Message",
@@ -1701,6 +1772,7 @@ Zo werken we aan psoriasiszorg die breder kijkt dan de huid en aantoonbaar meer 
         academic_intro: "",
         team_hint: " ",
         pub_findings_label: "Principaux résultats",
+        pub_more_label: "Afficher plus de publications",
         form_name: "Nom",
         form_email: "E-mail",
         form_message: "Message",
@@ -2131,31 +2203,93 @@ function esc(s) {
         "</div>";
     }
 
-    function renderAcademicStudies() {
-      const el = document.getElementById("academicList");
-      if (!el) return;
-      const filtered = (currentAcademicFilter === "all")
-        ? researchItems.filter(audienceOk)
-        : researchItems.filter(audienceOk).filter(x => {
-            const catsRaw = (x && (x.category || x.categories)) || "";
-            const cats = Array.isArray(catsRaw) ? catsRaw : [catsRaw];
-            return cats.map(v => String(v || "").toLowerCase()).includes(currentAcademicFilter);
-          });
-      el.innerHTML =
-        "<div class='research-grid'>" +
-          filtered.map(x =>
-            "<div class='research-card'>" +
-              (x.figuur ? ("<div class='research-figure'>" +
-                "<img src='" + esc(x.figuur) + "' alt='" + esc((x.titel && (x.titel[currentLang] || x.titel.nl)) || "") + "'>" +
-              "</div>") : "") +
-              "<div class='research-body'>" +
-                "<div class='research-title'>" + esc((x.titel && (x.titel[currentLang] || x.titel.nl)) || "") + "</div>" +
-                "<div class='research-text'>" + sanitizeRich((x.tekst && (x.tekst[currentLang] || x.tekst.nl)) || "") + "</div>" +
-              "</div>" +
-            "</div>"
-          ).join("") +
-        "</div>";
-    }
+    
+function renderAcademicStudies() {
+  const el = document.getElementById("academicList");
+  if (!el) return;
+
+  const filtered = (currentAcademicFilter === "all")
+    ? researchItems.filter(audienceOk)
+    : researchItems.filter(audienceOk).filter(x => {
+        const catsRaw = (x && (x.category || x.categories)) || "";
+        const cats = Array.isArray(catsRaw) ? catsRaw : [catsRaw];
+        return cats.map(v => String(v || "").toLowerCase()).includes(currentAcademicFilter);
+      });
+
+  const cardHtml =
+    "<div class='research-grid'>" +
+      filtered.map((x, idx) => {
+        const title = esc((x.titel && (x.titel[currentLang] || x.titel.nl)) || "");
+        const fig = x.figuur ? (
+          "<div class='research-figure'><img src='" + esc(x.figuur) + "' alt='" + title + "'></div>"
+        ) : "";
+        const body = sanitizeRich((x.tekst && (x.tekst[currentLang] || x.tekst.nl)) || "");
+        return (
+          "<div class='research-card academic-card' role='button' tabindex='0' data-acad-idx='" + idx + "'>" +
+            fig +
+            "<div class='research-body'>" +
+              "<div class='research-title'>" + title + "</div>" +
+              // Inline text (hidden on desktop, shown on touch widths via CSS)
+              "<div class='academic-inline-text'>" + (body || "&nbsp;") + "</div>" +
+            "</div>" +
+          "</div>"
+        );
+      }).join("") +
+    "</div>";
+
+  // Detail panel stays for desktop; it will be hidden on touch widths via CSS.
+  el.innerHTML = cardHtml + "<div id='academicDetail' class='academic-detail' style='display:none;'></div>";
+
+  const detailEl = document.getElementById("academicDetail");
+
+  function showDetail(idx){
+    const x = filtered[idx];
+    if (!x || !detailEl) return;
+    const title = esc((x.titel && (x.titel[currentLang] || x.titel.nl)) || "");
+    const body = sanitizeRich((x.tekst && (x.tekst[currentLang] || x.tekst.nl)) || "");
+    detailEl.style.display = "";
+    detailEl.innerHTML =
+      "<div class='academic-detail-title'>" + title + "</div>" +
+      "<div class='academic-detail-text'>" + (body || "&nbsp;") + "</div>";
+  }
+
+  // Only bind hover/click detail interactions on non-touch widths.
+  const isTouchWidth = (window.matchMedia && window.matchMedia("(max-width: 1024px)").matches);
+  if (isTouchWidth) return;
+
+  el.querySelectorAll("[data-acad-idx]").forEach(card => {
+    const idx = parseInt(card.getAttribute("data-acad-idx") || "0", 10);
+
+    let hoverTimer = null;
+    const scheduleHover = () => {
+      if (hoverTimer) clearTimeout(hoverTimer);
+      hoverTimer = setTimeout(() => showDetail(idx), 500);
+    };
+    const cancelHover = () => {
+      if (hoverTimer) clearTimeout(hoverTimer);
+      hoverTimer = null;
+    };
+
+    const triggerNow = () => showDetail(idx);
+
+    card.addEventListener("mouseenter", scheduleHover);
+    card.addEventListener("mouseleave", cancelHover);
+
+    card.addEventListener("click", () => { cancelHover(); triggerNow(); });
+    card.addEventListener("focus", () => { cancelHover(); triggerNow(); });
+    card.addEventListener("blur", cancelHover);
+
+    card.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        cancelHover();
+        triggerNow();
+      }
+    });
+  });
+}
+
+
 
     function renderTrials() {
       const el = document.getElementById("trialList");
@@ -2194,45 +2328,72 @@ function esc(s) {
       wrap.querySelectorAll("button[data-pubcat]").forEach(btn => {
         btn.addEventListener("click", () => {
           currentPubFilter = btn.getAttribute("data-pubcat") || "all";
+          resetPubPager();
           renderPubFilters();
           renderPublicaties();
         });
       });
     }
 
-    function renderPublicaties() {
+    
+function renderPublicaties() {
       const el = document.getElementById("pubList");
+      if (!el) return;
       const label = esc(t("pub_findings_label"));
       const filtered = (currentPubFilter === "all")
         ? pubItems
         : pubItems.filter(p => (p.category || "").toLowerCase() === currentPubFilter);
 
-      el.innerHTML = "<table width='100%' cellpadding='0' cellspacing='0' border='0'>" +
-        filtered.map(x => {
-          const title = esc((x.titel && (x.titel[currentLang] || x.titel.nl)) || "");
-          const meta  = esc((x.meta  && (x.meta[currentLang]  || x.meta.nl))  || "");
-          const link  = esc((x.tekst && (x.tekst[currentLang] || x.tekst.nl)) || "");
-          const findings = sanitizeRich((x.bevindingen && (x.bevindingen[currentLang] || x.bevindingen.nl)) || "");
-          return (
-            "<tr><td>" +
-              "<table width='100%' cellpadding='14' cellspacing='0' border='1' bordercolor='#E1E6ED' bgcolor='#FFFFFF' style='border-radius:12px; overflow:hidden;'>" +
-                "<tr><td>" +
-                  "<font face='Arial' size='3' color='#0B2E64'><b>" + title + "</b></font><br>" +
-                  "<font face='Arial' size='2' color='#333333'><b>" + meta + "</b></font><br><br>" +
-                  "<font face='Arial' size='3'>" + link + "</font><br><br>" +
-                  "<table width='100%' cellpadding='12' cellspacing='0' border='1' bordercolor='#1E64C8' bgcolor='#F0F3F7' style='border-radius:10px; overflow:hidden;'>" +
-                    "<tr><td>" +
-                      "<font face='Arial' size='2' color='#1E64C8'><b>" + label + "</b></font><br>" +
-                      "<font face='Arial' size='3' color='#333333'>" + (findings || "&nbsp;") + "</font>" +
-                    "</td></tr>" +
-                  "</table>" +
-                "</td></tr>" +
-              "</table>" +
-            "</td></tr><tr><td height='12'></td></tr>"
-          );
-        }).join("") +
-      "</table>";
+      const shown = filtered.slice(0, pubVisibleCount);
+      const hasMore = filtered.length > shown.length;
+
+      el.innerHTML =
+        "<table width='100%' cellpadding='0' cellspacing='0' border='0'>" +
+          shown.map(x => {
+            const title = esc((x.titel && (x.titel[currentLang] || x.titel.nl)) || "");
+            const meta  = esc((x.meta  && (x.meta[currentLang]  || x.meta.nl))  || "");
+            const link  = esc((x.tekst && (x.tekst[currentLang] || x.tekst.nl)) || "");
+            const findings = sanitizeRich((x.bevindingen && (x.bevindingen[currentLang] || x.bevindingen.nl)) || "");
+            return (
+              "<tr><td>" +
+                "<table width='100%' cellpadding='14' cellspacing='0' border='1' bordercolor='#E1E6ED' bgcolor='#FFFFFF' style='border-radius:12px; overflow:hidden;'>" +
+                  "<tr><td>" +
+                    "<font face='Arial' size='3' color='#0B2E64'><b>" + title + "</b></font><br>" +
+                    "<font face='Arial' size='2' color='#333333'><b>" + meta + "</b></font><br><br>" +
+                    "<font face='Arial' size='3'>" + link + "</font><br><br>" +
+                    "<table width='100%' cellpadding='12' cellspacing='0' border='1' bordercolor='#1E64C8' bgcolor='#F0F3F7' style='border-radius:10px; overflow:hidden;'>" +
+                      "<tr><td>" +
+                        "<font face='Arial' size='2' color='#1E64C8'><b>" + label + "</b></font><br>" +
+                        "<font face='Arial' size='3' color='#333333'>" + (findings || "&nbsp;") + "</font>" +
+                      "</td></tr>" +
+                    "</table>" +
+                  "</td></tr>" +
+                "</table>" +
+              "</td></tr><tr><td height='12'></td></tr>"
+            );
+          }).join("") +
+        "</table>" +
+        (hasMore
+          ? ("<div class='pub-more-wrap'>" +
+              "<button type='button' class='pub-more-btn' id='pubMoreBtn'>" +
+                esc(t("pub_more_label") || "") +
+              "</button>" +
+            "</div>")
+          : "");
+
+      const btn = document.getElementById("pubMoreBtn");
+      if (btn){
+        const loadMorePubs = () => {
+          pubVisibleCount += PUB_STEP_COUNT;
+          renderPublicaties();
+        };
+
+        btn.addEventListener("click", loadMorePubs);
+        btn.addEventListener("mouseenter", loadMorePubs);
+        btn.addEventListener("focus", loadMorePubs);
+      }
     }
+
 
     // Language buttons
     
@@ -2335,7 +2496,35 @@ function setLang(lang){
     // Re-apply i18n and force a scroll-driven update on the next frame so all text is visible immediately.
     requestAnimationFrame(() => { applyI18n(); });
     requestAnimationFrame(() => { window.dispatchEvent(new Event('scroll')); });
-  </script>
+  
+
+
+// Re-render Academisch onderzoek when crossing the touch breakpoint
+(function(){
+  if (!window.matchMedia) return;
+  const mq = window.matchMedia("(max-width: 1024px)");
+  let last = mq.matches;
+
+  // Some browsers still use addListener/removeListener
+  function onChange(){
+    const now = mq.matches;
+    if (now === last) return;
+    last = now;
+    if (typeof renderAcademicStudies === "function") renderAcademicStudies();
+  }
+
+  if (typeof mq.addEventListener === "function") mq.addEventListener("change", onChange);
+  else if (typeof mq.addListener === "function") mq.addListener(onChange);
+
+  // Fallback: window resize (covers older engines and edge cases)
+  let t = null;
+  window.addEventListener("resize", () => {
+    if (t) clearTimeout(t);
+    t = setTimeout(onChange, 120);
+  });
+})();
+
+</script>
 
 
 <script>
