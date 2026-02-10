@@ -1,5 +1,3 @@
-
-
 {
   "newsItems": [
     {
@@ -1634,7 +1632,7 @@
       "sec_academic": "Academische studies",
       "hero_sub_public": "Van translationeel en klinisch huidonderzoek naar tastbare verbeteringen",
       "hero_sub_pro": "Van translationeel en klinisch huidonderzoek naar tastbare verbeteringen",
-      "academic_intro_public": "Ons lopend onderzoek!",
+      "academic_intro_public": "Klik op de titels voor meer info!",
       "academic_intro_pro": "Klik op de titels voor meer info!",
       "lines_intro_pro": "Ons onderzoek focust op de volgende domeinen:",
       "lines_intro_public": "Ons onderzoek focust op de volgende domeinen:",
@@ -1698,7 +1696,7 @@
       "lines_intro": "Add the introductory text here.",
       "academic_intro": "",
       "sec_academic": "Academic studies",
-      "academic_intro_public": "Our current reearch!",
+      "academic_intro_public": "Click on the titles for more information!",
       "academic_intro_pro": "Click on the titles for more information!",
       "lines_intro_pro": "Our research focuses on the following areas:",
       "lines_intro_public": "Our research focuses on the following areas:",
@@ -1814,7 +1812,7 @@
       "lines_intro": "Ajoutez ici le texte d’introduction.",
       "academic_intro": "",
       "sec_academic": "Études académiques",
-      "academic_intro_public": "Nos recherches actuelles !",
+      "academic_intro_public": "Cliquez sur les titres pour plus d'informations !",
       "academic_intro_pro": "Cliquez sur les titres pour plus d'informations !",
       "lines_intro_pro": "Notre recherche se concentre sur les domaines suivants:",
       "lines_intro_public": "Notre recherche se concentre sur les domaines suivants:",
