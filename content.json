@@ -327,6 +327,28 @@
       ]
     },
     {
+      "naam": "Dieter Vernaeve",
+      "functie": {
+        "nl": "Studie coördinator",
+        "en": "Study coordinator",
+        "fr": "Coordinateur des études"
+      },
+      "uitleg": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "foto": "Team/Dieter.jpg",
+      "categories": [
+        "Alle",
+        "Psoriasis",
+        "Vitiligo",
+        "Huidkanker",
+        "Alopecia_areata",
+        "eczeem"
+      ]
+    },
+    {
       "naam": "Dr Annelies Demeyer",
       "functie": {
         "nl": "Postdoctoraal onderzoeker",
