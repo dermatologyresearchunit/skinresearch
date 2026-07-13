@@ -2,45 +2,17 @@
   "newsItems": [
     {
       "titel": {
-        "nl": "Deviskan",
-        "en": "Deviskan",
-        "fr": "Deviskan"
+        "nl": "Leerstoel Waardegedreven zorg ingehuldigd",
+        "en": "Chair Value-Based Healthcare launced",
+        "fr": ""
       },
-      "datum": "6.01.2026",
+      "datum": "02.07.2026",
       "tekst": {
-        "nl": "Sinds kort is de DEVISCAN beschikbaar op onze dienst. Dit toestel laat toe huidletsels snel en niet-invasief te analyseren en vormt een waardevolle aanvulling op onze bestaande diagnostische mogelijkheden. Met de komst van de DEVISCAN versterken we zowel de klinische evaluatie als het onderzoek naar huidafwijkingen. Het toestel zal worden ingezet in zorg, opleiding en wetenschappelijke projecten. Hiermee zetten we opnieuw een stap richting meer innovatieve en patiëntgerichte dermatologische zorg.",
-        "en": "The DEVISCAN has recently become available at our department. This device allows for quick and non-invasive analysis of skin lesions and is a valuable addition to our existing diagnostic capabilities. With the arrival of the DEVISCAN, we are strengthening both clinical evaluation and research into skin abnormalities. The device will be used in healthcare, training, and scientific projects. This is another step towards more innovative and patient-centered dermatological care.",
-        "fr": "Depuis peu, le DEVISCAN est disponible dans notre service. Cet appareil permet d'analyser rapidement et de manière non invasive les lésions cutanées et constitue un complément précieux à nos possibilités diagnostiques existantes. Avec l'arrivée du DEVISCAN, nous renforçons à la fois l'évaluation clinique et la recherche sur les anomalies cutanées. L'appareil sera utilisé dans les soins, la formation et les projets scientifiques. Nous franchissons ainsi une nouvelle étape vers des soins dermatologiques plus innovants et centrés sur le patient."
+        "nl": "Op donderdag 2 juli vond de inhuldiging van de Leerstoel Waardegedreven Zorg aan de Universiteit Gent plaats. Een avond met straffe sprekers en één duidelijke rode draad: hoe creëren we zo veel mogelijk meerwaarde voor de patiënt?\n\nMeer info: https://www.ugent.be/schenken/nl/hoe-steunen/leerstoelen/waardegedreven-zorg",
+        "en": "On Thursday, July 2, the inauguration of the Chair of Value-Based Healthcare at Ghent University took place. It was an evening featuring inspiring speakers and one clear common thread: how can we create as much added value as possible for the patient?\n\nMore information: https://www.ugent.be/schenken/nl/hoe-steunen/leerstoelen/waardegedreven-zorg",
+        "fr": "Le jeudi 2 juillet a eu lieu l’inauguration de la Chaire des soins de santé axés sur la valeur à l’Université de Gand. Une soirée riche en intervenants inspirants, avec un fil rouge clair : comment créer le plus de valeur ajoutée possible pour le patient ?\n\nPlus d’informations : https://www.ugent.be/schenken/nl/hoe-steunen/leerstoelen/waardegedreven-zorg"
       },
-      "figuur": "News/Deviscan.jpg"
-    },
-    {
-      "titel": {
-        "nl": "Dermagnostix",
-        "en": "Dermagnostix",
-        "fr": "Dermagnostix"
-      },
-      "datum": "5.02.2026",
-      "tekst": {
-        "nl": "Moeilijke casus om het onderscheid te maken tussen psoriasis en eczeem over verdacht voor mycosis fungoides? PsorX en LymphX van Dermagnostix zijn beschikbaar. Deze innovatieve testen ondersteunen ons bij het snel en nauwkeurig onderscheiden van verschillende inflammatoire huidaandoeningen op biopsiemateriaal.",
-        "en": "Difficult case to distinguish between psoriasis and eczema or suspected mycosis fungoides? PsorX and LymphX from Dermagnostix are available. These innovative tests help us to quickly and accurately distinguish between different inflammatory skin conditions on biopsy material.",
-        "fr": "Difficile de faire la distinction entre psoriasis et eczéma ou suspicion de mycosis fongoïde ? PsorX et LymphX de Dermagnostix sont disponibles. Ces tests innovants nous aident à distinguer rapidement et précisément différentes affections cutanées inflammatoires à partir de matériel biopsié."
-      },
-      "figuur": "News/Dermagnostix.jpg"
-    },
-    {
-      "titel": {
-        "nl": "Immunomonitoring",
-        "en": "Immune monitoring",
-        "fr": "Immunomonitoring"
-      },
-      "datum": "5.02.2026",
-      "tekst": {
-        "nl": "Met een eenvoudige bloedtest kunnen we het immuunsysteem onderzoeken voor een betere diagnose, keuze van behandeling en dosering. Deze test is momenteel in studieverband, maar kan al directe implicaties hebben voor de zorg.",
-        "en": "A simple blood test allows us to examine the immune system for a better diagnosis, choice of treatment, and dosage. This test is currently being studied, but it may already have direct implications for healthcare.",
-        "fr": "Un simple test sanguin permet d'examiner le système immunitaire afin d'améliorer le diagnostic, le choix du traitement et le dosage. Ce test fait actuellement l'objet d'une étude, mais peut déjà avoir des implications directes pour les soins de santé."
-      },
-      "figuur": "News/Immunomonitoring.jpg"
+      "figuur": "news/leerstoel.jpg"
     },
     {
       "titel": {
@@ -55,6 +27,48 @@
         "fr": "Une nouvelle publication scientifique dans The Lancet Regional Health – Europe :\n\nDose Reduction of IL-17 and IL-23 Inhibitors in Psoriasis (BeNeBio Study): An International, Pragmatic, Multicentre, Randomised, Controlled, Non-Inferiority Trial"
       },
       "figuur": "assets/benebio.jpg"
+    },
+    {
+      "titel": {
+        "nl": "Dermagnostix",
+        "en": "Dermagnostix",
+        "fr": "Dermagnostix"
+      },
+      "datum": "05.02.2026",
+      "tekst": {
+        "nl": "Moeilijke casus om het onderscheid te maken tussen psoriasis en eczeem over verdacht voor mycosis fungoides? PsorX en LymphX van Dermagnostix zijn beschikbaar. Deze innovatieve testen ondersteunen ons bij het snel en nauwkeurig onderscheiden van verschillende inflammatoire huidaandoeningen op biopsiemateriaal.",
+        "en": "Difficult case to distinguish between psoriasis and eczema or suspected mycosis fungoides? PsorX and LymphX from Dermagnostix are available. These innovative tests help us to quickly and accurately distinguish between different inflammatory skin conditions on biopsy material.",
+        "fr": "Difficile de faire la distinction entre psoriasis et eczéma ou suspicion de mycosis fongoïde ? PsorX et LymphX de Dermagnostix sont disponibles. Ces tests innovants nous aident à distinguer rapidement et précisément différentes affections cutanées inflammatoires à partir de matériel biopsié."
+      },
+      "figuur": "News/Dermagnostix.jpg"
+    },
+    {
+      "titel": {
+        "nl": "Immunomonitoring",
+        "en": "Immune monitoring",
+        "fr": "Immunomonitoring"
+      },
+      "datum": "05.02.2026",
+      "tekst": {
+        "nl": "Met een eenvoudige bloedtest kunnen we het immuunsysteem onderzoeken voor een betere diagnose, keuze van behandeling en dosering. Deze test is momenteel in studieverband, maar kan al directe implicaties hebben voor de zorg.",
+        "en": "A simple blood test allows us to examine the immune system for a better diagnosis, choice of treatment, and dosage. This test is currently being studied, but it may already have direct implications for healthcare.",
+        "fr": "Un simple test sanguin permet d'examiner le système immunitaire afin d'améliorer le diagnostic, le choix du traitement et le dosage. Ce test fait actuellement l'objet d'une étude, mais peut déjà avoir des implications directes pour les soins de santé."
+      },
+      "figuur": "News/Immunomonitoring.jpg"
+    },
+    {
+      "titel": {
+        "nl": "Deviskan",
+        "en": "Deviskan",
+        "fr": "Deviskan"
+      },
+      "datum": "06.01.2026",
+      "tekst": {
+        "nl": "Sinds kort is de DEVISCAN beschikbaar op onze dienst. Dit toestel laat toe huidletsels snel en niet-invasief te analyseren en vormt een waardevolle aanvulling op onze bestaande diagnostische mogelijkheden. Met de komst van de DEVISCAN versterken we zowel de klinische evaluatie als het onderzoek naar huidafwijkingen. Het toestel zal worden ingezet in zorg, opleiding en wetenschappelijke projecten. Hiermee zetten we opnieuw een stap richting meer innovatieve en patiëntgerichte dermatologische zorg.",
+        "en": "The DEVISCAN has recently become available at our department. This device allows for quick and non-invasive analysis of skin lesions and is a valuable addition to our existing diagnostic capabilities. With the arrival of the DEVISCAN, we are strengthening both clinical evaluation and research into skin abnormalities. The device will be used in healthcare, training, and scientific projects. This is another step towards more innovative and patient-centered dermatological care.",
+        "fr": "Depuis peu, le DEVISCAN est disponible dans notre service. Cet appareil permet d'analyser rapidement et de manière non invasive les lésions cutanées et constitue un complément précieux à nos possibilités diagnostiques existantes. Avec l'arrivée du DEVISCAN, nous renforçons à la fois l'évaluation clinique et la recherche sur les anomalies cutanées. L'appareil sera utilisé dans les soins, la formation et les projets scientifiques. Nous franchissons ainsi une nouvelle étape vers des soins dermatologiques plus innovants et centrés sur le patient."
+      },
+      "figuur": "News/Deviscan.jpg"
     }
   ],
   "teamMembers": [
@@ -441,25 +455,6 @@
       ]
     },
     {
-      "naam": "Dr Arno Belpaire",
-      "functie": {
-        "nl": "PhD onderzoeker",
-        "en": "PhD researcher",
-        "fr": "PhD investigateur"
-      },
-      "uitleg": {
-        "nl": "",
-        "en": "",
-        "fr": ""
-      },
-      "foto": "Team/Arno.jpg",
-      "categories": [
-        "Alle",
-        "Vitiligo",
-        "Alopecia_areata"
-      ]
-    },
-    {
       "naam": "Dr Anke Eylenbosch",
       "functie": {
         "nl": "PhD onderzoeker",
@@ -657,24 +652,6 @@
         "Alle",
         "Psoriasis"
       ]
-    },
-    {
-      "naam": "Dr Laura Van Coile",
-      "functie": {
-        "nl": "PhD onderzoeker",
-        "en": "PhD Investigator",
-        "fr": "PhD Investigateur"
-      },
-      "uitleg": {
-        "nl": "",
-        "en": "",
-        "fr": ""
-      },
-      "foto": "Team/LauraV.jpg",
-      "categories": [
-        "Alle",
-        "Huidkanker"
-      ]
     }
   ],
   "researchItems": [
@@ -775,6 +752,20 @@
         "fr": ""
       },
       "figuur": "assets/GEI.jpg"
+    },
+    {
+      "category": "psoriasis",
+      "titel": {
+        "nl": "METHYLOMIC",
+        "en": "METHYLOMIC",
+        "fr": "METHYLOMIC"
+      },
+      "tekst": {
+        "nl": "Algemene informatie\n\nHet project METHYLOMIC heeft als doel de doeltreffendheid van medicatie bij chronische immuungemedieerde aandoeningen, zoals de ziekte van Crohn (CD), reumatoïde artritis (RA) en psoriasis (PsO), te verbeteren. We richten ons specifiek op de zogenaamde biologicals: antilichamen die ontworpen zijn om een ontstekingseiwit gericht aan te vallen en zo de ontsteking te verminderen.\n\nVoorspellende biomarkers\n\nDergelijke biologicals zijn inmiddels een belangrijke pijler geworden in de behandeling van veelvoorkomende immuungemedieerde ontstekingsziekten (IMID), waaronder CD, RA en PsO. De huidige biologicals richten zich op ontstekingseiwitten zoals Tumor Necrosis Factor (adalimumab), leukocytentransport (vedolizumab) of IL-12/IL-23 (ustekinumab).\n\nIMID zijn echter complexe aandoeningen met een multifactorieel ziektebeeld. Daarom is het vaak onvoldoende om slechts één eiwit te neutraliseren om de ziekte tot remissie te brengen. Bovendien verschilt de effectiviteit van behandeling sterk van patiënt tot patiënt. Op dit moment kan daarom niet worden voorspeld welke biological bij een individuele patiënt het beste zal werken. Minder dan 40% van de patiënten vertoont een primaire respons op een bepaalde behandeling.\n\nHet falen van een behandeling hangt samen met een langduriger ziekteverloop, meer ziektecomplicaties en hogere zorgkosten. De grote behoefte aan voorspellende biomarkers om gepersonaliseerde geneeskunde bij IMID mogelijk te maken, is dan ook duidelijk. Tot op heden zijn er echter nog geen dergelijke voorspellende biomarkers gevalideerd voor gebruik in de klinische praktijk.\n\nBetere behandelingsrespons\n\nHoewel veel onderzoek zich heeft gericht op genetische mutaties of genexpressie, hebben wij een andere benadering gekozen. Binnen METHYLOMIC bouwen we voort op meerdere eerdere cohortstudies waarin we hebben aangetoond dat epigenetische biomarkers (specifiek DNA-methylatie) de meest nauwkeurige voorspellers zijn van de respons op behandeling met biologicals, met een focus op de ziekte van Crohn.\n\nWe hebben specifieke verschillen in DNA-methylatieprofielen in perifeer bloed ontdekt en gevalideerd als biomarkers voor behandelingsrespons en diepe remissie bij drie goedgekeurde biologicals voor de ziekte van Crohn. Door gebruik te maken van geavanceerde machine-learningalgoritmen kon de respons op behandeling met een nauwkeurigheid tot 93% worden voorspeld voor elke biological bij de ziekte van Crohn en reumatoïde artritis.\n\nValidatiestudies\n\nMETHYLOMIC zet zich nu in om gepersonaliseerde behandelingskeuzes voor de ziekte van Crohn en andere IMID in de klinische praktijk te brengen. We hebben klinische experts, deskundigen op het gebied van epigenetica en DNA-diagnostiek, patiëntenorganisaties en bedrijven uit zeven Europese landen samengebracht voor verdere validatiestudies.\n\nDaarnaast ontwikkelen we een snel toepasbare, commercieel beschikbare, gerichte methylatietest met een doorlooptijd van twee weken. Deze test zal vervolgens worden gevalideerd in een unieke prospectieve, gerandomiseerde klinische studie bij patiënten met de ziekte van Crohn.\n\nDe efficiëntie en kosteneffectiviteit worden uitgebreid onderzocht. Daarnaast begeleiden experts het traject richting wettelijke goedkeuring, zodat het eerste epigenetische testpakket voor gepersonaliseerde behandeling van de ziekte van Crohn beschikbaar kan worden gemaakt.",
+        "en": "General Information\nThe project METHYLOMIC is aiming to enhance the effectiveness of medication in chronic immune-mediated diseases such as Crohn’s Disease (CD), Rheumatoid Arthritis (RA), and Psoriasis (PsO). We aim specifically for the so-called biologicals, which are antibodies designed to target an inflammatory protein to reduce the inflammation.\n\nPredictive biomarkers\nSuch biologicals have become a mainstay of therapy in common immune-mediated inflammatory diseases (IMID) including CD, RA, and PsO. Currently used biologicals target inflammatory proteins such as Tumor Necrosis Factor (adalimumab), leukocyte trafficking (vedolizumab), or IL-12/IL-23 (ustekinumab). However, IMIDs are complex diseases with a multifactorial background, so neutralizing one protein is often not enough to reduce the disease towards remission. If also differs from patient to patient. At present therefore, it cannot be predicted which biological will be effective in an individual patient, with only <40% of patients showing primary response to any given therapeutic. Treatment failure is associated with lasting disease course and disease complications, and increased health care costs. Hence the overwhelming need for predictive biomarkers to guide personalised medicine in IMID is evident, but no such predictive biomarkers is validated in clinical practice to date.\n\nBetter treatment response\nWhile most efforts focused on genomic mutations, or gene expression, we took a different approach. In METHYLOMIC, we build on multiple previous cohort studies in which we confirmed epigenetic biomarkers (specifically DNA methylation) as the most stringent predictor of response to biological therapy, zooming in on CD. Specifically, we discovered and validated differential DNA methylation profiles in peripheral blood as biomarkers of response/deep remission for 3 approved biologicals in CD. Through the use of the state of the art in machine learning algorithms, treatment response could be predicted with up to 93% accuracy for each biological for CD, and RA.\n\nValidation studies\nMETHYLOMICS is now committed to bringing personalised treatment-selection in CD and other IMID to clinical practice. We have teamed up clinical, epigenetic, and DNA diagnostics experts, patient organisations, and companies across 7 countries in Europe, for further validation studies. We will also develop a marketable rapid (2 weeks) targeted methylation assay that we then validate in a unique prospective randomised clinical trial for CD. Efficiency and cost-effectiveness is assessed in great detail and regulatory approval is guided by experts to assure delivery of the first epigenetic kit personalised treatment of CD.\n",
+        "fr": "Informations générales\n\nLe projet METHYLOMIC vise à améliorer l’efficacité des traitements médicamenteux dans les maladies chroniques à médiation immunitaire, telles que la maladie de Crohn (MC), la polyarthrite rhumatoïde (PR) et le psoriasis (PsO). Nous nous concentrons spécifiquement sur les biothérapies (ou médicaments biologiques) : des anticorps conçus pour cibler une protéine inflammatoire précise afin de réduire l’inflammation.\n\nBiomarqueurs prédictifs\n\nCes biothérapies sont devenues un pilier essentiel du traitement des maladies inflammatoires chroniques à médiation immunitaire (IMID), notamment la MC, la PR et le PsO. Les biothérapies actuellement utilisées ciblent des protéines inflammatoires telles que le facteur de nécrose tumorale (TNF) (adalimumab), le trafic des leucocytes (vedolizumab) ou encore l’IL-12/IL-23 (ustekinumab).\n\nCependant, les IMID sont des maladies complexes dont l’origine est multifactorielle. La neutralisation d’une seule protéine ne suffit donc souvent pas à réduire l’activité de la maladie jusqu’à une rémission complète. De plus, la réponse au traitement varie considérablement d’un patient à l’autre. À l’heure actuelle, il est donc impossible de prédire quelle biothérapie sera efficace chez un patient donné, et moins de 40 % des patients présentent une réponse initiale à une thérapie donnée.\n\nL’échec thérapeutique est associé à une évolution prolongée de la maladie, à davantage de complications et à une augmentation des coûts de santé. Il existe donc un besoin majeur de biomarqueurs prédictifs permettant d’orienter une médecine personnalisée dans les IMID. À ce jour, aucun biomarqueur prédictif de ce type n’a toutefois été validé pour une utilisation en pratique clinique.\n\nUne meilleure réponse au traitement\n\nAlors que de nombreux travaux se sont concentrés sur les mutations génomiques ou l’expression des gènes, nous avons adopté une approche différente. Dans le cadre de METHYLOMIC, nous nous appuyons sur plusieurs études de cohortes antérieures dans lesquelles nous avons confirmé que les biomarqueurs épigénétiques (en particulier la méthylation de l’ADN) constituent les prédicteurs les plus fiables de la réponse aux traitements biologiques, avec un intérêt particulier pour la maladie de Crohn.\n\nNous avons notamment découvert et validé des profils différentiels de méthylation de l’ADN dans le sang périphérique comme biomarqueurs de la réponse au traitement et de la rémission profonde pour trois biothérapies approuvées dans la maladie de Crohn.\n\nGrâce à l’utilisation d’algorithmes d’apprentissage automatique de pointe, la réponse au traitement a pu être prédite avec une précision allant jusqu’à 93 % pour chaque biothérapie étudiée dans la maladie de Crohn et la polyarthrite rhumatoïde.\n\nÉtudes de validation\n\nMETHYLOMIC s’engage désormais à intégrer la sélection personnalisée des traitements dans la prise en charge clinique de la maladie de Crohn et d’autres IMID. Nous avons réuni des experts cliniques, des spécialistes de l’épigénétique et du diagnostic ADN, des associations de patients ainsi que des entreprises issues de sept pays européens afin de mener des études de validation complémentaires.\n\nNous développerons également un test rapide de méthylation ciblée, destiné à être commercialisé, avec un délai d’obtention des résultats de deux semaines. Ce test sera ensuite validé dans le cadre d’un essai clinique prospectif randomisé unique chez des patients atteints de la maladie de Crohn.\n\nL’efficacité et la rentabilité de cette approche seront évaluées de manière approfondie. Le processus d’obtention des autorisations réglementaires sera accompagné par des experts afin de garantir la mise à disposition du premier kit épigénétique permettant une approche personnalisée du traitement de la maladie de Crohn."
+      },
+      "figuur": ""
     }
   ],
   "trialItems": [
@@ -1586,7 +1577,7 @@
       "fund_initiatives_title_public": "Initiatieven",
       "fund_initiatives_title_pro": "Initiatieven",
       "fund_initiatives_lead_public": "Het Fonds Chronische Huidziekten zamelt geld in voor:",
-      "fund_initiatives_lead_pro": "Het Fonds Chronische Huidziekten zamelt geld in voor::",
+      "fund_initiatives_lead_pro": "Het Fonds Chronische Huidziekten zamelt geld in voor:",
       "fund_init_1_public": "Werkingsmiddelen voor klinisch, fundamenteel, translationeel of toegepast wetenschappelijk onderzoek.",
       "fund_init_1_pro": "Werkingsmiddelen voor klinisch, fundamenteel, translationeel of toegepast wetenschappelijk onderzoek.",
       "fund_init_2_public": "Investeringen in technologische innovatie en infrastructuur.",
@@ -1801,7 +1792,7 @@
       "nav_news": "News",
       "nav_research": "Academic research",
       "nav_trials": "Clinical trials",
-      "nav_fund": "Fund for Chronic Skin Diseases",
+      "nav_fund": "Fund For Chronic Skin Diseases",
       "nav_pubs": "Publications",
       "nav_team": "Team",
       "nav_contact": "Contact",
@@ -2019,7 +2010,7 @@
       "nav_news": "Actualités",
       "nav_research": "Recherche académique",
       "nav_trials": "Études cliniques",
-      "nav_fund": "Fonds pour les Maladies Cutanées Chronique",
+      "nav_fund": "Fonds pour les maladies cutanées chroniques",
       "nav_pubs": "Publications",
       "nav_team": "Équipe",
       "nav_contact": "Contact",
@@ -2041,7 +2032,7 @@
       "form_send": "Envoyer",
       "msg_sent": "Message envoyé",
       "msg_sent_alert": "Message envoyé",
-      "fund_intro": "Le Fonds pour les maladies cutanées chroniques apporte un soutien financier à la recherche scientifique qui améliore les soins aux patients atteints de maladies cutanées chroniques. Il crée un lien entre la science, les patients et les soignants. Le fonds œuvre aussi à renforcer la sensibilisation sociétale à la charge importante des maladies cutanées chroniques.",
+      "fund_intro": "Fonds pour les maladies cutanées chroniques apporte un soutien financier à la recherche scientifique qui améliore les soins aux patients atteints de maladies cutanées chroniques. Il crée un lien entre la science, les patients et les soignants. Le fonds œuvre aussi à renforcer la sensibilisation sociétale à la charge importante des maladies cutanées chroniques.",
       "fund_initiatives_title": "Initiatives",
       "fund_initiatives_lead": "Le Fonds pour les maladies cutanées chroniques collecte des fonds pour :",
       "fund_init_1": "Fonds de fonctionnement pour la recherche clinique, fondamentale, translationnelle ou appliquée.",
