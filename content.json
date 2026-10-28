@@ -12,7 +12,7 @@
         "en": "On Thursday, July 2, the inauguration of the Chair of Value-Based Healthcare at Ghent University took place. It was an evening featuring inspiring speakers and one clear common thread: how can we create as much added value as possible for the patient?\n\nMore information: https://www.ugent.be/schenken/nl/hoe-steunen/leerstoelen/waardegedreven-zorg",
         "fr": "Le jeudi 2 juillet a eu lieu l’inauguration de la Chaire des soins de santé axés sur la valeur à l’Université de Gand. Une soirée riche en intervenants inspirants, avec un fil rouge clair : comment créer le plus de valeur ajoutée possible pour le patient ?\n\nPlus d’informations : https://www.ugent.be/schenken/nl/hoe-steunen/leerstoelen/waardegedreven-zorg"
       },
-      "figuur": "News/Leerstoel.jpg"
+      "figuur": "news/Leerstoel.jpg"
     },
     {
       "titel": {
@@ -765,7 +765,7 @@
         "en": "General Information\nThe project METHYLOMIC is aiming to enhance the effectiveness of medication in chronic immune-mediated diseases such as Crohn’s Disease (CD), Rheumatoid Arthritis (RA), and Psoriasis (PsO). We aim specifically for the so-called biologicals, which are antibodies designed to target an inflammatory protein to reduce the inflammation.\n\nPredictive biomarkers\nSuch biologicals have become a mainstay of therapy in common immune-mediated inflammatory diseases (IMID) including CD, RA, and PsO. Currently used biologicals target inflammatory proteins such as Tumor Necrosis Factor (adalimumab), leukocyte trafficking (vedolizumab), or IL-12/IL-23 (ustekinumab). However, IMIDs are complex diseases with a multifactorial background, so neutralizing one protein is often not enough to reduce the disease towards remission. If also differs from patient to patient. At present therefore, it cannot be predicted which biological will be effective in an individual patient, with only <40% of patients showing primary response to any given therapeutic. Treatment failure is associated with lasting disease course and disease complications, and increased health care costs. Hence the overwhelming need for predictive biomarkers to guide personalised medicine in IMID is evident, but no such predictive biomarkers is validated in clinical practice to date.\n\nBetter treatment response\nWhile most efforts focused on genomic mutations, or gene expression, we took a different approach. In METHYLOMIC, we build on multiple previous cohort studies in which we confirmed epigenetic biomarkers (specifically DNA methylation) as the most stringent predictor of response to biological therapy, zooming in on CD. Specifically, we discovered and validated differential DNA methylation profiles in peripheral blood as biomarkers of response/deep remission for 3 approved biologicals in CD. Through the use of the state of the art in machine learning algorithms, treatment response could be predicted with up to 93% accuracy for each biological for CD, and RA.\n\nValidation studies\nMETHYLOMICS is now committed to bringing personalised treatment-selection in CD and other IMID to clinical practice. We have teamed up clinical, epigenetic, and DNA diagnostics experts, patient organisations, and companies across 7 countries in Europe, for further validation studies. We will also develop a marketable rapid (2 weeks) targeted methylation assay that we then validate in a unique prospective randomised clinical trial for CD. Efficiency and cost-effectiveness is assessed in great detail and regulatory approval is guided by experts to assure delivery of the first epigenetic kit personalised treatment of CD.\n\nMore information at: www.methylomic.eu ",
         "fr": "Informations générales\n\nLe projet METHYLOMIC vise à améliorer l’efficacité des traitements médicamenteux dans les maladies chroniques à médiation immunitaire, telles que la maladie de Crohn (MC), la polyarthrite rhumatoïde (PR) et le psoriasis (PsO). Nous nous concentrons spécifiquement sur les biothérapies (ou médicaments biologiques) : des anticorps conçus pour cibler une protéine inflammatoire précise afin de réduire l’inflammation.\n\nBiomarqueurs prédictifs\n\nCes biothérapies sont devenues un pilier essentiel du traitement des maladies inflammatoires chroniques à médiation immunitaire (IMID), notamment la MC, la PR et le PsO. Les biothérapies actuellement utilisées ciblent des protéines inflammatoires telles que le facteur de nécrose tumorale (TNF) (adalimumab), le trafic des leucocytes (vedolizumab) ou encore l’IL-12/IL-23 (ustekinumab).\n\nCependant, les IMID sont des maladies complexes dont l’origine est multifactorielle. La neutralisation d’une seule protéine ne suffit donc souvent pas à réduire l’activité de la maladie jusqu’à une rémission complète. De plus, la réponse au traitement varie considérablement d’un patient à l’autre. À l’heure actuelle, il est donc impossible de prédire quelle biothérapie sera efficace chez un patient donné, et moins de 40 % des patients présentent une réponse initiale à une thérapie donnée.\n\nL’échec thérapeutique est associé à une évolution prolongée de la maladie, à davantage de complications et à une augmentation des coûts de santé. Il existe donc un besoin majeur de biomarqueurs prédictifs permettant d’orienter une médecine personnalisée dans les IMID. À ce jour, aucun biomarqueur prédictif de ce type n’a toutefois été validé pour une utilisation en pratique clinique.\n\nUne meilleure réponse au traitement\n\nAlors que de nombreux travaux se sont concentrés sur les mutations génomiques ou l’expression des gènes, nous avons adopté une approche différente. Dans le cadre de METHYLOMIC, nous nous appuyons sur plusieurs études de cohortes antérieures dans lesquelles nous avons confirmé que les biomarqueurs épigénétiques (en particulier la méthylation de l’ADN) constituent les prédicteurs les plus fiables de la réponse aux traitements biologiques, avec un intérêt particulier pour la maladie de Crohn.\n\nNous avons notamment découvert et validé des profils différentiels de méthylation de l’ADN dans le sang périphérique comme biomarqueurs de la réponse au traitement et de la rémission profonde pour trois biothérapies approuvées dans la maladie de Crohn.\n\nGrâce à l’utilisation d’algorithmes d’apprentissage automatique de pointe, la réponse au traitement a pu être prédite avec une précision allant jusqu’à 93 % pour chaque biothérapie étudiée dans la maladie de Crohn et la polyarthrite rhumatoïde.\n\nÉtudes de validation\n\nMETHYLOMIC s’engage désormais à intégrer la sélection personnalisée des traitements dans la prise en charge clinique de la maladie de Crohn et d’autres IMID. Nous avons réuni des experts cliniques, des spécialistes de l’épigénétique et du diagnostic ADN, des associations de patients ainsi que des entreprises issues de sept pays européens afin de mener des études de validation complémentaires.\n\nNous développerons également un test rapide de méthylation ciblée, destiné à être commercialisé, avec un délai d’obtention des résultats de deux semaines. Ce test sera ensuite validé dans le cadre d’un essai clinique prospectif randomisé unique chez des patients atteints de la maladie de Crohn.\n\nL’efficacité et la rentabilité de cette approche seront évaluées de manière approfondie. Le processus d’obtention des autorisations réglementaires sera accompagné par des experts afin de garantir la mise à disposition du premier kit épigénétique permettant une approche personnalisée du traitement de la maladie de Crohn.\n\nPlus informations: www.methylomic.eu "
       },
-      "figuur": "assets/methylomic.jpg"
+      "figuur": "methylomic.jfif"
     }
   ],
   "trialItems": [
@@ -1476,6 +1476,75 @@
         "en": "What did we find?\n\nAfter 18 months, patients receiving the lower dose were generally able to keep their psoriasis under control just as well as those who continued the standard dose.\n\nSome participants did experience a worsening of their symptoms. These patients were able to return to their original dose, after which their psoriasis was usually brought back under control quickly. No serious adverse events attributable to dose reduction were observed.\n\nThese results show that a gradual dose reduction is a safe and effective option for many patients.\n\nWhat does this mean for you and for other people with psoriasis?\n\nThe results indicate that many people with long-term stable psoriasis may need less medication than is currently prescribed as standard treatment. This may offer the following benefits for you as a patient:\n\nReduced exposure to medication\nFewer injections\nMaintenance of good psoriasis control\n\nPotential benefits for society include:\n\nLower healthcare costs\n\nHowever, dose reduction is not suitable for everyone. Therefore, you should not adjust your medication dose on your own. Any dose reduction should always be discussed with your treating physician and carried out under regular medical supervision.\n\nThis study will make an important contribution to the future evaluation and possible revision of clinical guidelines in both Belgium and the Netherlands.",
         "fr": "Qu’avons-nous constaté ?\nAprès 18 mois, les patients recevant une dose réduite maintenaient généralement un contrôle du psoriasis comparable à celui des patients poursuivant la dose standard. Les participants ayant présenté une reprise de l’activité de la maladie ont pu revenir à leur dose initiale, avec une amélioration rapide dans la plupart des cas. Aucun effet indésirable grave lié à la réduction de dose n’a été observé\nCes résultats montrent qu'une réduction progressive de la posologie constitue une option sûre et efficace pour de nombreux patients.\n\n\n\nQu’est-ce que cela signifie pour vous et pour les autres patients ?\nLes résultats suggèrent que de nombreuses personnes présentant un psoriasis stable depuis longtemps pourraient avoir besoin de moins de médicaments que ce qui est actuellement recommandé. Cela peut vous apporter, en tant que patient, les avantages suivants :\n• Moins d’exposition aux médicaments \n• Moins d’injections \n• Maintien d’un bon contrôle du psoriasis \nAutre avantage pour la société :\n• Réduction des coûts des soins de santé \nCette approche ne convient pas à tous les patients. Il n'est donc pas recommandé de modifier votre posologie de votre propre initiative. Toute réduction de dose doit être discutée avec le médecin traitant et faire l’objet d’un suivi régulier. \nCette étude apportera une contribution importante à l'évaluation ou à la révision futures des recommandations, tant en Belgique qu'aux Pays-Bas. \n"
       }
+    },
+    {
+      "category": "Huidkanker",
+      "titel": {
+        "nl": "Meertens A, Annemans L, Verstraete F, Hoorens I, Verhaeghe N. ",
+        "en": "Meertens A, Annemans L, Verstraete F, Hoorens I, Verhaeghe N. ",
+        "fr": "Meertens A, Annemans L, Verstraete F, Hoorens I, Verhaeghe N. "
+      },
+      "meta": {
+        "nl": "Cost Eff Resour Alloc. 2026 Oct 22",
+        "en": "Cost Eff Resour Alloc. 2026 Oct 22",
+        "fr": "Cost Eff Resour Alloc. 2026 Oct 22"
+      },
+      "tekst": {
+        "nl": "Towards meaningful outcome measures for health economic evaluations in skin cancer : A decision matrix to guide transparent outcome selection in skin cancer health economic evaluations, supporting more informed decision-making",
+        "en": "Towards meaningful outcome measures for health economic evaluations in skin cancer : A decision matrix to guide transparent outcome selection in skin cancer health economic evaluations, supporting more informed decision-making",
+        "fr": "Towards meaningful outcome measures for health economic evaluations in skin cancer : A decision matrix to guide transparent outcome selection in skin cancer health economic evaluations, supporting more informed decision-making"
+      },
+      "bevindingen": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      }
+    },
+    {
+      "category": "Huidkanker",
+      "titel": {
+        "nl": "Meertens, A., Brochez, L., Coussens, E. et al.",
+        "en": "Meertens, A., Brochez, L., Coussens, E. et al.",
+        "fr": "Meertens, A., Brochez, L., Coussens, E. et al."
+      },
+      "meta": {
+        "nl": "npj Digital Medicine (2026)",
+        "en": "npj Digital Medicine (2026)",
+        "fr": "npj Digital Medicine (2026)"
+      },
+      "tekst": {
+        "nl": "Cost-effectiveness of an AI-based app compared to usual care for early skin cancer detection in Belgium",
+        "en": "Cost-effectiveness of an AI-based app compared to usual care for early skin cancer detection in Belgium",
+        "fr": "Cost-effectiveness of an AI-based app compared to usual care for early skin cancer detection in Belgium"
+      },
+      "bevindingen": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      }
+    },
+    {
+      "category": "Huidkanker",
+      "titel": {
+        "nl": "Isabelle Hoorens, Annick Meertens",
+        "en": "Isabelle Hoorens, Annick Meertens",
+        "fr": "Isabelle Hoorens, Annick Meertens"
+      },
+      "meta": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      },
+      "tekst": {
+        "nl": "Niet-invasieve beeldvorming in de dermato-oncologie",
+        "en": "Niet-invasieve beeldvorming in de dermato-oncologie",
+        "fr": "Niet-invasieve beeldvorming in de dermato-oncologie"
+      },
+      "bevindingen": {
+        "nl": "",
+        "en": "",
+        "fr": ""
+      }
     }
   ],
   "pubCategories": [
@@ -1632,7 +1701,7 @@
       "nav_pubs": "Publicaties",
       "nav_team": "Team",
       "nav_contact": "Contact",
-      "hero_title": "Skin Research Ghent UZ Gent/UGent",
+      "hero_title": "Onderzoeksgroep Huidziekten UZ Gent/UGent",
       "hero_sub": "Van translationeel en klinisch huidonderzoek naar tastbare verbeteringen",
       "sec_news": "Nieuws",
       "sec_research": "Onderzoekslijnen",
@@ -1686,8 +1755,8 @@
       "academic_intro_pro": "Klik op de titels voor meer info!",
       "lines_intro_pro": "Ons onderzoek focust op de volgende domeinen:",
       "lines_intro_public": "Ons onderzoek focust op de volgende domeinen:",
-      "hero_title_public": "Skin Research Ghent<br> UZ Gent/UGent",
-      "hero_title_pro": "Skin Research Ghent<br> UZ Gent/UGent",
+      "hero_title_public": "Onderzoeksgroep Huidziekten<br> UZ Gent/UGent",
+      "hero_title_pro": "Onderzoeksgroep Huidziekten<br> UZ Gent/UGent",
       "fund_event_2_pro": "",
       "fund_event_3_pro": "",
       "fund_event_4_pro": "",
