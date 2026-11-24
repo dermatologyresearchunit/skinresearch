@@ -2,20 +2,6 @@
   "newsItems": [
     {
       "titel": {
-        "nl": "Aanbod diagnostische nieuwe technieken",
-        "en": "New Diagnostic Techniques",
-        "fr": "Offre de nouvelles techniques de diagnostic"
-      },
-      "datum": "29.10.2026",
-      "tekst": {
-        "nl": "Geschikt voor: <br>\n- Complexe inflammatoire huidaandoeningen<br>\n- Onvoldoende duidelijkheid over actieve inflammatoire pathways<br>\n- Vragen rond diagnose, therapiekeuze of therapie-opvolging<br><br>\n- <b>Cytokinepanel</b> (1 serumbuis):\nidentificeert actieve ontstekingsroutes en volgt therapierespons op.<br>\n- <b>PsorX</b> (paraffinecoupe of huidschraapsel): ondersteunt de differentiatie tussen psoriasis en eczeem. <br>\n- <b>Erysk</b> (paraffinecoupe): ondersteunt de differentiatie tussen vroege mycosis fungoides en eczeem/psoriasis. <br>\n- <b>nCounter</b> (ingevroren huidbiopt ≥1 mm): uitgebreide moleculaire analyse van actieve ontstekingsroutes. \n<br><br>\nPraktisch<br>\nVerwijzing vereist: cytokinepanel en nCounter via de IMID-raadpleging op woensdagnamiddag.<br>\nRechtstreeks opsturen mogelijk: paraffinecoupes voor PsorX en Erysk (ICF vereist; geen verwijzing nodig). <a href=\"https://onedrive.live.com/?id=%2Fpersonal%2Ff4d2e7ac9563ad60%2FDocuments%2FAanvraagformulieren%5FPsorX%5F2026&listurl=%2Fpersonal%2Ff4d2e7ac9563ad60%2FDocuments&ithint=folder&migratedtospo=true&redeem=aHR0cHM6Ly8xZHJ2Lm1zL2YvYy9mNGQyZTdhYzk1NjNhZDYwL0lnQ0kwMlcxQl9SaFJwYy0xVVI0QW45a0Faem1DeFJ4ZF9lcENRTnB3NnRGMm1R&ga=1\">Link informed consent </a>\n<br><br>\nVoorlopig nog niet mogelijk: zelf bloed afnemen/opsturen, routinematig gebruik voor elke patiënt of interpretatie zonder specialistische context.",
-        "en": "- <b>Cytokine panel</b> (1 serum tube): <br>identifies active inflammatory pathways and monitors response to therapy. ± €40<br>\n- <b>PsorX</b> (paraffin section or skin scraping): aids in distinguishing between psoriasis and eczema. ± €220\n- <b>Erysk</b> (paraffin section): aids in distinguishing between early mycosis fungoides and eczema/psoriasis. ± €220<br>\n- <b>nCounter</b> (frozen skin biopsy ≥1 mm): comprehensive molecular analysis of active inflammatory pathways. ± €450\n<br><br>\n<b>Practical Information</b><br>\nReferral required: cytokine panel and nCounter via the IMID consultation on Wednesday afternoons.<br>\nDirect submission possible: paraffin sections for PsorX and Erysk (ICF required).\n<br><br>\nNot possible: self-collection or submission of blood samples, routine use for every patient, or interpretation without a specialist context.",
-        "fr": "- <b>Panel de cytokines</b> (1 tube de sérum)<br> : identifie les voies inflammatoires actives et permet de suivre la réponse au traitement. ± 40 €<br>\n- <b>PsorX</b> (coupe de paraffine ou grattage cutané) : aide à distinguer le psoriasis de l'eczéma. ± 220 €<br>\n- <b>Erysk</b> (coupe de paraffine) : aide à distinguer le mycosis fongoïde précoce de l’eczéma ou du psoriasis. ± 220 €<br>\n- <b>nCounter</b> (biopsie cutanée congelée ≥ 1 mm) – analyse moléculaire approfondie des voies inflammatoires actives. ± 450 €\n<br><br>\n<b>Informations pratiques</b><br>\nPrescription requise : panel de cytokines et nCounter via la consultation IMID du mercredi après-midi.<br>\nEnvoi direct possible : coupes de paraffine pour PsorX et Erysk (ICF requis).\n<br><br>\nImpossible : prélèvement ou envoi de sang par le patient lui-même, utilisation systématique pour chaque patient ou interprétation hors contexte spécialisé."
-      },
-      "figuur": "News/Technieken.jpg"
-    },
-    {
-      "titel": {
         "nl": "Leerstoel Waardegedreven zorg ingehuldigd",
         "en": "Chair Value-Based Healthcare launced",
         "fr": ""
@@ -26,7 +12,7 @@
         "en": "On Thursday, July 2, the inauguration of the Chair of Value-Based Healthcare at Ghent University took place. It was an evening featuring inspiring speakers and one clear common thread: how can we create as much added value as possible for the patient?\n\nMore information: https://www.ugent.be/schenken/nl/hoe-steunen/leerstoelen/waardegedreven-zorg",
         "fr": "Le jeudi 2 juillet a eu lieu l’inauguration de la Chaire des soins de santé axés sur la valeur à l’Université de Gand. Une soirée riche en intervenants inspirants, avec un fil rouge clair : comment créer le plus de valeur ajoutée possible pour le patient ?\n\nPlus d’informations : https://www.ugent.be/schenken/nl/hoe-steunen/leerstoelen/waardegedreven-zorg"
       },
-      "figuur": "News/Leerstoel.jpg"
+      "figuur": "news/Leerstoel.jpg"
     },
     {
       "titel": {
@@ -1486,78 +1472,32 @@
         "fr": "Dose Reduction of IL17 and IL23 Inhibitors in Psoriasis (BeNeBio study): An International, Pragmatic, Multicentre, Randomised, Controlled, Non-Inferiority Trial"
       },
       "bevindingen": {
-        "nl": "Wat hebben we gevonden?\nNa 18 maanden bleek dat patiënten met een lagere dosis hun psoriasis meestal even goed onder controle konden houden als patiënten die de standaarddosering bleven gebruiken.\nSommige deelnemers hadden toch opnieuw meer klachten. Zij konden terugkeren naar hun oorspronkelijke dosering, waarna hun psoriasis meestal snel weer rustig werd. Er werden geen ernstige bijwerkingen vastgesteld die konden toegeschreven worden aan de dosisverlaging.\nDeze resultaten tonen aan dat een stapsgewijze dosisverlaging voor veel patiënten een veilige en effectieve mogelijkheid is.\n\nWat betekent dit voor u en voor andere psoriasis patiënten?\nDe resultaten laten zien dat veel mensen met een langdurig rustige psoriasis mogelijk minder medicatie nodig hebben dan vandaag standaard wordt voorgeschreven. Dat kan leiden tot volgende voordelen voor u als patiënt:\n•\tminder blootstelling aan geneesmiddelen; \n•\tminder injecties; \n•\tbehoud van een goede controle van de psoriasis; \nVolgende voordeel voor de maatschappij:\n•\tlagere kosten voor de gezondheidszorg. \nNiet iedereen komt hiervoor in aanmerking. Bijgevolg is het niet aangewezen om op eigen initiatief uw dosering aan te passen. Een eventuele dosisverlaging gebeurt altijd in overleg met uw behandelend arts en onder regelmatige opvolging.\n\nDeze studie zal een belangrijke bijdrage leveren aan de toekomstige evaluatie of aanpassing van richtlijnen zowel in België als in Nederland. \n",
+        "nl": "Wat hebben we gevonden?\n\nNa 18 maanden bleek dat patiënten met een lagere dosis hun psoriasis meestal even goed onder controle konden houden als patiënten die de standaarddosering bleven gebruiken.\nSommige deelnemers hadden toch opnieuw meer klachten. Zij konden terugkeren naar hun oorspronkelijke dosering, waarna hun psoriasis meestal snel weer rustig werd. Er werden geen ernstige bijwerkingen vastgesteld die konden toegeschreven worden aan de dosisverlaging.\nDeze resultaten tonen aan dat een stapsgewijze dosisverlaging voor veel patiënten een veilige en effectieve mogelijkheid is.\n\nWat betekent dit voor u en voor andere psoriasis patiënten?\nDe resultaten laten zien dat veel mensen met een langdurig rustige psoriasis mogelijk minder medicatie nodig hebben dan vandaag standaard wordt voorgeschreven. Dat kan leiden tot volgende voordelen voor u als patiënt:\n•\tminder blootstelling aan geneesmiddelen; \n•\tminder injecties; \n•\tbehoud van een goede controle van de psoriasis; \nVolgende voordeel voor de maatschappij:\n•\tlagere kosten voor de gezondheidszorg. \nNiet iedereen komt hiervoor in aanmerking. Bijgevolg is het niet aangewezen om op eigen initiatief uw dosering aan te passen. Een eventuele dosisverlaging gebeurt altijd in overleg met uw behandelend arts en onder regelmatige opvolging.\n\nDeze studie zal een belangrijke bijdrage leveren aan de toekomstige evaluatie of aanpassing van richtlijnen zowel in België als in Nederland. \n",
         "en": "What did we find?\n\nAfter 18 months, patients receiving the lower dose were generally able to keep their psoriasis under control just as well as those who continued the standard dose.\n\nSome participants did experience a worsening of their symptoms. These patients were able to return to their original dose, after which their psoriasis was usually brought back under control quickly. No serious adverse events attributable to dose reduction were observed.\n\nThese results show that a gradual dose reduction is a safe and effective option for many patients.\n\nWhat does this mean for you and for other people with psoriasis?\n\nThe results indicate that many people with long-term stable psoriasis may need less medication than is currently prescribed as standard treatment. This may offer the following benefits for you as a patient:\n\nReduced exposure to medication\nFewer injections\nMaintenance of good psoriasis control\n\nPotential benefits for society include:\n\nLower healthcare costs\n\nHowever, dose reduction is not suitable for everyone. Therefore, you should not adjust your medication dose on your own. Any dose reduction should always be discussed with your treating physician and carried out under regular medical supervision.\n\nThis study will make an important contribution to the future evaluation and possible revision of clinical guidelines in both Belgium and the Netherlands.",
-        "fr": "Qu’avons-nous constaté ?\nAprès 18 mois, les patients recevant une dose réduite maintenaient généralement un contrôle du psoriasis comparable à celui des patients poursuivant la dose standard. Les participants ayant présenté une reprise de l’activité de la maladie ont pu revenir à leur dose initiale, avec une amélioration rapide dans la plupart des cas. Aucun effet indésirable grave lié à la réduction de dose n’a été observé\nCes résultats montrent qu'une réduction progressive de la posologie constitue une option sûre et efficace pour de nombreux patients.\n\n\n\nQu’est-ce que cela signifie pour vous et pour les autres patients ?\nLes résultats suggèrent que de nombreuses personnes présentant un psoriasis stable depuis longtemps pourraient avoir besoin de moins de médicaments que ce qui est actuellement recommandé. Cela peut vous apporter, en tant que patient, les avantages suivants :\n• Moins d’exposition aux médicaments \n• Moins d’injections \n• Maintien d’un bon contrôle du psoriasis \nAutre avantage pour la société :\n• Réduction des coûts des soins de santé \nCette approche ne convient pas à tous les patients. Il n'est donc pas recommandé de modifier votre posologie de votre propre initiative. Toute réduction de dose doit être discutée avec le médecin traitant et faire l’objet d’un suivi régulier. \nCette étude apportera une contribution importante à l'évaluation ou à la révision futures des recommandations, tant en Belgique qu'aux Pays-Bas. \n"
+        "fr": "Qu’avons-nous constaté ?\n\nAprès 18 mois, les patients recevant une dose réduite maintenaient généralement un contrôle du psoriasis comparable à celui des patients poursuivant la dose standard. Les participants ayant présenté une reprise de l’activité de la maladie ont pu revenir à leur dose initiale, avec une amélioration rapide dans la plupart des cas. Aucun effet indésirable grave lié à la réduction de dose n’a été observé\nCes résultats montrent qu'une réduction progressive de la posologie constitue une option sûre et efficace pour de nombreux patients.\n\n\n\nQu’est-ce que cela signifie pour vous et pour les autres patients ?\nLes résultats suggèrent que de nombreuses personnes présentant un psoriasis stable depuis longtemps pourraient avoir besoin de moins de médicaments que ce qui est actuellement recommandé. Cela peut vous apporter, en tant que patient, les avantages suivants :\n• Moins d’exposition aux médicaments \n• Moins d’injections \n• Maintien d’un bon contrôle du psoriasis \nAutre avantage pour la société :\n• Réduction des coûts des soins de santé \nCette approche ne convient pas à tous les patients. Il n'est donc pas recommandé de modifier votre posologie de votre propre initiative. Toute réduction de dose doit être discutée avec le médecin traitant et faire l’objet d’un suivi régulier. \nCette étude apportera une contribution importante à l'évaluation ou à la révision futures des recommandations, tant en Belgique qu'aux Pays-Bas. \n"
       }
     },
     {
       "category": "Huidkanker",
       "titel": {
-        "nl": "Meertens A, Annemans L, Verstraete F, Hoorens I, Verhaeghe N. ",
-        "en": "Meertens A, Annemans L, Verstraete F, Hoorens I, Verhaeghe N. ",
-        "fr": "Meertens A, Annemans L, Verstraete F, Hoorens I, Verhaeghe N. "
+        "nl": "Margaux Debaveye, Laura Destrooper, Rick Waalboer-Spuij, Annick Meertens and Isabelle Hoorens",
+        "en": "Margaux Debaveye, Laura Destrooper, Rick Waalboer-Spuij, Annick Meertens and Isabelle Hoorens",
+        "fr": "Margaux Debaveye, Laura Destrooper, Rick Waalboer-Spuij, Annick Meertens and Isabelle Hoorens"
       },
       "meta": {
-        "nl": "Cost Eff Resour Alloc. 2026 Oct 22",
-        "en": "Cost Eff Resour Alloc. 2026 Oct 22",
-        "fr": "Cost Eff Resour Alloc. 2026 Oct 22"
+        "nl": "Cancers 2026, 18(21), 3561",
+        "en": "Cancers 2026, 18(21), 3561",
+        "fr": "Cancers 2026, 18(21), 3561"
       },
       "tekst": {
-        "nl": "Towards meaningful outcome measures for health economic evaluations in skin cancer : A decision matrix to guide transparent outcome selection in skin cancer health economic evaluations, supporting more informed decision-making",
-        "en": "Towards meaningful outcome measures for health economic evaluations in skin cancer : A decision matrix to guide transparent outcome selection in skin cancer health economic evaluations, supporting more informed decision-making",
-        "fr": "Towards meaningful outcome measures for health economic evaluations in skin cancer : A decision matrix to guide transparent outcome selection in skin cancer health economic evaluations, supporting more informed decision-making"
+        "nl": "Health Disparities in Management of Keratinocyte Carcinoma: A Multicenter Observational Study",
+        "en": "Health Disparities in Management of Keratinocyte Carcinoma: A Multicenter Observational Study",
+        "fr": "Health Disparities in Management of Keratinocyte Carcinoma: A Multicenter Observational Study"
       },
       "bevindingen": {
-        "nl": "",
-        "en": "",
-        "fr": ""
-      }
-    },
-    {
-      "category": "Huidkanker",
-      "titel": {
-        "nl": "Meertens, A., Brochez, L., Coussens, E. et al.",
-        "en": "Meertens, A., Brochez, L., Coussens, E. et al.",
-        "fr": "Meertens, A., Brochez, L., Coussens, E. et al."
-      },
-      "meta": {
-        "nl": "npj Digital Medicine (2026)",
-        "en": "npj Digital Medicine (2026)",
-        "fr": "npj Digital Medicine (2026)"
-      },
-      "tekst": {
-        "nl": "Cost-effectiveness of an AI-based app compared to usual care for early skin cancer detection in Belgium",
-        "en": "Cost-effectiveness of an AI-based app compared to usual care for early skin cancer detection in Belgium",
-        "fr": "Cost-effectiveness of an AI-based app compared to usual care for early skin cancer detection in Belgium"
-      },
-      "bevindingen": {
-        "nl": "",
-        "en": "",
-        "fr": ""
-      }
-    },
-    {
-      "category": "Huidkanker",
-      "titel": {
-        "nl": "Isabelle Hoorens, Annick Meertens",
-        "en": "Isabelle Hoorens, Annick Meertens",
-        "fr": "Isabelle Hoorens, Annick Meertens"
-      },
-      "meta": {
-        "nl": "",
-        "en": "",
-        "fr": ""
-      },
-      "tekst": {
-        "nl": "Niet-invasieve beeldvorming in de dermato-oncologie",
-        "en": "Niet-invasieve beeldvorming in de dermato-oncologie",
-        "fr": "Niet-invasieve beeldvorming in de dermato-oncologie"
-      },
-      "bevindingen": {
-        "nl": "",
-        "en": "",
-        "fr": ""
+        "nl": "Keratinocytcarcinomen kunnen worden behandeld met lokale of andere niet-invasieve therapieën, standaardchirurgische excisie of Mohs-micrografische chirurgie. We onderzochten of leeftijd, geslacht, burgerlijke staat en opleidingsniveau verband hielden met de behandelkeuze, na correctie voor tumorkenmerken, comorbiditeit en het rekruteringscentrum.\n\nDe primaire analyse omvatte 681 deelnemers en convergeerde zonder numerieke instabiliteit. Een hogere leeftijd was geassocieerd met een lagere kans op Mohs-chirurgie in vergelijking met standaardchirurgische excisie. Deelnemers met een lager opleidingsniveau hadden een lagere kans op een lokale of niet-invasieve behandeling in vergelijking met standaardchirurgische excisie, maar niet op Mohs-chirurgie na correctie voor het centrum.\n\nGeslacht en burgerlijke staat waren niet onafhankelijk geassocieerd met de behandelkeuze. Deze bevindingen beschrijven verbanden met de behandelkeuze, maar tonen geen ongelijke zorg aan. Patiëntenvoorkeur, kwetsbaarheid, doorverwijzingsprocedures, aanbevelingen van artsen en de beschikbaarheid van behandelingen werden immers niet volledig in kaart gebracht.\n\n",
+        "en": "Keratinocyte carcinomas can be treated with topical or other non-invasive therapies, standard surgical excision, or Mohs micrographic surgery. We examined whether age, sex, marital status, and educational level were associated with treatment selection after accounting for tumor characteristics, comorbidity, and recruiting center. The primary analysis included 681 participants and converged without numerical instability. Older age was associated with lower odds of Mohs surgery rather than standard excision. Participants with low educational attainment had lower odds of topical or non-invasive treatment rather than standard excision, but not of Mohs surgery after center adjustment. Sex and marital status were not independently associated with treatment. These findings describe associations with treatment selection; they do not establish unequal care because patient preference, frailty, referral pathways, clinician recommendation, and treatment availability were not fully measured.",
+        "fr": "Les carcinomes kératinocytaires peuvent être traités par des thérapies topiques ou d’autres traitements non invasifs, par une excision chirurgicale standard ou par une chirurgie micrographique de Mohs. Nous avons examiné si l’âge, le sexe, l’état civil et le niveau d’instruction étaient associés au choix du traitement, après ajustement en fonction des caractéristiques tumorales, des comorbidités et du centre de recrutement.\n\nL’analyse principale comprenait 681 participants et a convergé sans instabilité numérique. Un âge plus avancé était associé à une probabilité plus faible de bénéficier d’une chirurgie de Mohs plutôt que d’une excision chirurgicale standard. Les participants ayant un niveau d’instruction plus faible présentaient une probabilité plus faible de recevoir un traitement topique ou non invasif plutôt qu’une excision chirurgicale standard, mais pas une probabilité plus faible de bénéficier d’une chirurgie de Mohs après ajustement en fonction du centre.\n\nLe sexe et l’état civil n’étaient pas indépendamment associés au choix du traitement. Ces résultats décrivent des associations avec le choix thérapeutique, mais ne permettent pas de conclure à l’existence d’inégalités dans les soins. En effet, les préférences des patients, la fragilité, les parcours d’orientation, les recommandations des cliniciens et la disponibilité des traitements n’ont pas été entièrement pris en compte."
       }
     }
   ],
@@ -1868,7 +1808,56 @@
       "fund_sponsor_47_pro": "",
       "fund_sponsor_48_pro": "",
       "fund_sponsor_49_pro": "",
-      "fund_sponsor_50_pro": ""
+      "fund_sponsor_50_pro": "",
+      "fund_sponsor_2_public": "Deze website werd medemogelijk gemaakt door de financiële steun van onze sponsor Johnson&Johson.",
+      "fund_sponsor_3_public": "",
+      "fund_sponsor_4_public": "",
+      "fund_sponsor_5_public": "",
+      "fund_sponsor_6_public": "",
+      "fund_sponsor_7_public": "",
+      "fund_sponsor_8_public": "",
+      "fund_sponsor_9_public": "",
+      "fund_sponsor_10_public": "",
+      "fund_sponsor_11_public": "",
+      "fund_sponsor_12_public": "",
+      "fund_sponsor_13_public": "",
+      "fund_sponsor_14_public": "",
+      "fund_sponsor_15_public": "",
+      "fund_sponsor_16_public": "",
+      "fund_sponsor_17_public": "",
+      "fund_sponsor_18_public": "",
+      "fund_sponsor_19_public": "",
+      "fund_sponsor_20_public": "",
+      "fund_sponsor_21_public": "",
+      "fund_sponsor_22_public": "",
+      "fund_sponsor_23_public": "",
+      "fund_sponsor_24_public": "",
+      "fund_sponsor_25_public": "",
+      "fund_sponsor_26_public": "",
+      "fund_sponsor_27_public": "",
+      "fund_sponsor_28_public": "",
+      "fund_sponsor_29_public": "",
+      "fund_sponsor_30_public": "",
+      "fund_sponsor_31_public": "",
+      "fund_sponsor_32_public": "",
+      "fund_sponsor_33_public": "",
+      "fund_sponsor_34_public": "",
+      "fund_sponsor_35_public": "",
+      "fund_sponsor_36_public": "",
+      "fund_sponsor_37_public": "",
+      "fund_sponsor_38_public": "",
+      "fund_sponsor_39_public": "",
+      "fund_sponsor_40_public": "",
+      "fund_sponsor_41_public": "",
+      "fund_sponsor_42_public": "",
+      "fund_sponsor_43_public": "",
+      "fund_sponsor_44_public": "",
+      "fund_sponsor_45_public": "",
+      "fund_sponsor_46_public": "",
+      "fund_sponsor_47_public": "",
+      "fund_sponsor_48_public": "",
+      "fund_sponsor_49_public": "",
+      "fund_sponsor_50_public": ""
     },
     "en": {
       "lang_label": "",
@@ -2034,7 +2023,57 @@
       "fund_sponsor_47_pro": "",
       "fund_sponsor_48_pro": "",
       "fund_sponsor_49_pro": "",
-      "fund_sponsor_50_pro": ""
+      "fund_sponsor_50_pro": "",
+      "fund_sponsor_1_public": "Structural sponsor in 2026: Almirall and Beiersdorf.",
+      "fund_sponsor_2_public": "This website was made possible thanks to the financial support of our sponsor, Johnson & Johnson.",
+      "fund_sponsor_3_public": "",
+      "fund_sponsor_4_public": "",
+      "fund_sponsor_5_public": "",
+      "fund_sponsor_6_public": "",
+      "fund_sponsor_7_public": "",
+      "fund_sponsor_8_public": "",
+      "fund_sponsor_9_public": "",
+      "fund_sponsor_10_public": "",
+      "fund_sponsor_11_public": "",
+      "fund_sponsor_12_public": "",
+      "fund_sponsor_13_public": "",
+      "fund_sponsor_14_public": "",
+      "fund_sponsor_15_public": "",
+      "fund_sponsor_16_public": "",
+      "fund_sponsor_17_public": "",
+      "fund_sponsor_18_public": "",
+      "fund_sponsor_19_public": "",
+      "fund_sponsor_20_public": "",
+      "fund_sponsor_21_public": "",
+      "fund_sponsor_22_public": "",
+      "fund_sponsor_23_public": "",
+      "fund_sponsor_24_public": "",
+      "fund_sponsor_25_public": "",
+      "fund_sponsor_26_public": "",
+      "fund_sponsor_27_public": "",
+      "fund_sponsor_28_public": "",
+      "fund_sponsor_29_public": "",
+      "fund_sponsor_30_public": "",
+      "fund_sponsor_31_public": "",
+      "fund_sponsor_32_public": "",
+      "fund_sponsor_33_public": "",
+      "fund_sponsor_34_public": "",
+      "fund_sponsor_35_public": "",
+      "fund_sponsor_36_public": "",
+      "fund_sponsor_37_public": "",
+      "fund_sponsor_38_public": "",
+      "fund_sponsor_39_public": "",
+      "fund_sponsor_40_public": "",
+      "fund_sponsor_41_public": "",
+      "fund_sponsor_42_public": "",
+      "fund_sponsor_43_public": "",
+      "fund_sponsor_44_public": "",
+      "fund_sponsor_45_public": "",
+      "fund_sponsor_46_public": "",
+      "fund_sponsor_47_public": "",
+      "fund_sponsor_48_public": "",
+      "fund_sponsor_49_public": "",
+      "fund_sponsor_50_public": ""
     },
     "fr": {
       "fund_intro_public": "Le Fonds pour les maladies cutanées chroniques apporte un soutien financier à la recherche scientifique qui améliore les soins aux patients atteints de maladies cutanées chroniques. Il crée un lien entre la science, les patients et les soignants. Le fonds œuvre aussi à renforcer la sensibilisation sociétale à la charge importante des maladies cutanées chroniques.",
@@ -2069,7 +2108,7 @@
       "fund_event_1_pro": "",
       "fund_sponsors_title_public": "Sponsors structurels",
       "fund_sponsors_title_pro": "Sponsors structurels",
-      "fund_sponsor_1_public": "Sponsor structurel en 2026 : Almirall et Beiersdorf",
+      "fund_sponsor_1_public": "Sponsor structurel en 2026 : Almirall et Beiersdorf.",
       "fund_sponsor_1_pro": "Sponsor structurel en 2026: Almirall et Beiersdorf",
       "fund_support_title_public": "Soutenir le fonds",
       "fund_support_title_pro": "Soutenir le fonds",
@@ -2248,7 +2287,56 @@
       "fund_sponsor_47_pro": "",
       "fund_sponsor_48_pro": "",
       "fund_sponsor_49_pro": "",
-      "fund_sponsor_50_pro": ""
+      "fund_sponsor_50_pro": "",
+      "fund_sponsor_2_public": "Ce site web a été rendu possible grâce au soutien financier de notre sponsor, Johnson & Johnson.",
+      "fund_sponsor_3_public": "",
+      "fund_sponsor_4_public": "",
+      "fund_sponsor_5_public": "",
+      "fund_sponsor_6_public": "",
+      "fund_sponsor_7_public": "",
+      "fund_sponsor_8_public": "",
+      "fund_sponsor_9_public": "",
+      "fund_sponsor_10_public": "",
+      "fund_sponsor_11_public": "",
+      "fund_sponsor_12_public": "",
+      "fund_sponsor_13_public": "",
+      "fund_sponsor_14_public": "",
+      "fund_sponsor_15_public": "",
+      "fund_sponsor_16_public": "",
+      "fund_sponsor_17_public": "",
+      "fund_sponsor_18_public": "",
+      "fund_sponsor_19_public": "",
+      "fund_sponsor_20_public": "",
+      "fund_sponsor_21_public": "",
+      "fund_sponsor_22_public": "",
+      "fund_sponsor_23_public": "",
+      "fund_sponsor_24_public": "",
+      "fund_sponsor_25_public": "",
+      "fund_sponsor_26_public": "",
+      "fund_sponsor_27_public": "",
+      "fund_sponsor_28_public": "",
+      "fund_sponsor_29_public": "",
+      "fund_sponsor_30_public": "",
+      "fund_sponsor_31_public": "",
+      "fund_sponsor_32_public": "",
+      "fund_sponsor_33_public": "",
+      "fund_sponsor_34_public": "",
+      "fund_sponsor_35_public": "",
+      "fund_sponsor_36_public": "",
+      "fund_sponsor_37_public": "",
+      "fund_sponsor_38_public": "",
+      "fund_sponsor_39_public": "",
+      "fund_sponsor_40_public": "",
+      "fund_sponsor_41_public": "",
+      "fund_sponsor_42_public": "",
+      "fund_sponsor_43_public": "",
+      "fund_sponsor_44_public": "",
+      "fund_sponsor_45_public": "",
+      "fund_sponsor_46_public": "",
+      "fund_sponsor_47_public": "",
+      "fund_sponsor_48_public": "",
+      "fund_sponsor_49_public": "",
+      "fund_sponsor_50_public": ""
     }
   },
   "academicCategories": [
@@ -2445,9 +2533,9 @@
         "fr": "Cancer de la peau"
       },
       "tekst": {
-        "nl": "Ons huidkankeronderzoek aan richt zich op het vroeg opsporen en correct behandelen van huidkanker, met aandacht voor zowel genezing als levenskwaliteit. In onze studies onderzoeken we hoe diagnosestelling, behandeling en opvolging zo veilig, innovatief, doeltreffend en patiëntgericht mogelijk kunnen gebeuren. Zo willen we huidkankerzorg bieden die niet alleen levens redt, maar ook rekening houdt met de impact van de ziekte en de behandeling op de levenskwaliteit. <a href=\"https://www.ugent.be/ge/head-skin/en/research/research-groups/skincrig.htm\">Skin Cancer Research institute Ghent</a>",
-        "en": "Our skin cancer research focuses on the early detection and correct treatment of skin cancer, with attention to both cure and quality of life. In our studies, we investigate how diagnosis, treatment, and follow-up can be made as safe, innovative, effective, and patient-centered as possible. In this way, we aim to provide skin cancer care that not only saves lives, but also takes into account the impact of the disease and its treatment on quality of life. <a href=\"https://www.ugent.be/ge/head-skin/en/research/research-groups/skincrig.htm\">Skin Cancer Research institute Ghent</a>",
-        "fr": "Notre recherche sur le cancer de la peau vise le dépistage précoce et un traitement approprié, avec une attention portée à la guérison et à la qualité de vie. Nous étudions comment le diagnostic, le traitement et le suivi peuvent être réalisés de façon aussi sûre, innovante, efficace et centrée sur le patient que possible. Nous souhaitons proposer des soins qui sauvent des vies tout en tenant compte de l’impact de la maladie et des traitements sur la qualité de vie. <a href=\"https://www.ugent.be/ge/head-skin/en/research/research-groups/skincrig.htm\">Skin Cancer Research institute Ghent</a>"
+        "nl": "Ons huidkankeronderzoek aan richt zich op het vroeg opsporen en correct behandelen van huidkanker, met aandacht voor zowel genezing als levenskwaliteit. In onze studies onderzoeken we hoe diagnosestelling, behandeling en opvolging zo veilig, innovatief, doeltreffend en patiëntgericht mogelijk kunnen gebeuren. Zo willen we huidkankerzorg bieden die niet alleen levens redt, maar ook rekening houdt met de impact van de ziekte en de behandeling op de levenskwaliteit.",
+        "en": "Our skin cancer research focuses on the early detection and correct treatment of skin cancer, with attention to both cure and quality of life. In our studies, we investigate how diagnosis, treatment, and follow-up can be made as safe, innovative, effective, and patient-centered as possible. In this way, we aim to provide skin cancer care that not only saves lives, but also takes into account the impact of the disease and its treatment on quality of life.",
+        "fr": "Notre recherche sur le cancer de la peau vise le dépistage précoce et un traitement approprié, avec une attention portée à la guérison et à la qualité de vie. Nous étudions comment le diagnostic, le traitement et le suivi peuvent être réalisés de façon aussi sûre, innovante, efficace et centrée sur le patient que possible. Nous souhaitons proposer des soins qui sauvent des vies tout en tenant compte de l’impact de la maladie et des traitements sur la qualité de vie."
       },
       "figuur": "assets/onderzoekslijn3.jpg",
       "category": "skin_cancer"
